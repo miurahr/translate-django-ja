@@ -1,0 +1,18 @@
+default	既定
+admin site	管理サイト
+admin	管理者
+email address	電子メールアドレス
+hands-on	ハンズオン
+Django	Django
+tutorial 	チュートリアル
+test suite	テストスイート
+patch	パッチ
+community	コミュニティ
+branch	ブランチ
+commit	コミット
+documentation	ドキュメント
+coding style	コーディングスタイル
+request	リクエスト
+metadata	メタデータ
+view	ビュー
+template	テンプレート

@@ -1,0 +1,8 @@
+credentials.properties
+/*tmx
+*~
+/target/*
+/target/**/*
+/omegat/*.bak
+/omegat/project_stat*txt
+/dictionary

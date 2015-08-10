@@ -1,0 +1,4225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit - po2tmx" creationtoolversion="1.13.0-rc1" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en-us" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django documentation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Everything you need to know about Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django を使いこなすための全てがここにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Getting help</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>助けを求める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Having trouble? We'd like to help!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>困り事ですか？手を貸しましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Try the :doc:`FAQ &lt;faq/index&gt;` -- it's got answers to many common questions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>* :doc:`FAQ &lt;faq/index&gt;` を探しましょう。よくある質問への答えなら、ここで見つかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Looking for specific information? Try the :ref:`genindex`, :ref:`modindex` or the :doc:`detailed table of contents &lt;contents&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>* 特定のトピックについて情報を探しているなら、 :doc:`genindex` や :doc:`modindex` 、 :doc:`内容の詳細な表 &lt;contents&gt;` を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Search for information in the archives of the |django-users| mailing list, or `post a question`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|django-users| メーリングリストで検索して調べるか､ `質問を投稿してください`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Ask a question in the `#django IRC channel`_, or search the `IRC logs`_ to see if it's been asked before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>* `IRC の #django チャネル`_ で質問したり、質問する前に `IRC のログ`_ を探したりしてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Report bugs with Django in our `ticket tracker`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>* Django のバグを見つけたら、 `チケットトラッカ`_ で報告してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>First steps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初のステップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Are you new to Django or to programming? This is the place to start!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Djangoやプログラミングは初めてですか？ここから始めましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**From scratch:** :doc:`Overview &lt;intro/overview&gt;` | :doc:`Installation &lt;intro/install&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**何もないところから始めるなら:** :doc:`概要 &lt;intro/overview&gt;` | :doc:`インストール &lt;intro/install&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Advanced Tutorials:** :doc:`How to write reusable apps &lt;intro/reusable-apps&gt;` | :doc:`Writing your first patch for Django &lt;intro/contributing&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**高度なチュートリアル:** :doc:`再利用可能なアプリケーションな書き方 &lt;intra/reusable-apps&gt;' | :doc:`Django へのパッチを初めて書くには &lt;intro/contributing&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The model layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデル層</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django provides an abstraction layer (the "models") for structuring and manipulating the data of your Web application. Learn more about it below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は Web アプリケーションのデータ構造を定義、操作するための抽象レイヤ ("モデル") を提供しています。詳細は以下になります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Model instances:** :doc:`Instance methods &lt;ref/models/instances&gt;` | :doc:`Accessing related objects &lt;ref/models/relations&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**モデルインスタンス詳説:** :doc:`インスタンスメソッド解説 &lt;ref/models/instances&gt;` | :doc:`リレーション先オブジェクトへのアクセス &lt;ref/models/relations&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The view layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビュー層</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django has the concept of "views" to encapsulate the logic responsible for processing a user's request and for returning the response. Find all you need to know about views via the links below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django には "ビュー" という概念があります。ビューはユーザーリクエストを処理し、レスポンスを返すロジックをカプセル化したものです。ビューについて知るべきことは、全て以下のリンクにあります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**The basics:** :doc:`URLconfs &lt;topics/http/urls&gt;` | :doc:`View functions &lt;topics/http/views&gt;` | :doc:`Shortcuts &lt;topics/http/shortcuts&gt;` | :doc:`Decorators &lt;topics/http/decorators&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ビューの基本:** :doc:`URLconf とは &lt;topics/http/urls&gt;` | :doc:`ビュー関数とは &lt;topics/http/views&gt;` | :doc:`便利なショートカット &lt;topics/http/shortcuts&gt;` | :doc:`デコレータ &lt;topics/http/decorators&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Reference:** :doc:`Built-in Views &lt;ref/views&gt;` | :doc:`Request/response objects &lt;ref/request-response&gt;` | :doc:`TemplateResponse objects &lt;ref/template-response&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**リファレンス:** :doc:`組み込みのビュー &lt;ref/views&gt;` | :doc:`リクエスト/レスポンスオブジェクト &lt;ref/request-response&gt;` | :doc:`テンプレートレスポンスオブジェクト &lt;ref/template-response&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**File uploads:** :doc:`Overview &lt;topics/http/file-uploads&gt;` | :doc:`File objects &lt;ref/files/file&gt;` | :doc:`Storage API &lt;ref/files/storage&gt;` | :doc:`Managing files &lt;topics/files&gt;` | :doc:`Custom storage &lt;howto/custom-file-storage&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ファイルアップロードに対応するには:** :doc:`ファイルアップロード対応の概要 &lt;topics/http/file-uploads&gt;` | :doc:`File オブジェクトリファレンス &lt;ref/files/file&gt;` | :doc:`ストレージ API &lt;ref/files/storage&gt;` | :doc:`ファイルの管理 &lt;topics/files&gt;` | :doc:`ストレージを自作するには &lt;howto/custom-file-storage&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Class-based views:** :doc:`Overview &lt;topics/class-based-views/index&gt;` | :doc:`Built-in display views &lt;topics/class-based-views/generic-display&gt;` | :doc:`Built-in editing views &lt;topics/class-based-views/generic-editing&gt;` | :doc:`Using mixins &lt;topics/class-based-views/mixins&gt;` | :doc:`API reference &lt;ref/class-based-views/index&gt;` | :doc:`Flattened index&lt;ref/class-based-views/flattened-index&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**クラスベースビュー:** :doc:`クラスベースビューの概要 &lt;topics/class-based-views/index&gt;` | :doc:`組み込みの表示用ビュー &lt;topics/class-based-views/generic-display&gt;` | :doc:`組み込みの編集用ビュー &lt;topics/class-based-views/generic-editing&gt;` | :doc:`Mixin を使うには &lt;topics/class-based-views/mixins&gt;` | :doc:`API リファレンス &lt;ref/class-based-views/index&gt;` | :doc:`索引&lt;ref/class-based-views/flattened-index&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Advanced:** :doc:`Generating CSV &lt;howto/outputting-csv&gt;` | :doc:`Generating PDF &lt;howto/outputting-pdf&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**より高度なビューの話題:** :doc:`CSV を出力するには &lt;howto/outputting-csv&gt;` | :doc:`PDF を出力するには &lt;howto/outputting-pdf&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Middleware:** :doc:`Overview &lt;topics/http/middleware&gt;` | :doc:`Built-in middleware classes &lt;ref/middleware&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ミドルウェア:** :doc:`ミドルウェアとは &lt;topics/http/middleware&gt;` | :doc:`組み込みのミドルウェアクラス &lt;ref/middleware&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The template layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テンプレート層</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The template layer provides a designer-friendly syntax for rendering the information to be presented to the user. Learn how this syntax can be used by designers and how it can be extended by programmers:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テンプレート層はユーザに提示される情報の描画を行います。テンプレートはデザイナーに書きやすいものになっています。テンプレートの構文がデザイナーにどのように使われるか、またプログラマーがどのように拡張できるのかを学びましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**For programmers:** :doc:`Template API &lt;ref/templates/api&gt;` | :doc:`Custom tags and filters &lt;howto/custom-template-tags&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プログラマー向けの情報:** :doc:`テンプレート API &lt;ref/templates/api&gt;` | :doc:`タグやフィルタを自作するには &lt;howto/custom-template-tags&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Forms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フォーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django provides a rich framework to facilitate the creation of forms and the manipulation of form data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django はフォームの作成とフォームデータの操作を容易にする、多機能フレームワークを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**The basics:** :doc:`Overview &lt;topics/forms/index&gt;` | :doc:`Form API &lt;ref/forms/api&gt;` | :doc:`Built-in fields &lt;ref/forms/fields&gt;` | :doc:`Built-in widgets &lt;ref/forms/widgets&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**フォームの基礎:** :doc:`フォーム機能の概要 &lt;topics/forms/index&gt;` | :doc:`フォーム API &lt;ref/forms/api&gt;` | :doc:`組み込みフォームフィールドリファレンス &lt;ref/forms/fields&gt;` | :doc:`組み込みウィジェットリファレンス &lt;ref/forms/widgets&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Advanced:** :doc:`Forms for models &lt;topics/forms/modelforms&gt;` | :doc:`Integrating media &lt;topics/forms/media&gt;` | :doc:`Formsets &lt;topics/forms/formsets&gt;` | :doc:`Customizing validation &lt;ref/forms/validation&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**高度な話題:** :doc:`モデルに対応したフォームを生成するには &lt;topics/forms/modelforms&gt;` | :doc:`メディアファイルを組み込むには &lt;topics/forms/media&gt;` | :doc:`フォームセットを扱うには &lt;topics/forms/formsets&gt;` | :doc:`バリデータを自作するには &lt;ref/forms/validation&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The development process</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発プロセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Learn about the various components and tools to help you in the development and testing of Django applications:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django アプリケーションの開発とテストに役立つ、さまざまなコンポーネントとツールについて学ましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Settings:** :doc:`Overview &lt;topics/settings&gt;` | :doc:`Full list of settings &lt;ref/settings&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**設定:** :doc:`設定ファイルとは &lt;topics/settings&gt;` | :doc:`設定項目リファレンス &lt;ref/settings&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Applications:** :doc:`Overview &lt;ref/applications&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**アプリケーション:** :doc:`概要 &lt;ref/applications&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Exceptions:** :doc:`Overview &lt;ref/exceptions&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**例外:** :doc:`例外の概要 &lt;ref/exceptions&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The admin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>管理インタフェース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Find all you need to know about the automated admin interface, one of Django's most popular features:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django の目玉機能の一つである、自動生成の管理インタフェースのすべてを学べます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Admin site &lt;ref/contrib/admin/index&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`管理サイト &lt;ref/contrib/admin/index&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Admin actions &lt;ref/contrib/admin/actions&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`管理アクションを組み込むには &lt;ref/contrib/admin/actions&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Admin documentation generator&lt;ref/contrib/admin/admindocs&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`管理サイトのドキュメントを生成する&lt;ref/contrib/admin/admindocs&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Security</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>セキュリティ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Security is a topic of paramount importance in the development of Web applications and Django provides multiple protection tools and mechanisms:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>セキュリティは Web アプリケーションを開発するなかで最も重要なトピックです。 Django は複数のプロテクションツールとメカニズムを提供しています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Security overview &lt;topics/security&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`セキュリティの概要 &lt;topics/security&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Disclosed security issues in Django &lt;releases/security&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`Django のセキュリティ問題についてはこちらを参照 &lt;releases/security&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Clickjacking protection &lt;ref/clickjacking&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`クリックジャッキング対策 &lt;ref/clickjacking&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Cryptographic signing &lt;topics/signing&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`暗号による署名 &lt;topics/signing&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:ref:`Security Middleware &lt;security-middleware&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`ミドルウェアのセキュリティ &lt;security-middleware&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Internationalization and localization</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>国際化と局地化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django offers a robust internationalization and localization framework to assist you in the development of applications for multiple languages and world regions:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は堅牢な国際化 (internationalization) 、ローカライズ (localization) フレームワークを提供しています。多言語、世界の各地域に対応したアプリケーションを開発する助けになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Overview &lt;topics/i18n/index&gt;` | :doc:`Internationalization &lt;topics/i18n/translation&gt;` | :ref:`Localization &lt;how-to-create-language-files&gt;` | :doc:`Localized Web UI formatting and form input &lt;topics/i18n/formatting&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`概要 &lt;topics/i18n/index&gt;` | :doc:`国際化 &lt;topics/i18n/translation&gt;` | :ref:`地域化 &lt;how-to-create-language-files&gt;` | :doc:`地域化されたUIフォーマットとフォームインプット &lt;topics/i18n/formatting&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`"Local flavor" &lt;topics/localflavor&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`"ローカルフレーバー" &lt;topics/localflavor&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Time zones &lt;/topics/i18n/timezones&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`タイムゾーン &lt;/topics/i18n/timezones&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Performance and optimization</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パフォーマンスと最適化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Performance and optimization overview &lt;topics/performance&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`パフォーマンスと最適化の概要 &lt;topics/performance&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Python compatibility</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>異なる Python への互換性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django aims to be compatible with multiple different flavors and versions of Python:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は複数の異なる Python のバージョン、実装に互換性があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Jython support &lt;howto/jython&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Jython で動かす</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Python 3 compatibility &lt;topics/python3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python 3 対応</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Geographic framework</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオグラフィックフレームワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`GeoDjango &lt;ref/contrib/gis/index&gt;` intends to be a world-class geographic Web framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`GeoDjango &lt;ref/contrib/gis/index&gt;` は世界規模のジオグラフィック Web フレームワークを目指しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GeoDjango の目的は、地理情報システム (GIS) のWeb アプリケーションの開発をより簡単にし、空間データ (spatially enabled data) を活用することにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Common Web application tools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的な Web アプリケーションツール群</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django offers multiple tools commonly needed in the development of Web applications:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は Web アプリケーションの開発でいつも必要になるツール群を提供しています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Caching &lt;topics/cache&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`キャッシュシステム &lt;topics/cache&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Logging &lt;topics/logging&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`ログ出力 &lt;topics/logging&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Sending emails &lt;topics/email&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`メール送信 &lt;topics/email&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Syndication feeds (RSS/Atom) &lt;ref/contrib/syndication&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`配信フィード (RSS/Atom) &lt;ref/contrib/syndication&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Pagination &lt;topics/pagination&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`ページ分割表示 &lt;topics/pagination&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Messages framework &lt;ref/contrib/messages&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`メッセージフレームワーク &lt;ref/contrib/messages&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Serialization &lt;topics/serialization&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`データのシリアライズ &lt;topics/serialization&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Sessions &lt;topics/http/sessions&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`セッションデータの操作 &lt;topics/http/sessions&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Sitemaps &lt;ref/contrib/sitemaps&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`サイトマップ &lt;ref/contrib/sitemaps&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Static files management &lt;ref/contrib/staticfiles&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`静的ファイルの扱い方 &lt;ref/contrib/staticfiles&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Data validation &lt;ref/validators&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`バリデータ &lt;ref/validators&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Other core functionalities</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他のコア機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Learn about some other core functionalities of the Django framework:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django フレームワークの、その他の主要機能について学びましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Conditional content processing &lt;topics/conditional-view-processing&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`条件付きコンテンツ処理 &lt;topics/conditional-view-processing&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Content types and generic relations &lt;ref/contrib/contenttypes&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`コンテンツタイプと汎用リレーション &lt;ref/contrib/contenttypes&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Flatpages &lt;ref/contrib/flatpages&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`flatpages: フラットページコンテンツの管理 &lt;ref/contrib/flatpages&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Redirects &lt;ref/contrib/redirects&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`リクエストのリダイレクト &lt;ref/contrib/redirects&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Signals &lt;topics/signals&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`イベントのシグナル &lt;topics/signals&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`The sites framework &lt;ref/contrib/sites&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`サイトフレームワーク &lt;ref/contrib/sites&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`Unicode in Django &lt;ref/unicode&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`Django での Unicode の扱い方 &lt;ref/unicode&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The Django open-source project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オープンソースプロジェクトとしての Django</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Learn about the development process for the Django project itself and about how you can contribute:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django プロジェクト自身の開発プロセスと、どのようにプロジェクトに貢献するのかを学びましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Design philosophies:** :doc:`Overview &lt;misc/design-philosophies&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**設計哲学:** :doc:`概要 &lt;misc/design-philosophies&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Documentation:** :doc:`About this documentation &lt;internals/contributing/writing-documentation&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ドキュメントの仕組み:** :doc:`ドキュメントの仕組みと書き方 &lt;internals/contributing/writing-documentation&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Third-party distributions:** :doc:`Overview &lt;misc/distributions&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**サードパーティが配布している Django:** :doc:`概要と、ディストリビュータへのお願い &lt;misc/distributions&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Django over time:** :doc:`API stability &lt;misc/api-stability&gt;` | :doc:`Release notes and upgrading instructions &lt;releases/index&gt;` | :doc:`Deprecation Timeline &lt;internals/deprecation&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**Django と長く付き合うために:** :doc:`どの API が安定なのか &lt;misc/api-stability&gt;` | :doc:`リリースノート一覧とアップグレードの手順 &lt;releases/index&gt;` | :doc:`不要な機能の撤廃、削除スケジュール &lt;internals/deprecation&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django documentation contents</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django ドキュメント目次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Indices, glossary and tables</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>索引、モジュール一覧、用語集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:ref:`genindex`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`genindex`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:ref:`modindex`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`modindex`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:ref:`glossary`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`glossary`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first patch for Django</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django への初めてのパッチを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Interested in giving back to the community a little?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>少しでもコミュニティへ恩返しをしたいと思われますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Maybe you've found a bug in Django that you'd like to see fixed, or maybe there's a small feature you want added.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは Django の簡単なバグフィックスや小さな機能追加かもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Contributing back to Django itself is the best way to see your own concerns addressed. This may seem daunting at first, but it's really pretty simple. We'll walk you through the entire process, so you can learn by example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その願いを叶える最適な方法は Django 自体への貢献です。最初は気が重いかもしれませんが、実際はとても簡単です。私達がプロセス全体を詳しく解説するので、その例から学ぶことができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Who's this tutorial for?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは誰を対象としていますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For this tutorial, we expect that you have at least a basic understanding of how Django works. This means you should be comfortable going through the existing tutorials on :doc:`writing your first Django app&lt;/intro/tutorial01&gt;`. In addition, you should have a good understanding of Python itself. But if you don't, `Dive Into Python`__ is a fantastic (and free) online book for beginning Python programmers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは、少なくとも Django がどのように動作しているかの基本的な理解があることを想定しています。つまりチュートリアル :doc:`初めての Django アプリ&lt;/intro/tutorial01&gt;` を十分に理解していることを想定しています。また、Python 自体をよく理解している必要があります。もしそうでない場合、 `Dive Into Python`__ は Python プログラマーになるための素晴らしい (かつ無料の) オンラインドキュメントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Those of you who are unfamiliar with version control systems and Trac will find that this tutorial and its links include just enough information to get started. However, you'll probably want to read some more about these different tools if you plan on contributing to Django regularly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バージョン管理システムと Trac をよく知らない方でも、このチュートリアルとリンク先から、始めるに十分な情報を得ることができます。しかし、Django に定期的に貢献したい場合は、このツールの詳細について知りたいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For the most part though, this tutorial tries to explain as much as possible, so that it can be of use to the widest audience.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルでは、できるだけ多くの方が使用できるように可能な限り解説したいと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Where to get help:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>困ったときは:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>What does this tutorial cover?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルの範囲はなんですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We'll be walking you through contributing a patch to Django for the first time. By the end of this tutorial, you should have a basic understanding of both the tools and the processes involved. Specifically, we'll be covering the following:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>初めて Django にパッチを送る手順を詳しく解説します。このチュートリアルを終えると、関連するツールとプロセス両方についての基本的な理解を得ることができます。具体的な範囲は以下の通りです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Installing Git.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Git のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>How to download a development copy of Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発版の Django の複製をダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Running Django's test suite.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のテストスイートの実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing a test for your patch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチへのテストを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing the code for your patch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチのコードを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Testing your patch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチをテスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Generating a patch file for your changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更のパッチファイルを生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Where to look for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より多くの情報を得る方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you're done with the tutorial, you can look through the rest of :doc:`Django's documentation on contributing&lt;/internals/contributing/index&gt;`. It contains lots of great information and is a must read for anyone who'd like to become a regular contributor to Django. If you've got questions, it's probably got the answers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チュートリアルを終えたら、次は :doc:`Django への貢献&lt;/internals/contributing/index&gt;` を参照してください。このドキュメントには、多くの重要な情報が含まれており、Django に定期的に貢献したい方は是非一読してください。あなたの疑問への答えが見つかるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Installing Git</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Git のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For this tutorial, you'll need Git installed to download the current development version of Django and to generate patch files for the changes you make.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルでは、最新の Django 開発版のダウンロードとその変更のパッチファイルを生成するために Git をインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're not that familiar with Git, you can always find out more about its commands (once it's installed) by typing ``git help`` into the command line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし Git について詳しく知らない場合は、(インストール後に) コマンドラインから ``git help`` と入力するとコマンドの使い方を確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Getting a copy of Django's development version</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django 開発版の複製を取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The first step to contributing to Django is to get a copy of the source code. From the command line, use the ``cd`` command to navigate to the directory where you'll want your local copy of Django to live.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django への貢献の第一歩はソースコードの複製の取得から始まります。コマンドラインで、 ``cd`` コマンドを使い、Django をローカルに複製するディレクトリに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Download the Django source code repository using the following command::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下のコマンドで Django のソースコードリポジトリをダウンロードします::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For users who wish to use `virtualenv`__, you can use::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`virtualenv`__ を利用したい場合は、次のコマンドを使います::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>(where ``django`` is the directory of your clone that contains ``setup.py``) to link your cloned checkout into a virtual environment. This is a great option to isolate your development copy of Django from the rest of your system and avoids potential package conflicts.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>(``django`` ディレクトリの複製には ``setup.py`` が含まれています) このコマンドにより、仮想環境内にこの複製をインストールできます。これにより Django の開発用の複製を他のシステムから分離できるため、パッケージの依存問題から開放されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Rolling back to a previous revision of Django</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>旧リビジョンの Django に戻す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>**Keep in mind that while we'll be using an older revision of Django's trunk for the purposes of the tutorial below, you should always use the current development revision of Django when working on your own patch for a ticket!**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**チュートリアルでは trunk ではない古いリビジョンの Django を使用しますが、自分のパッチを作成する場合は Django の最新の開発版を使用する必要があります!**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The patch for this ticket was written by Ulrich Petri, and it was applied to Django as `commit ac2052ebc84c45709ab5f0f25e685bf656ce79bc`__. Consequently, we'll be using the revision of Django just prior to that, `commit 39f5bc7fc3a4bb43ed8a1358b17fe0521a1a63ac`__.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチケットのパッチは Ulrich Petri 氏により書かれ、これは `commit ac2052ebc84c45709ab5f0f25e685bf656ce79bc`__ で Django に適用されました。よって `commit 39f5bc7fc3a4bb43ed8a1358b17fe0521a1a63ac`__ が適用される前の Django のリビジョンを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Navigate into Django's root directory (that's the one that contains ``django``, ``docs``, ``tests``, ``AUTHORS``, etc.). You can then check out the older revision of Django that we'll be using in the tutorial below::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のルートディレクトリ (このディレクトリには ``django``, ``docs``, ``tests``, ``AUTHORS``, 等が含まれています) へ移動します。次にチュートリアルで使用する Django の旧リビジョンをチェックアウトします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Running Django's test suite for the first time</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に Django のテストスイートを実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When contributing to Django it's very important that your code changes don't introduce bugs into other areas of Django.  One way to check that Django still works after you make your changes is by running Django's test suite. If all the tests still pass, then you can be reasonably sure that your changes haven't completely broken Django. If you've never run Django's test suite before, it's a good idea to run it once beforehand just to get familiar with what its output is supposed to look like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django へ貢献する際、変更したコードが Django の他の領域にバグをの変更はジャンゴの他の領域にバグを混入しないことが非常に重要です。変更後に Django の正常動作を確認するには Django のテストスイートを実行します。すべてのテストに合格した場合は、その変更により Django が壊れていないことが確認できます。Django のテストスイートを実行したことが一度もない場合、その出力結果を把握しておくために、一度テストスイートを実行しておくことを推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We can run the test suite by simply ``cd``-ing into the Django ``tests/`` directory and, if you're using GNU/Linux, Mac OS X or some other flavor of Unix, run::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストスイートの実行は Django の ``tests/`` ディレクトリに `cd`` で移動し、GNU/Linux, Mac OS X 等 Unix 系 OS を利用している場合は以下のコマンドを実行します::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're on Windows, the above should work provided that you are using "Git Bash" provided by the default Git install. GitHub has a `nice tutorial`__.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Windows の場合は、Git のデフォルトインストールで提供される "Git Bash" を使用することにより上記コマンドが実行できます。GitHub には `素敵なチュートリアル`__ があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're using ``virtualenv``, you can omit ``PYTHONPATH=..`` when running the tests. This instructs Python to look for Django in the parent directory of ``tests``. ``virtualenv`` puts your copy of Django on the ``PYTHONPATH`` automatically.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし ``virtualenv`` を利用している場合は、テストの実行に ``PYTHONPATH=..`` のステップは不要です。これは Python が Django を見に行く際に ``tests`` の親ディレクトリを見に行くようにします。 ``virtualenv`` が自動的に Django を ``PYTHONPATH`` 上に追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now sit back and relax. Django's entire test suite has over 4800 different tests, so it can take anywhere from 5 to 15 minutes to run, depending on the speed of your computer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでは一息つきましょう。Django 全体のテストスイートは 4800 以上のテストが含まれており、コンピュータの速度により 5 〜 15分程度かかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>While Django's test suite is running, you'll see a stream of characters representing the status of each test as it's run. ``E`` indicates that an error was raised during a test, and ``F`` indicates that a test's assertions failed. Both of these are considered to be test failures. Meanwhile, ``x`` and ``s`` indicated expected failures and skipped tests, respectively. Dots indicate passing tests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のテストスイートを実行中に、各テストの状態を文字のストリームで確認することができます。 ``E`` はテストにエラーが発生したことを表し、 ``F`` はテストのアサーションが失敗したことを表しています。これらは共にテスト失敗となります。``x`` と ``s`` はそれぞれ期待する失敗とスキップを表しています。ドットはテストの成功を表しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Skipped tests are typically due to missing external libraries required to run the test; see :ref:`running-unit-tests-dependencies` for a list of dependencies and be sure to install any for tests related to the changes you are making (we won't need any for this tutorial).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スキップされたテストは、テストを実行するために必要な外部ライブラリがインストールされていないことが原因です; 依存については :ref:`running-unit-tests-dependencies` を参照し、関連するテストを実行してください (このチュートリアルでは必要ありません)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once the tests complete, you should be greeted with a message informing you whether the test suite passed or failed. Since you haven't yet made any changes to Django's code, the entire test suite **should** pass. If you get failures or errors make sure you've followed all of the previous steps properly. See :ref:`running-unit-tests` for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストが終了するとテストが成功したか､失敗したかを知らせるメッセージが表示されます｡まだ Django のコードに変更を加えていなければ､テストは全て **パスするはずです** ｡もし失敗するかエラーが起こる場合は､これまでの全ステップを適切に実行してください｡ :ref:`running-unit-tests` で､よりテストについて知れます｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that the latest Django trunk may not always be stable. When developing against trunk, you can check `Django's continuous integration builds`__ to determine if the failures are specific to your machine or if they are also present in Django's official builds. If you click to view a particular build, you can view the "Configuration Matrix" which shows failures broken down by Python version and database backend.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発中の､最新の Django ではステーブルとは限りません｡トランクバージョンで開発を行う場合､ `Django の継続インテグレーションビルド`__ をチェックしてください｡これで､テストの失敗があなたのマシンだけのものか､ Django 公式のビルドによるものかが分かります｡各ビルドについてのリンクをクリックすれば､ "Configuration Matrix" という､ 各 Python のバージョン､ DB バックエンドに対応したテストの失敗を閲覧できます｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For this tutorial and the ticket we're working on, testing against SQLite is sufficient, however, it's possible (and sometimes necessary) to :ref:`run the tests using a different database &lt;running-unit-tests-settings&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルや､各チケットで作業する際は､ SQLite のテストで十分です｡しかし可能 (か必要な場合は) :ref:`他のデータベースでテストを実行する &lt;running-unit-tests-settings&gt;` を参照してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing some tests for your ticket</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケットにテストを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In most cases, for a patch to be accepted into Django it has to include tests. For bug fix patches, this means writing a regression test to ensure that the bug is never reintroduced into Django later on. A regression test should be written in such a way that it will fail while the bug still exists and pass once the bug has been fixed. For patches containing new features, you'll need to include tests which ensure that the new features are working correctly. They too should fail when the new feature is not present, and then pass once it has been implemented.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>大抵の場合､ Django にアクセプトされるパッチはテストを含んでいます｡リグレッションテストを書くことで､ Django にバグを再混入していないと後に保証できます｡レグレッションテストは､バグが存在しているときに落ちるように書き､バグが修正された後にパスするように書かれるべきです｡新機能を含むパッチでは､その新機能が正しく動作すると保証するためにテストが必要です｡その際も同じように､新機能が無い際には落ち､実装されてから通るテストを書くべきです｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A good way to do this is to write your new tests first, before making any changes to the code. This style of development is called `test-driven development`__ and can be applied to both entire projects and single patches. After writing your tests, you then run them to make sure that they do indeed fail (since you haven't fixed that bug or added that feature yet). If your new tests don't fail, you'll need to fix them so that they do. After all, a regression test that passes regardless of whether a bug is present is not very helpful at preventing that bug from reoccurring down the road.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これをするには､コードに変更を加える前に先にテストを書くのが良いでしょう｡この開発手法は `テスト駆動開発`__ と呼ばれ､プロジェクト全体にも単一のパッチにも適応可能です｡テストを書いた後には､テストを走らせて確かに落ちることを確認します (バグ修正や昨日の追加はまだしてないので落ちます)｡ 新しいテストが落ちない場合は落ちるよう修正しましょう｡ともかく､バグが存在していようとも通るテストは将来バグが再発するのを防ぐのに､何の役にもたちません｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now for our hands-on example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ハンズオンでの例題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing some tests for ticket #17549</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケット #17549 にテストを書いてみましょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>It's useful for URLField to give you a way to open the URL; otherwise you might as well use a CharField.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLField は URL を開けるようにするのに便利です; CharField を使ってもかまいません｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In order to resolve this ticket, we'll add a ``render`` method to the ``AdminURLFieldWidget`` in order to display a clickable link above the input widget. Before we make those changes though, we're going to write a couple tests to verify that our modification functions correctly and continues to function correctly in the future.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチケットを解決するには､ ``render`` メソッドを ``AdminURLFieldWidget`` に追加します｡ input ウィジェットの上にクリック可能なリンクをするようにします｡変更を加える前に､変更が正しく動作し､これからも動作し続けることを確認するためにテストをいくつか追加します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The new tests check to see that the ``render`` method we'll be adding works correctly in a couple different situations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいテストでは ``render`` メソッドをチェックするもので､いくつかのシチュエーションで正しく動作することを確認します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you've never had to deal with tests before, they can look a little hard to write at first glance. Fortunately, testing is a *very* big subject in computer programming, so there's lots of information out there:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストを書いたとこがない場合は､最初は難しく見えるかもしれません｡ですが実は､テスティングはプログラミングにおいて *とても* 重要なことです｡ここではテストについて詳細に紹介します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Dive Into Python (a free online book for beginning Python developers) includes a great `introduction to Unit Testing`__.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dive Into Python (Python初心者のための､オンラインの無料の本) では素晴らしい `初めてのユニットテスト`__ という章があります｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>After reading those, if you want something a little meatier to sink your teeth into, there's always the `Python unittest documentation`__.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dive Into Python を読んだあと､もう少し情報が欲しい場合は `Python のユニットテスト`__ のドキュメントを参照してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Running your new test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいテストを走らせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Remember that we haven't actually made any modifications to ``AdminURLFieldWidget`` yet, so our tests are going to fail. Let's run all the tests in the ``model_forms_regress`` folder to make sure that's really what happens. From the command line, ``cd`` into the Django ``tests/`` directory and run::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``AdminURLFieldWidget`` にはまだ変更を加えていませんので､テストは落ちます｡ ``model__forms_regress`` フォルダの全テストを走らせて､実際に何が起こるか観てみましょう｡コマンドラインで ``tests/`` ディレクトリに ``cd`` して､以下を実行してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If the tests ran correctly, you should see three failures corresponding to each of the test methods we added. If all of the tests passed, then you'll want to make sure that you added the new test shown above to the appropriate folder and class.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストが正しく実行されれば､追加したテストメソッドに対応する3つのテストが失敗するでしょう｡テストがすべて通れば､上記した新しいテストを正しいフォルダ､クラスに追加したことを確認してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing the code for your ticket</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケットにコードを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing the code for ticket #17549</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケット #17549 にコードを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Navigate to the ``django/django/contrib/admin/`` folder and open the ``widgets.py`` file. Find the ``AdminURLFieldWidget`` class on line 302 and add the following ``render`` method after the existing ``__init__`` method::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``django/django/contrib/admin`` フォルダーに行って､ ``widgets.py`` ファイルを開いてください｡
+302行目にある ``AdminURLFieldWidget`` クラスを見つけて､以下の ``render`` メソッドをすでにある ``__init__`` メソッドの下に追加してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Verifying your test now passes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストが通ることを確認する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you're done modifying Django, we need to make sure that the tests we wrote earlier pass, so we can see whether the code we wrote above is working correctly. To run the tests in the ``admin_widgets`` folder, ``cd`` into the Django ``tests/`` directory and run::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django への変更が完了したあと､コードが正しく動作すると確認するため､先ほど書いたテストを実行してください｡Djangoの ``admin_widgets`` フォルダーに ``cd`` で移動して､以下を実行してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Oops, good thing we wrote those tests! You should still see 3 failures with the following exception::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あぁ､テストを書いていて良かったですね｡以下のように3つテストが落ちています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We forgot to add the import for that method.  Go ahead and add the ``smart_urlquote`` import at the end of line 13 of ``django/contrib/admin/widgets.py`` so it looks as follows::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メソッドで使うモジュールのインポートを忘れていました｡ ``smartr_urlquote`` のインポートを ``django/contrib/admin/widgets.py`` の 13 行目の後ろに追加してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Re-run the tests and everything should pass. If it doesn't, make sure you correctly modified the ``AdminURLFieldWidget`` class as shown above and copied the new tests correctly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再実行すればテストがすべてパスするはずです｡もしそうでない場合､ ``AdminURLFieldWidgt`` クラスと新しいテストが正しくコピーされているされていると確認してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Running Django's test suite for the second time</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django の テストスイートをもう一度走らせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you've verified that your patch and your test are working correctly, it's a good idea to run the entire Django test suite just to verify that your change hasn't introduced any bugs into other areas of Django. While successfully passing the entire test suite doesn't guarantee your code is bug free, it does help identify many bugs and regressions that might otherwise go unnoticed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチとテストが正しく動作していることを確認できたら､ Django のテストをすべて走らせて､変更が Django の別の場所にバグを仕込んでいないか確認しましょう｡すべてのテストが通るという事は､追加したコードがバグフリーだと保証します｡大量のバグや手戻りを発見できます｡そうでないとバグを見逃してしまうでしょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To run the entire Django test suite, ``cd`` into the Django ``tests/`` directory and run::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django の全てのテストスイートを走らせるには ``cd`` で Django の ``tests/`` ディレクトリ移動して実行してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>As long as you don't see any failures, you're good to go. Note that this fix also made a `small CSS change`__ to format the new widget. You can make the change if you'd like, but we'll skip it for now in the interest of brevity.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストが失敗しなければ､先に進みましょう｡このチケットでは `少し CSS を変更`__ して新しいウィジェットをフォーマットします｡もしやりたいならやってもいいですが､ここでは省略します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing Documentation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This is a new feature, so it should be documented.  Add the following on line 925 of ``django/docs/ref/models/fields.txt`` beneath the existing docs for ``URLField``::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この機能は新しいので､ドキュメントに書かれるべきです｡ 以下のコードを ``django/docs/ref/models/fields.txt`` の 925 行目にある ``URLField`` のドキュメントの下に追記してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For more information on writing documentation, including an explanation of what the ``versionadded`` bit is all about, see :doc:`/internals/contributing/writing-documentation`. That page also includes an explanation of how to build a copy of the documentation locally, so you can preview the HTML that will be generated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントの書き方についてもっと知りたい場合は :doc:`/internals/contributing/writing-documentation` を参照してください｡ここでは､ ``versionadded` の書き方についてや､ ドキュメントのコピーをローカルでビルドしてみて､ HTML をプレビューする方法などが書かれています｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Generating a patch for your changes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更のパッチを生成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now it's time to generate a patch file that can be uploaded to Trac or applied to another copy of Django. To get a look at the content of your patch, run the following command::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Trac にアップロードされたり､他のDjangoに適応されるパッチを作りましょう｡パッチの内容を見るために､以下のコマンドを実行してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This will display the differences between your current copy of Django (with your changes) and the revision that you initially checked out earlier in the tutorial.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チュートリアルの初めでチェックアウトした最初のリビジョンと､(修正した) 現在の Django のコピーとの違いを表示します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you're done looking at the patch, hit the ``q`` key to exit back to the command line.  If the patch's content looked okay, you can run the following command to save the patch file to your current working directory::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチを見終わったら､ ``q`` キーをタイプしたコマンドラインに戻りましょう｡パッチの内容が良さそうなら､以下のコマンドを実行して､現在のワーキングディレクトリにパッチを保存してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You should now have a file in the root Django directory called ``17549.diff``. This patch file contains all your changes and should look this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のルートディレクトリに ``17549.diff`` というファイルが作られるでしょう｡このパッチは変更のすべてを含んでおり､このようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>So what do I do next?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はどうしましょうか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Congratulations, you've generated your very first Django patch!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おめでとうございます!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now that you've got that under your belt, you can put those skills to good use by helping to improve Django's codebase.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django への最初のパッチができました!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Generating patches and attaching them to Trac tickets is useful, however, since we are using git - adopting a more :doc:`git oriented workflow &lt;/internals/contributing/writing-code/working-with-git&gt;` is recommended.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッチの書き方を習得したので､ Django のコードベースを改善するためにスキルを活かしましょう｡パッチを生成して､Tracのチケットに貼り付けるのは便利ですが､ git を使っている場合は､ `git ワークフロー &lt;/internals/contributing/writing-code/working-with-git&gt;`_ の利用がオススメです｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Since we never committed our changes locally, perform the following to get your git branch back to a good starting point::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更をローカルでコミットしなかった場合は､ git のブランチを始めに戻すために以下を実行してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>More information for new contributors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい貢献者のための情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Before you get too into writing patches for Django, there's a little more information on contributing that you should probably take a look at:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django へのパッチを書き始める前に､貢献するために見ておいたほうがいい情報があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You should make sure to read Django's documentation on :doc:`claiming tickets and submitting patches &lt;/internals/contributing/writing-code/submitting-patches&gt;`. It covers Trac etiquette, how to claim tickets for yourself, expected coding style for patches, and many other important details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のドキュメントの `チケットをクレームして､パッチを送信する &lt;/internals/contributing/writing-code/submitting-patches&gt;`_ を読んでください｡ Trac でのエチケットやチケットをクレームする方法やパッチに適切なコーディングスタイルなど､重要なことを網羅できます｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>First time contributors should also read Django's :doc:`documentation for first time contributors&lt;/internals/contributing/new-contributors/&gt;`. It has lots of good advice for those of us who are new to helping out with Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django への初めての貢献者は :doc:`初めての貢献者へのドキュメント &lt;/internals/contributing/new-contributors/&gt;` を読んでください｡Django に初めて協力する人たちへの良いアドバイスがあります｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>After those, if you're still hungry for more information about contributing, you can always browse through the rest of :doc:`Django's documentation on contributing&lt;/internals/contributing/index&gt;`. It contains a ton of useful information and should be your first source for answering any questions you might have.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>貢献について､より多くの情報を知りたいなら､ :doc:`貢献についての Django のドキュメント &lt;/internals/contributing/index&gt;` を参照してください｡そこにはたくさん有用な情報がありまし､質問があれば､このドキュメントが1番役に立ちます｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Finding your first real ticket</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際にチケットを探してみましょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you've looked through some of that information, you'll be ready to go out and find a ticket of your own to write a patch for. Pay special attention to tickets with the "easy pickings" criterion. These tickets are often much simpler in nature and are great for first time contributors.  Once you're familiar with contributing to Django, you can move on to writing patches for more difficult and complicated tickets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントをたくさん読んだ後は､実際のパッチを書けるのでチケットを探してみましょう｡ "easy picking" タグが付いたチケットを見つけてください｡このチケットは大抵はより簡単なものなので､初めての貢献者には適切でしょう｡ Django への貢献に慣れてきたあとは､難しく､複雑なチケットを書き始めれるでしょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you just want to get started already (and nobody would blame you!), try taking a look at the list of `easy tickets that need patches`__ and the `easy tickets that have patches which need improvement`__. If you're familiar with writing tests, you can also look at the list of `easy tickets that need tests`__. Just remember to follow the guidelines about claiming tickets that were mentioned in the link to Django's documentation on :doc:`claiming tickets and submitting patches &lt;/internals/contributing/writing-code/submitting-patches&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今すぐ始めたいなら (責める人はいません！)、　`パッチが必要な簡単なチケット`__ か `パッチに改善が必要な簡単なチケット`__ を見つけましょう。テストを書きなれているなら `テストが必要な簡単なチケット`__ でもよいでしょう。ただ、チケットのクレームに関するガイドラインに従ってください。 Django ドキュメントの :doc:`チケットをクレームしてパッチを送る &lt;/internals/contributing/writing-code/submitting-patches&gt;` で記述されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>What's next?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は何をしましょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>After a ticket has a patch, it needs to be reviewed by a second set of eyes. After uploading a patch or submitting a pull request, be sure to update the ticket metadata by setting the flags on the ticket to say "has patch", "doesn't need tests", etc, so others can find it for review. Contributing doesn't necessarily always mean writing a patch from scratch. Reviewing existing patches is also a very helpful contribution. See :doc:`/internals/contributing/triaging-tickets` for details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケットにパッチが追加されたあとは、別の人間の目でレビューされる必要があります。パッチをアップロードしたりプルリクエストを送信したあとは、チケットのメタデータから "has patch" フラグを設定してください。 "doesn't need tests" や、その他のメタデータはレビューのためにあります。貢献する際にはいつもスクラッチからパッチを書くというわけではありません。既存のパッチをレビューすることをまた素晴らしく役に立つ貢献です。詳細は :doc:`/internals/contributing/triaging-tickets` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Getting started</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さぁ始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>New to Django?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は初めてですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Or to Web development in general?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もしくは Web 開発全般で?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Well, you came to the right place: read this material to quickly get up and running.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なら、ここに来て正解ですね。ここにあるドキュメントを読んで、行動に移してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're new to Python_, you might want to start by getting an idea of what the language is like. Django is 100% Python, so if you've got minimal comfort with Python you'll probably get a lot more out of Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python_ の初心者なら、まず Python がどんなものかを知ることから始めましょう。 Django は 100% Python です。 ほんの最小限 Python を理解するだけで Django をより深く理解できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're new to programming entirely, you might want to start with this `list of Python resources for non-programmers`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プログラミング全般の初心者なら、 `非プログラマのための Python リソース一覧`_ から始めてみるとよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Quick install guide</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クイックインストールガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Before you can use Django, you'll need to get it installed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django を使う前に、インストールをする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We have a :doc:`complete installation guide &lt;/topics/install&gt;` that covers all the possibilities; this guide will guide you to a simple, minimal installation that'll work while you walk through the introduction.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django にはできることをすべてカバーした :doc:`インストールガイド &lt;/topics/install&gt;` があります。これはシンプルでミニマルなインストールガイドで、 Django の導入部分までが説明されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Install Python</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python をインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django on Jython</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django on Jython</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you use Jython_ (a Python implementation for the Java platform), you'll need to follow a few additional steps. See :doc:`/howto/jython` for details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし Jython_ (Python のJava プラットフォーム実装) を使っている場合は、いくつか追加のステップを実行する必要があります。詳細は :doc:`/howto/jython` を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You can verify that Python is installed by typing ``python`` from your shell; you should see something like::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python がインストールされてるかを確かめるには ``python`` とシェルでタイプします。このように表示されるはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Set up a database</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースを設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This step is only necessary if you'd like to work with a "large" database engine like PostgreSQL, MySQL, or Oracle. To install such a database, consult the :ref:`database installation information &lt;database-installation&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このステップはあなたが "大きな" データベースエンジン、 PostgreSQL 、 MySQL や Oracle を使っている場合に必要です。これらのデータベースをインストールするには、 :ref:`データベースのインストール方法 &lt;database-installation&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Remove any old versions of Django</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>古いバージョンの Django を削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you are upgrading your installation of Django from a previous version, you will need to :ref:`uninstall the old Django version before installing the new version &lt;removing-old-versions-of-django&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前バージョンの Django をアップグレードするには、 :ref:`新しい Django をインストールする前に、古いバージョンの Django をアンインストールする &lt;removing-old-versions-of-django&gt;` 必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Install Django</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django をインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You've got three easy options to install Django:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django をインストールするには 3 つの方法があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Install a version of Django :doc:`provided by your operating system distribution &lt;/misc/distributions&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`OSディストリビューションに提供される &lt;/misc/distributions&gt;`  Django のバージョンをインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This is the quickest option for those who have operating systems that distribute Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django を配布している OS を使っている人には最速の方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you do either of the first two steps, keep an eye out for parts of the documentation marked **new in development version**. That phrase flags features that are only available in development versions of Django, and they likely won't work with an official release.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>初め 2 ステップのどちらかをした場合は、ドキュメントの **new in development version** とマークされた部分に気をつけてください。このフレーズは Django の開発版でのみ利用可能な機能であると意味しており、公式リリースではおそらく動作しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Verifying</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>動作確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To verify that Django can be seen by Python, type ``python`` from your shell. Then at the Python prompt, try to import Django:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Djnago が Python から見れるか確認をするには、シェルで ``python`` とタイプして、 Python プロンプトから Django をインポートします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You may have another version of Django installed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別バージョンの Django がインストールされてるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That's it!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これだけです!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That's it -- you can now :doc:`move onto the tutorial &lt;/intro/tutorial01&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これだけです。 `チュートリアルに進みましょう &lt;/intro/tutorial01&gt;` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django at a glance</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django の概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Because Django was developed in a fast-paced newsroom environment, it was designed to make common Web-development tasks fast and easy. Here's an informal overview of how to write a database-driven Web app with Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は変転の激しいニュースルーム環境で開発された経緯から、よくある Web 開発タスクを迅速かつ簡単化するように設計されました。ここでは Django による データベース中心の Web アプリケーション開発をざっと見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The goal of this document is to give you enough technical specifics to understand how Django works, but this isn't intended to be a tutorial or reference -- but we've got both!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このドキュメントの目的は、 Django の技術的な仕様について述べ、どのように動 作するかを理解してもらうことにあり、チュートリアルやリファレンス用ではあり ません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When you're ready to start a project, you can :doc:`start with the tutorial &lt;/intro/tutorial01&gt;` or :doc:`dive right into more detailed documentation &lt;/topics/index&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>(とはいえ、チュートリアルもリファレンスも別に用意していますよ！) プロジェクトを作成する準備ができたら、 :doc:`チュートリアルを始めれます &lt;/intro/tutorial01&gt;` 。もしくは :doc:`より詳細なドキュメントを読む &lt;/topics/index&gt;` こともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Design your model</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルの設計</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Although you can use Django without a database, it comes with an `object-relational mapper`_ in which you describe your database layout in Python code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースなしで Django を使うこともできますが、 Django には Python コードでデータベースのレイアウトを記述した `オブジェクトリレーショナルマッパー`_ (object-relational mapper) が付属しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Install it</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Next, run the Django command-line utility to create the database tables automatically:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、データベーステーブルを自動でつくる Django のコマンドラインユーティリティを実行します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Enjoy the free API</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自動生成される API で楽しむ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>With that, you've got a free, and rich, :doc:`Python API &lt;/topics/db/queries&gt;` to access your data. The API is created on the fly, no code generation necessary:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これだけで、制約のない充実した :doc:`Python API &lt;/topics/db/queries&gt;` を使っ て自分のデータにアクセスできます。API はオンザフライで生成され、コードを作 成する必要はありません:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A dynamic admin interface: it's not just scaffolding -- it's the whole house</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業場 (scaffold) ではなく完成品 (whole house) の、動的な admin インタフェース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The philosophy here is that your site is edited by a staff, or a client, or maybe just you -- and you don't want to have to deal with creating backend interfaces just to manage content.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サイトの編集はスタッフ、顧客、もしくはあなた自身の手で行われるものであり、 コンテンツの管理だけのためにバックエンドインタフェースを作りたくはない、という思想がここにはあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>One typical workflow in creating Django apps is to create models and get the admin sites up and running as fast as possible, so your staff (or clients) can start populating data. Then, develop the way data is presented to the public.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作者たちが Django アプリケーションを作成するときの典型的なワークフローは、 モデルを作成し、 admin サイトを組み上げてできるだけ早期に立ち上げ、スタッフ (や顧客) がデータを投入できるようにしておいてから、データを公開するための方法を開発してゆくというものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Design your URLs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URL を設計する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A clean, elegant URL scheme is an important detail in a high-quality Web application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すっきりとして洗練された URL スキームは、高品質な Web アプリケーションを実 現する上で重要な要素です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django encourages beautiful URL design and doesn't put any cruft in URLs, like ``.php`` or ``.asp``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は美しい URL の設計を助け、 ``.php`` や ``.asp`` のようなお粗末なゴミを URL に入れさせません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To design URLs for an app, you create a Python module called a :doc:`URLconf &lt;/topics/http/urls&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特定のアプリケーション用の URL を設計するには、 `URLconf &lt;/topics/http/urls&gt;` と呼ばれる Python モジュールを一つ作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A table of contents for your app, it contains a simple mapping between URL patterns and Python callback functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLconf はいわばアプリケーションの目次にあたり、 URL のパターンを Python のコールバック関数に対応づけています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>URLconfs also serve to decouple URLs from Python code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLconf はまた、 URL と Python コードを脱カップ リングする働きも持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The code above maps URLs, as simple `regular expressions`_, to the location of Python callback functions ("views"). The regular expressions use parenthesis to "capture" values from the URLs. When a user requests a page, Django runs through each pattern, in order, and stops at the first one that matches the requested URL. (If none of them matches, Django calls a special-case 404 view.) This is blazingly fast, because the regular expressions are compiled at load time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上のコードはシンプルな `正規表現`_ と Python のコールバック関数("ビュー")をマッピングしています。正規表現は、 URL から値を取得するために括弧を用います。ユーザがページを要求すると、 Django はそれぞれのパターンを順番にチェックし、要求された URL に最初に一致したパターンで停止します。(もしそれらのどれとも一致しなかった時、 Django は特殊ケースである404ビューを呼び出します。)正規表現はロード時にコンパイルされるため、これらは非常に高速に動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once one of the regexes matches, Django imports and calls the given view, which is a simple Python function. Each view gets passed a request object -- which contains request metadata -- and the values captured in the regex.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一度正規表現が一致すると、 Django は Python の関数であるビュー (view) をインポートし呼び出します。各ビューは、リクエストのメタデータを含むリクエストオブジェクトと、正規表現でキャプチャされた値を受け取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For example, if a user requested the URL "/articles/2005/05/39323/", Django would call the function ``news.views.article_detail(request, '2005', '05', '39323')``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、ユーザが "/articles/2005/05/39323/" という URL をリクエストすると、 Django は ``news.views.article_detail(request, '2005', '05', '39323')`` のような関数呼び出しを行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Write your views</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビューの自作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Each view is responsible for doing one of two things: Returning an :class:`~django.http.HttpResponse` object containing the content for the requested page, or raising an exception such as :class:`~django.http.Http404`. The rest is up to you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ビュー (view) には二つの役割があります: 一つはリクエストされたページのコ ンテンツを含む :class:`~django.http.HttpResponse` オブジェクトを返すこと、もう一つは :class:`~django.http.Http404` のような例外の送出です。それ以外の処理はユーザ次第です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This example uses Django's :doc:`template system &lt;/topics/templates&gt;`, which has several powerful features but strives to stay simple enough for non-programmers to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では Django の :doc:`テンプレートシステム &lt;/topics/templates&gt;` を使っ ています。テンプレートシステムは、強力な機能をいくつも備えながらも、非プロ グラマが使いこなせる程度に簡単な仕組みです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Design your templates</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テンプレートを設計する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The code above loads the ``news/year_archive.html`` template.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上のコードでは ``news/article_detail.html`` という名前のテンプレートをロー ドしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's say the ``news/year_archive.html`` template was found. Here's what that might look like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、 ``news/year_archive.html`` が見つかったとしましょう。テンプレートは以下のように書かれています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note ``{{ article.pub_date|date:"F j, Y" }}`` uses a Unix-style "pipe" (the "|" character). This is called a template filter, and it's a way to filter the value of a variable. In this case, the date filter formats a Python datetime object in the given format (as found in PHP's date function).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``{{ article.pub_date|date:"F j, Y" }}`` で、 Unix スタイルの「パイプ」 (文字 “|”) を使っていることに注意して下さい。これはテンプレートフィルターと呼ばれ、変数の値にフィルターをかけるためのものです。この例では、フィルタによって Python の datetime オブジェクトを指定の形式にフォーマットしています (PHP の date 関数に似ていますね) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You can chain together as many filters as you'd like. You can write :ref:`custom template filters &lt;howto-writing-custom-template-filters&gt;`. You can write :doc:`custom template tags &lt;/howto/custom-template-tags&gt;`, which run custom Python code behind the scenes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィルターはいくつでも好きなだけ繋げることが出来ます。また、独自の Python コードを実行する :ref:`カスタムテンプレートフィルタ &lt;howto-writing-custom-template-filters&gt;` や :doc:`カスタムテンプレートタグ&lt;/howto/custom-template-tags&gt;` を書くことも出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Here's what the "base.html" template, including the use of :doc:`static files &lt;/howto/static-files/index&gt;`, might look like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでよくある“base.html” テンプレートで、 :doc:`静的ファイルの配信 &lt;/howto/static-files/index&gt;` を含む例をあげます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Simplistically, it defines the look-and-feel of the site (with the site's logo), and provides "holes" for child templates to fill. This makes a site redesign as easy as changing a single file -- the base template.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このテンプレートはサイトのルック &amp; フィール (とサイトのロゴ) を定義するだけ にまで、極度に単純化されています。また、子テンプレートで埋めるための「穴」 を提供しています。これによって、ベーステンプレート一つを変更するだけでサイ ト全体のデザインを簡単に変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that you don't have to use Django's template system if you prefer another system. While Django's template system is particularly well-integrated with Django's model layer, nothing forces you to use it. For that matter, you don't have to use Django's database API, either. You can use another database abstraction layer, you can read XML files, you can read files off disk, or anything you want. Each piece of Django -- models, views, templates -- is decoupled from the next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のシステムを使いたければ、必ずしも Django のテンプレートシステムを使う必 要はないということに注意してください。 Django のテンプレートシステムは Django のモデルレイヤと部分的にしっかり組み合わさっていますが、絶対に使わねばならないということではありません。さらに言えば、 Django のデータベース API を使う必然性もありません。別のデータベース抽象化レイヤを使っても構いま せんし、 XML ファイルやディスク上のファイルを読み込んでも構いません。何でもやりたいことをできるのです。Django の構成要素 – モデル、ビュー、テンプレー ト – は、互いに切り離して利用できるのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This is just the surface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらはほんの一部にすぎません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This has been only a quick overview of Django's functionality.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以上、 Django の機能についてざっと紹介してきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Some more useful features:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は他にもまだま だ便利な機能を備えています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A :doc:`caching framework &lt;/topics/cache&gt;` that integrates with memcached or other backends.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>memcached などのバックエンドを組み込んだ  :doc:`キャッシュフレームワーク &lt;/topics/cache&gt;` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A :doc:`syndication framework &lt;/ref/contrib/syndication&gt;` that makes creating RSS and Atom feeds as easy as writing a small Python class.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>小さな Python クラスを書くだけで簡単に RSS や Atom フィードを生成できる :doc:`配信フィードフレームワーク &lt;/ref/contrib/syndication&gt;` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>More sexy automatically-generated admin features -- this overview barely scratched the surface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自動生成される admin のセクシーな機能の数々。ここで紹介したのはほんの表層の一部でしかありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The next obvious steps are for you to `download Django`_, read :doc:`the tutorial &lt;/intro/tutorial01&gt;` and join `the community`_. Thanks for your interest!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は、あなたが `Django をダウンロード`_ して、 :doc:`チュートリアル &lt;/intro/tutorial01&gt;` を読み、 `コミュニティ`_ に参加する番です。ご精読ありがとうございました!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Advanced tutorial: How to write reusable apps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高度なチュートリアル: 再利用可能アプリの書き方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This advanced tutorial begins where :doc:`Tutorial 6 &lt;/intro/tutorial06&gt;` left off.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアル 6 &lt;/intro/tutorial06&gt;`のあとに続いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We'll be turning our Web-poll into a standalone Python package you can reuse in new projects and share with other people.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Web 投票アプリケーションを独立した Python パッケージにすることで、新規のプロジェクトで再利用したり、他の人に共有したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you haven't recently completed Tutorials 1–6, we encourage you to review these so that your example project matches the one described below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>直近のチュートリアル 1 - 6 が終わっていないなら、一目通すことをおすすめします。例で作ったプロジェクトが以下の説明でも使われるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Reusability matters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再利用性の問題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>It's a lot of work to design, build, test and maintain a web application. Many Python and Django projects share common problems. Wouldn't it be great if we could save some of this repeated work?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Web アプリケーションの設計、開発、テスト、そしてメンテナンスには多大な労力が必要です。そして多くの Python 、 Django プロジェクト は共通の問題を抱えています。この繰り返し作業を一部保存して保存しておければ良いと思いませんか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's say you were starting a new project that needed a polls app like the one we've been working on. How do you make this app reusable? Luckily, you're well on the way already. In :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`, we saw how we could decouple polls from the project-level URLconf using an ``include``. In this tutorial, we'll take further steps to make the app easy to use in new projects and ready to publish for others to install and use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投票アプリケーションが必要なプロジェクトを開始したとしましょう。ちょうど今まで作ってきたものと似たようなものです。どうやってその
+アプリケーションを再利用可能にしますか？運のいいことに、その方法はすでに会得済みです。 :doc:`チュートリアル3 &lt;/intro/tutorial03&gt;` では、プロジェクトレベルの URLconf から ``include`` を使って、投票アプリを分離する方法をみました。このチュートリアルではアプリケーションを新規のプロジェクトで使いやすいようにし、いつでも別の場所でインストール/利用できるようにしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A package can be imported with ``import foo.bar`` or ``from foo import bar``. For a directory (like ``polls``) to form a package, it must contain a special file ``__init__.py``, even if this file is empty.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッケージは ``import foo.bar`` または ``from foo import bar`` でインポートできます。パッケージ内のディレクトリ (例えば ``polls``) は ``__init__.py`` という特殊なファイルを、空のファイルでもいいので含む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Later on we use the term *packaging* to describe the process of making a Python package easy for others to install. It can be a little confusing, we know.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以降 *パッケージング* という言葉を、別の場所でインストールしやすいように Python パッケージを作るプロセスを表すのに用います。少し混乱するかもしれませんね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Your project and your reusable app</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトと再利用可能アプリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>After the previous tutorials, our project should look like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のチュートリアルを終えると、プロジェクトはこのようになっていたはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You created ``mysite/templates`` in :doc:`Tutorial 2 &lt;/intro/tutorial02&gt;`, and ``polls/templates`` in :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`. Now perhaps it is clearer why we chose to have separate template directories for the project and application: everything that is part of the polls application is in ``polls``. It makes the application self-contained and easier to drop into a new project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでに ``mysite/templates`` を :doc:`チュートリアル 2 &lt;/intro/tutorial02&gt;` で、 ``polls/templates`` を :doc:`チュートリアル 3 &lt;/intro/tutorial03&gt;` で作成しました。今になるとなぜテンプレートディレクトリをプロジェクトとアプリケーションに分けたかが明確にわかりますね。投票アプリケーションに関する全ては ``polls`` にあります。アプリケーションが自己完結していて、新規のプロジェクトにも導入しやすくなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The ``polls`` directory could now be copied into a new Django project and immediately reused. It's not quite ready to be published though. For that, we need to package the app to make it easy for others to install.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、 ``polls`` ディレクトリは新規の Django プロジェクトにコピーでき、すぐに再利用できる状態です。しかし公開するための準備が完璧というわけではありません。そのために、アプリをパッケージにして別の場所でインストールしやすいようにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Installing some prerequisites</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>事前に必要な物をインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Packaging your app</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションをパッケージングする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Python *packaging* refers to preparing your app in a specific format that can be easily installed and used. Django itself is packaged very much like this. For a small app like polls, this process isn't too difficult.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python の *パッケージング* は特定のフォーマットでアプリを作っておくことを指します。このフォーマットは簡単にインストールして使えます。 Django 自体もこのようにパッケージ化されています。投票アプリのような小さなものでは、このプロセスはそれほど難しいものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>First, create a parent directory for ``polls``, outside of your Django project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに、 ``polls`` の親ディレクトリを、 Django プロジェクトの外に作りましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Call this directory ``django-polls``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``django-polls`` というディレクトリにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When choosing a name for your package, check resources like PyPI to avoid naming conflicts with existing packages. It's often useful to prepend ``django-`` to your module name when creating a package to distribute. This helps others looking for Django apps identify your app as Django specific.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッケージの名前を決めるときま、 PyPI のようなリソースをチェックして、すでにあるパッケージとの名前の衝突を避ける必要があります。 Django アプリケーションのパッケージを作って配布する際には、モジュール名の先頭に ``django-`` を付けるのがよいでしょう。これによって Django アプリを探してる人が、作ったアプリが Django 特化のものであると分かりやすいからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Move the ``polls`` directory into the ``django-polls`` directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``polls`` ディレクトリを ``django-polls`` ディレクトリに移動する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>It's optional, but recommended, to include detailed documentation with your app. Create an empty directory ``django-polls/docs`` for future documentation. Add an additional line to ``django-polls/MANIFEST.in``::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションの詳細なドキュメントを含めるのは、任意ですが推奨されます。空のディレクトリ ``django-polls/docs`` を将来のドキュメンテーションのために作っておきましょう。 ``django-polls/MANAFEST.in`` に行を追加しておいてください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Try building your package with ``python setup.py sdist`` (run from inside ``django-polls``). This creates a directory called ``dist`` and builds your new package, ``django-polls-0.1.tar.gz``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``python setup.py sdist`` でパッケージをビルドしてみましょう (``django-polls`` 内で実行してください) 。これによって ``dist`` というディレクトリと、新しいパッケージである ``django-polls-0.1.tar.gz`` が作られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Using your own package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自分のパッケージを使ってみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Since we moved the ``polls`` directory out of the project, it's no longer working. We'll now fix this by installing our new ``django-polls`` package.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``polls`` ディレクトリはプロジェクト外に移動したので、これはもう必要ありません。代わりにできたての ``django-polls`` パッケージを使ってみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that per-user installations can still affect the behavior of system tools that run as that user, so ``virtualenv`` is a more robust solution (see below).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザー単位でのインストールは依然、そのユーザーのシステムツールの振る舞いに影響をあたえます。なので ``virtualenv`` はより確実な解決になります (下記を参照してください) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>With luck, your Django project should now work correctly again. Run the server again to confirm this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>運が良ければ Django プロジェクトは再度、正常に動作します。確認するために再びサーバーを起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Publishing your app</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリを公開する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now that we've packaged and tested ``django-polls``, it's ready to share with the world! If this wasn't just an example, you could now:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``django-polls`` のパッケージを作り、テストしました。世界に共有するときです！これが単なる例でなければこうします::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Email the package to a friend.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パッケージを友人にメールで送る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Upload the package on your Web site.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自身の Web サイトにアップロードする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Installing Python packages with virtualenv</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>virtualenv に Python パッケージをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Earlier, we installed the polls app as a user library. This has some disadvantages:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これまでは投票アプリをユーザーライブラリにインストールしてきました。これにはいくつか欠点があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Modifying the user libraries can affect other Python software on your system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザーライブラリの変更はシステム上の他の Python ソフトウェアに影響を与えるおそれがあります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You won't be able to run multiple versions of this package (or others with the same name).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このパッケージの複数バージョン (もしくは同じ名前の別のもの) を実行できません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Typically, these situations only arise once you're maintaining several Django projects. When they do, the best solution is to use `virtualenv &lt;http://www.virtualenv.org/&gt;`_. This tool allows you to maintain multiple isolated Python environments, each with its own copy of the libraries and package namespace.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的に、複数の Django プロジェクトをメンテナンスしてる場合に生じる問題です。そうであるなら、一番良い解決策は `virtualenv &lt;http://www.virtualenv.org/&gt;`_ を使用することです。このツールを使えば複数の独立した Python 環境をメンテナンスできます。それぞれでライブラリのコピーと、パッケージの名前空間を独自に管理出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's learn by example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さあ、例を交えながら学んでゆきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Throughout this tutorial, we'll walk you through the creation of a basic poll application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルでは、簡単な投票 (poll) アプリケーションの作成に取り組ん でもらいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>It'll consist of two parts:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Poll アプリケーションは 2 つの部分からなります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A public site that lets people view polls and vote in them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザが投票したり結果を表示したりできる公開用サイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>An admin site that lets you add, change and delete polls.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投票項目の追加、変更、削除を行うための管理 (admin) サイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We'll assume you have :doc:`Django installed &lt;/intro/install&gt;` already.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`Django は既にインストール済み &lt;/intro/install&gt;` として、説明を進めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You can tell Django is installed and which version by running the following command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django がインストールされている、どのバージョンか調べるには、以下のコマンドを実行します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If Django is installed, you should see the version of your installation. If it isn't, you'll get an error telling "No module named django".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django がインストールされていれば、インストールされている Django のバージョンがわかります。もしなければ "No module named django" とエラーが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>See :doc:`How to install Django &lt;/topics/install&gt;` for advice on how to remove older versions of Django and install a newer one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`Django のインストール方法 &lt;/topics/install&gt;` を見て、 Django の旧バージョンを削除してより新しいものをインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Creating a project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If this is your first time using Django, you'll have to take care of some initial setup. Namely, you'll need to auto-generate some code that establishes a Django :term:`project` -- a collection of settings for an instance of Django, including database configuration, Django-specific options and application-specific settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>初めて Django を使うのなら、最初のセットアップを行う必要があります。通常は、 Django の :term:`プロジェクト` (:term:`project`) を構成するコードを自動生成します。プロジェクトとは、データベースの設定や Django 固有のオプション、アプリケーション固有の設定などといった、個々の Django インスタンスの設定を集めたものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>From the command line, ``cd`` into a directory where you'd like to store your code, then run the following command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドラインから、コードを置きたい場所に ``cd`` して、以下のコマンドを 実行してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You'll need to avoid naming projects after built-in Python or Django components. In particular, this means you should avoid using names like ``django`` (which will conflict with Django itself) or ``test`` (which conflicts with a built-in Python package).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトの名前を付けるとき、組み込みの Python モジュールや Django のコンポーネントの名前を使わないようにしてください。とりわけ、 ``django`` (Django 自体と名前が衝突します) や ``test`` (組み込みの Python パッケージ名と名前が衝突します) を使わないようにしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Where should this code live?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードはどこに置くの？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If your background is in plain old PHP (with no use of modern frameworks), you're probably used to putting code under the Web server's document root (in a place such as ``/var/www``). With Django, you don't do that. It's not a good idea to put any of this Python code within your Web server's document root, because it risks the possibility that people may be able to view your code over the Web. That's not good for security.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>(モダンなフレームワークを使わない) 古いプレーンな PHP の経験があるなら、これまでは Web サーバのドキュメントルート下 (``/var/www`` といった場所) にコードを配置してきたことでしょう。 Django ではそうしないでください｡ Python コードを Web サーバーのドキュメントルート下に置かないでください｡コードをドキュメントルート下に置くと、 誰かがコードを Web を介して読めるようになってしまうからです。これは安全上良くありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Put your code in some directory **outside** of the document root, such as :file:`/home/mycode`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードはドキュメントルートの外､例えば ``/home/mycode`` の ような場所に置きましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's look at what :djadmin:`startproject` created::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:djadmin:`startproject` が何を作成したかをみてみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>These files are:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルはそれぞれ以下のような役割を持っています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The outer :file:`mysite/` root directory is just a container for your project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>外側の  :file:`mysite/` ルートディレクトリは、このプロジェクトのただの入れ物です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Its name doesn't matter to Django; you can rename it to anything you like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この名前は Django に関係しませんので、好きな名前に変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:file:`manage.py`: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about :file:`manage.py` in :doc:`/ref/django-admin`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`manage.py`: Django プロジェクトに対する様々な操作を行うためのコマンドラインユーティリティです｡詳しくは :doc:`/ref/django-admin` 内の :file:`manage.py` を参照してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The inner :file:`mysite/` directory is the actual Python package for your project. Its name is the Python package name you'll need to use to import anything inside it (e.g. ``mysite.urls``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>内側の :file:`mysite/` ディレクトリは、このプロジェクトの本当の Python パッケージです。この名前が Python パッケージの名前であり、 import の際に 使用する名前です (例えば import ``mysite.urls``) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:file:`mysite/__init__.py`: An empty file that tells Python that this directory should be considered a Python package. (Read `more about packages`_ in the official Python docs if you're a Python beginner.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`mysite/__init__.py`: このディレクトリが Python パッケージであることを Python に知らせるための空のファイルです。(Python の初心者は、 Python の公式 ドキュメントの `パッケージの詳しい説明`_ を読んで下さい。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:file:`mysite/settings.py`: Settings/configuration for this Django project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`mysite/settings.py`: Django プロジェクトの設定ファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:doc:`/topics/settings` will tell you all about how settings work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定の仕組みは :doc:`/topics/settings` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:file:`mysite/urls.py`: The URL declarations for this Django project; a "table of contents" of your Django-powered site. You can read more about URLs in :doc:`/topics/http/urls`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`mysite/urls.py`: Django プロジェクトの URL 宣言、いうなれば Django サイトにおける「目次」に相当します。詳しくは :doc:`/topics/http/urls` を参照 してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:file:`mysite/wsgi.py`: An entry-point for WSGI-compatible web servers to serve your project. See :doc:`/howto/deployment/wsgi/index` for more details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`mysite/wsgi.py`: プロジェクトをサーブするためのWSGI互換Webサーバーとのエントリーポイントです。詳細は :doc:`/howto/deployment/wsgi/index` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Database setup</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Database の設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're using PostgreSQL or MySQL, make sure you've created a database by this point.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし PostgreSQL や MySQL を使っている場合、 database を今のうちに作っておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Do that with "``CREATE DATABASE database_name;``" within your database's interactive prompt.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>"``CREATE DATABASE database_name;``" とデータベースのインタラクティブプロンプトで実行してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you're using SQLite, you don't need to create anything beforehand - the database file will be created automatically when it is needed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQLite を使っている場合は、前もってすることはありません。必要であればデータベースファイルが自動で生成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>By default, :setting:`INSTALLED_APPS` contains the following apps, all of which come with Django:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、 :settings:`INSTALLED_APPS` には以下のアプリケーションがはいっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:mod:`django.contrib.auth` -- An authentication system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:mod:`django.contrib.auth` - 認証システム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:mod:`django.contrib.contenttypes` -- A framework for content types.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:mod:`django.contrib.contenttypes` - コンテンツタイプフレームワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:mod:`django.contrib.sessions` -- A session framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:mod:`django.contrib.sessions` - セッションフレームワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:mod:`django.contrib.messages` -- A messaging framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:mod:`django.contrib.messages` - メッセージフレームワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:mod:`django.contrib.staticfiles` -- A framework for managing static files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:mod:`django.contrib.staticfiles` - 静的ファイルの管理フレームワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>These applications are included by default as a convenience for the common case.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの機能はよく使われるのでデフォルトで付属しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For the minimalists</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ミニマリストのために</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The development server</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発用サーバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You've started the Django development server, a lightweight Web server written purely in Python.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、 Django 開発サーバを起動しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We've included this with Django so you can develop things rapidly, without having to deal with configuring a production server -- such as Apache -- until you're ready for production.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django 開発サーバは Python だけで書かれた軽量な Web サーバです。このサーバは、開発を迅速に行い、運用に適した状態になるまで Apache のような運用サーバの設定をいじらなくても良いようにするためのものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now that the server's running, visit http://127.0.0.1:8000/ with your Web browser. You'll see a "Welcome to Django" page, in pleasant, light-blue pastel. It worked!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さあ、これでサーバが起動したので、ブラウザで http://127.0.0.1:8000/ にアクセスしてみてください。 “Welcome to Django” と表示された、明るいパステル調のライトブルーのページが出るはずです。やりましたね！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Changing the port</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポート番号の変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>By default, the :djadmin:`runserver` command starts the development server on the internal IP at port 8000.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは :djadmin:`runserver` コマンドは内部 IP のポート 8000 で起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you want to change the server's port, pass it as a command-line argument. For instance, this command starts the server on port 8080:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバーのポートを変えたい場合は、以下のようにコマンドライン引数を渡してください。このコマンドによってポート 8080 で起動させれます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Full docs for the development server can be found in the :djadmin:`runserver` reference.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発サーバーの詳細な説明は :djadmin:`runserver` のリファレンスを参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Creating models</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now that your environment -- a "project" -- is set up, you're set to start doing work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さあ、これで自分用の環境、すなわちプロジェクトが立ち上がり、作業にとりかかる準備ができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Each application you write in Django consists of a Python package that follows a certain convention.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django 内に追加する各アプリケーションは以下の規則に従った Python パッケージで構成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django には基本的なディレクトリ構造を自動生成するユーティリティが含まれているので、ディレクトリを作ることでなくコードを書くことに集中できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Projects vs. apps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトとアプリケーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>What's the difference between a project and an app? An app is a Web application that does something -- e.g., a Weblog system, a database of public records or a simple poll app. A project is a collection of configuration and apps for a particular Web site. A project can contain multiple apps. An app can be in multiple projects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトとアプリケーションの違いとは何でしょうか？アプリケーションとは、実際に何らかの処理を行う Web アプリケーションを指します。例えばブログシステムや公開レコードのデータベース、単純な投票アプリといった具合です。プロジェクトとは、あるウェブサイト向けに設定とアプリケーションを集めたものです。一つのプロジェクトには複数のアプリケーションを入れられ ます。また、一つのアプリケーションは複数のプロジェクトで使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Your apps can live anywhere on your `Python path`_. In this tutorial, we'll create our poll app right next to your :file:`manage.py` file so that it can be imported as its own top-level module, rather than a submodule of ``mysite``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションは `Python パス`_ のどこにでも置けます。このチュートリアルでは投票アプリケーションを :file:`manage.py` のすぐ隣に作ります。なので、 ``mysite`` のサブモジュールとしてでなく、トップレベルのモジュールとしてインポートできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To create your app, make sure you're in the same directory as :file:`manage.py` and type this command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションを作るには、 :file:`manage.py` と同じディレクトリに入って、このコマンドを実行します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That'll create a directory :file:`polls`, which is laid out like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコマンドは :file:`polls` というディレクトリを作成します。中身はこのようになっています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This directory structure will house the poll application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このディレクトリ構造が、 poll アプリケーションの全体像です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The first step in writing a database Web app in Django is to define your models -- essentially, your database layout, with additional metadata.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django でデータベース Web アプリケーションを書くための最初のステップは、モ デルの定義です。本質的にはデータベースのレイアウトと、追加のメタデータの定義です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Philosophy</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設計哲学</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The code is straightforward. Each model is represented by a class that subclasses :class:`django.db.models.Model`. Each model has a number of class variables, each of which represents a database field in the model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードは単純明解ですね。各モデルは一つのクラスで表現され、いずれも :class:`django.db.models.Model` のサブクラスです。各モデルには複数のクラス変数があり、個々のクラス変数はモデルのデータベースフィールドを表現しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Each field is represented by an instance of a :class:`~django.db.models.Field` class -- e.g., :class:`~django.db.models.CharField` for character fields and :class:`~django.db.models.DateTimeField` for datetimes. This tells Django what type of data each field holds.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各フィールドは :class:`~django.db.models.Field` クラスのインスタンスとして表現されています。例えば、 :class:`~django.db.models.CharField` は文字のフィールドで、 :class:`~django.db.models.DateTimeField` は日時フィー ルドです。こうしたクラスは、各フィールドにどのようなデータ型を記憶させるか を Django に教えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Some :class:`~django.db.models.Field` classes have required arguments. :class:`~django.db.models.CharField`, for example, requires that you give it a :attr:`~django.db.models.CharField.max_length`. That's used not only in the database schema, but in validation, as we'll soon see.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`~django.db.models.Field` クラスの中には必須の引数を持つものがありま す。例えば `~django.db.models.CharField` には :attr:`~django.db.models.CharField.max_length` を指定する必要があります。この引数はデータベーススキーマで使われる他、後で述べるバリデーションでも使われま す。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A :class:`~django.db.models.Field` can also have various optional arguments; in this case, we've set the :attr:`~django.db.models.Field.default` value of ``votes`` to 0.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`~django.db.models.Field` はいつくかオプションの引数も取れます。今回の場合、 ```votes`` の :attr:`~django.db.models.Field.default` 値を 0 に設定しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Activating models</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルを有効にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That small bit of model code gives Django a lot of information. With it, Django is able to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前述のようなほんのわずかなコードをモデルに書くだけで、 Django はたくさんの情報を知れます。このコードを使って、 Django は:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Create a database schema (``CREATE TABLE`` statements) for this app.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションのデータベーススキーマを作成 (``CREATE TABLE`` 文を実行) できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>But first we need to tell our project that the ``polls`` app is installed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>でもその前に ``polls`` アプリケーションをインストールしたことをプロジェクトに教えてやる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django apps are "pluggable": You can use an app in multiple projects, and you can distribute apps, because they don't have to be tied to a given Django installation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django アプリケーションは「プラガブル (pluggable)」です。アプリケーショ ンは特定の Django インストールに結び付いていないので、アプリケーションを複数のプロジェクトで使ったり、単体で配布したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now Django knows to include the ``polls`` app. Let's run another command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで Django は ``polls`` アプリケーションが含まれていると知りました。もうひとつコマンドを実行しましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note the following:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下に注意してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Primary keys (IDs) are added automatically. (You can override this, too.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>主キー (primary key, ID) は自動的に追加されます (この挙動もオーバライド可能です)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>By convention, Django appends ``"_id"`` to the foreign key field name. (Yes, you can override this, as well.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>便宜上、 Django は外部キーのフィールド名に ``"_id"`` を追加します。もちろんこの挙動もオーバライド可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Playing with the API</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>API で遊んでみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now, let's hop into the interactive Python shell and play around with the free API Django gives you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さぁ、 Python 対話シェルを起動して、 Django が提供する API で遊んでみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To invoke the Python shell, use this command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python シェルを起動するには、以下のコマンドを実行します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We're using this instead of simply typing "python", because :file:`manage.py` sets the ``DJANGO_SETTINGS_MODULE`` environment variable, which gives Django the Python import path to your :file:`mysite/settings.py` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単に “python” を実行しないのは、 Django に :file:`mysite/settings.py` ファイルへの import パスを与える ``DJANGO_SETTINGS_MODULE`` の環境変数を :file:`manage.py` で設定しているからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Bypassing manage.py</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>manage.py を使わずに済ませる方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Once you're in the shell, explore the :doc:`database API &lt;/topics/db/queries&gt;`::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シェルに入ったら :doc:`データベース API &lt;/topics/db/queries&gt;` の世界を探検してみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note the addition of ``import datetime`` and ``from django.utils import timezone``, to reference Python's standard :mod:`datetime` module and Django's time-zone-related utilities in :mod:`django.utils.timezone`, respectively.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``import datetime`` と ``from django.utils import timezone`` で Python の 標準モジュール :mod:`datetime` と Django のタイムゾーン関連ユーティリティの :mod:`django.utils.timezone` を参照していることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you aren't familiar with time zone handling in Python, you can learn more in the :doc:`time zone support docs &lt;/topics/i18n/timezones&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python でのタイムゾーンの取り扱いに不慣れな場合は、 `タイムゾーンサポートドキュメント &lt;/topics/i18n/timezones&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Save these changes and start a new Python interactive shell by running ``python manage.py shell`` again::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更を保存して、もう一度 ``python manage.py shell`` を実行して新しい Python 対話シェルを始めましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For more information on model relations, see :doc:`Accessing related objects &lt;/ref/models/relations&gt;`. For more on how to use double underscores to perform field lookups via the API, see :ref:`Field lookups &lt;field-lookups-intro&gt;`. For full details on the database API, see our :doc:`Database API reference &lt;/topics/db/queries&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルのリレーションについては :doc:`リレーション先オブジェクトにアクセスする &lt;/ref/models/relations&gt;` を参照してください。 API を通じた、フィールドルックアップのためのダブルアンダースコアの使い方は :ref:`フィールドルックアップ &lt;field-lookups-intro&gt;` を参照してください。データーベース API の詳細は :doc:`データベース API リファレンス &lt;/topics/db/queries&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When you're comfortable with the API, read :doc:`part 2 of this tutorial &lt;/intro/tutorial02&gt;` to get Django's automatic admin working.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>API を使いこなせるようになったら、 :doc:`チュートリアルその2 &lt;/intro/tutorial02&gt;` に進んで、 Django が自動生成する管理インタフェースを動かしてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial begins where :doc:`Tutorial 1 &lt;/intro/tutorial01&gt;` left off. We're continuing the Web-poll application and will focus on Django's automatically-generated admin site.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアルその 1 &lt;/intro/tutorial01&gt;` の続きです。ここでは、引続き Web 投票アプリケーションの開発を例にして、Django が 自動生成する admin サイトを中心に解説します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Generating admin sites for your staff or clients to add, change and delete content is tedious work that doesn't require much creativity. For that reason, Django entirely automates creation of admin interfaces for models.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンテンツの追加や変更、削除を行うためのスタッフや顧客向けの管サイト 構築は、創造性の欠けた退屈なものです。そこで、 Django ではモデルを管 理するためのインタフェース生成を完全に自動化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django was written in a newsroom environment, with a very clear separation between "content publishers" and the "public" site. Site managers use the system to add news stories, events, sports scores, etc., and that content is displayed on the public site. Django solves the problem of creating a unified interface for site administrators to edit content.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django はニュースルーム環境で開発されました。ニュースルーム環境では、 「コンテンツの作成者 (content publisher)」と「公開 (public) 」サイトをきわめて明確に区別しています。サイト管理者は新たな話題やイベント、 スポーツのスコアなどの入力にシステムを使い、コンテンツは公開用サイト上で表示されます。 Django は、サイト管理者向けの一元化されたコンテンツ編集インタフェースを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The admin isn't intended to be used by site visitors. It's for site managers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin はサイトの訪問者でなく、サイト管理者に使われることを意図しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Start the development server</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発サーバーの起動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Recall from Tutorial 1 that you start the development server like so:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チュートリアルその 1 で、開発サーバを以下のように起動したのを思い出してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now, open a Web browser and go to "/admin/" on your local domain -- e.g., http://127.0.0.1:8000/admin/. You should see the admin's login screen:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はブラウザを起動して、ローカルドメインの “/admin/” 、つまり http://127.0.0.1:8000/admin/ にアクセスします。以下のような admin のログイ ン画面が表示されるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Doesn't match what you see?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自分のレイアウトと違う場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If at this point, instead of the above login page, you get an error page reporting something like::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もしこの時点で、上のログイン画面の代わりに以下のようなエラーの画面が表示された場合は:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>then you're probably using a version of Django that doesn't match this tutorial version. You'll want to either switch to the older tutorial or the newer Django version.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おそらくこのチュートリアルのバージョンとは違う Django のバージョンを 使用していることでしょう。古いチュートリアルを参照するか、新しいバージョンの Django を入手してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Enter the admin site</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin サイトに入る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Make the poll app modifiable in the admin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Poll アプリを admin 上で編集できるようにする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>But where's our poll app? It's not displayed on the admin index page.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ところで、 polls アプリはどこにあるんでしょう？ admin のインデクスページを見ても表示されていませんね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Explore the free admin functionality</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin の機能を探究してみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Things to note here:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の点に注意してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The different model field types (:class:`~django.db.models.DateTimeField`, :class:`~django.db.models.CharField`) correspond to the appropriate HTML input widget. Each type of field knows how to display itself in the Django admin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルのフィールドの型 (:class:`~django.db.models.DateTimeField` 、 :class:`~django.db.models.CharField` など) によって適切な HTML 入力ウィジェッ トが対応しています。各種のフィールドには Django 管理サイトでデー タを表示する方法が定義されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Each :class:`~django.db.models.DateTimeField` gets free JavaScript shortcuts.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各 :class:`~django.db.models.DateTimeField` は JavaScript ショートカットがついています。日付 (dates) のカラムには「今日 (today)」 へのショートカットとカレンダーポップアップボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Dates get a "Today" shortcut and calendar popup, and times get a "Now" shortcut and a convenient popup that lists commonly entered times.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>時刻 (times) には「現在 (now)」へのショートカットと、よく入力される時刻のリストを表示するポップアップボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The bottom part of the page gives you a couple of options:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ページの末尾の部分には操作ボタンがいくつか表示されています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Save -- Saves changes and returns to the change-list page for this type of object.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存 (Save) – 変更を保存して、このモデルのチェンジリストのページに戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Save and continue editing -- Saves changes and reloads the admin page for this object.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存して編集を続ける (Save and continue editing) – 変更を保存して、このオブジェクトの編集ページをリロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Save and add another -- Saves changes and loads a new, blank form for this type of object.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存してもう一つ追加 (Save and add another) – 変更を保存して、このモデルのオブジェクトを新規追加するための空の編集ページをロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Delete -- Displays a delete confirmation page.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>削除 (Delete) – 削除確認ページを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Change the "Date published" by clicking the "Today" and "Now" shortcuts. Then click "Save and continue editing." Then click "History" in the upper right. You'll see a page listing all changes made to this object via the Django admin, with the timestamp and username of the person who made the change:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「今日」や「現在」ショートカットをクリックして、「Date published」を変更してみましょう。変更したら、「保存して編集を続ける」を押します。次に、右上に ある「履歴 (History)」をクリックしてみましょう。ユーザが管理サイト上でオブジェクトに対して行った変更履歴の全てを、変更時刻と変更を行ったユーザ名付きでリストにしたページが表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customize the admin form</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin フォームのカスタマイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You'll follow this pattern -- create a model admin object, then pass it as the second argument to ``admin.site.register()`` -- any time you need to change the admin options for an object.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように、 admin のオプションを変更したいときには、モデルごとに admin オブジェクトを生成して、 ``admin.site.register()`` の 2 番目の引数に渡すと いうパターンに従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This particular change above makes the "Publication date" come before the "Question" field:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の例では、「Publication date」フィールドの表示位置を「Question」フィールドよりも前に変更しています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This isn't impressive with only two fields, but for admin forms with dozens of fields, choosing an intuitive order is an important usability detail.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二つしかフィールドがないので、あまりぱっとした変化ではありませんね。しかし admin フォームで何ダースものフィールドを操作するような場合には、直感的なフィー ルドの並び順というものはユーザビリティ上重要な要素です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Adding related objects</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リレーションを張ったオブジェクトの追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Yet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今はまだ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now "Choices" is an available option in the Django admin. The "Add choice" form looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、 Django の管理サイト上で「Choice」 を選べます。「Choice の追加」フォーム は以下のようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>It works like this: There are three slots for related Choices -- as specified by ``extra`` -- and each time you come back to the "Change" page for an already-created object, you get another three extra slots.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変わった点をみてみましょう。リレーション相手である ``Choice`` を表示するために 3 つのスロットがあります (``extra`` に指定した数ですね)。また、作成済みのオブジェクトを「編集する」ページに行けば、いつでも 3 つ余分のスロットが表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>At the end of the three current slots you will find an "Add another Choice" link.  If you click on it, a new slot will be added. If you want to remove the added slot, you can click on the X to the top right of the added slot. Note that you can't remove the original three slots. This image shows an added slot:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現状ある3つのスロットの末尾に、「他の Choice を追加する (Add another Choice)」リンクがあります。クリックすると、新しいプロットが追加されます。追加されたスロットを削除したい場合は、追加されたスロット右上の 'X' をクリックしてください。最初からある 3 つのスロットを削除できないことに注意してください。この画像は追加されたスロットのみで有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>With that ``TabularInline`` (instead of ``StackedInline``), the related objects are displayed in a more compact, table-based format:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``StackedInline`` に変わって ``TabularInline`` を使うと、 リレーション相手のオブジェクトはよりコンパクトなテーブル形式で表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that there is an extra "Delete?" column that allows removing rows added using the "Add Another Choice" button and rows that have already been saved.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>追加の "Delete?" カラムがあることに注意してください。 "Added Another Choice" ボタンで追加された行とすでに保存された行を削除するためにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customize the admin change list</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>管理サイトのチェンジリストページをカスタマイズする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Here's what it looks like at this point:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは以下のようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You can click on the column headers to sort by those values -- except in the case of the ``was_published_recently`` header, because sorting by the output of an arbitrary method is not supported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カラムのヘッダをクリックすると、カラムの値に応じてエントリを並べ換えできます。ただし ``was_published_recently`` ヘッダは例外で、これはメソッドの戻り値を 使った並べ換えをサポートしていないからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Also note that the column header for ``was_published_recently`` is, by default, the name of the method (with underscores replaced with spaces), and that each line contains the string representation of the output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``was_published_recently`` のカラムヘッダのデフォルト値がメソッドの名前になっている (アンダースコアは空白に置き換わっている)こと、各行が戻り値の文字列となっていることにも注意して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That adds a "Filter" sidebar that lets people filter the change list by the ``pub_date`` field:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、「フィルタ (Filter)」サイドバーができ、チェンジリストを ``pub_date`` フィールドの値に従ってフィルタできるようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The type of filter displayed depends on the type of field you're filtering on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表示されるフィルタのタイプは、フィルタに使うフィールドのタイプによって変わります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Because ``pub_date`` is a :class:`~django.db.models.DateTimeField`, Django knows to give appropriate filter options: "Any date," "Today," "Past 7 days," "This month," "This year."</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``pub_date`` は :class:`~django.db.models.DateTimeField` なので、 Django はデフォルトのフィルタのオプションとして 「すべての日 (Any date)」、「今日 (Today)」、「過去 7 日間 (Past 7 days)」、 「今月 (This month)」そして「今年 (This year)」を与えればよいと考えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This is shaping up well. Let's add some search capability::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>細工は隆々ですね。今度は検索機能を追加してみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customize the admin look and feel</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>管理サイトのルック &amp; フィールをカスタマイズする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Clearly, having "Django administration" at the top of each admin page is ridiculous. It's just placeholder text.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>管理サイトの上部には「Django 管理 (Django adminstration)」と表示されていますが、これはいささか滑稽ですね。これは単なるプレースホルダテキストにすぎません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That's easy to change, though, using Django's template system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更するのは簡単で、 Django のテンプレートシステムを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The Django admin is powered by Django itself, and its interfaces use Django's own template system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django の管理サイトは、それ自身 Django で作られているので、インタフェースは Django のテンプレートシステムを使っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customizing your *project's* templates</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*プロジェクト* テンプレートをカスタムする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you have difficulty finding where the Django source files are located on your system, run the following command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のソースファイルがシステム中のどこにあるのか分からない場合は、以下のコマンドを実行してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This template file contains lots of text like ``{% block branding %}`` and ``{{ title }}``. The ``{%`` and ``{{`` tags are part of Django's template language. When Django renders ``admin/base_site.html``, this template language will be evaluated to produce the final HTML page. Don't worry if you can't make any sense of the template right now -- we'll delve into Django's templating language in Tutorial 3.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このテンプレートファイルは "{% block branding %}" や "{{ title }}" のようなテキストを多く含んでいます。 "{%" と "{{" タグは Django のテンプレート言語の一部です。Djangoが "admin/base_site.html" をレンダリングする場合このテンプレート言語が実行され、最終的なHTMLページが出力されます。今テンプレートについて何もわからなくても心配しないでください。チュートリアル3で Django のテンプレート言語について掘り下げていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that any of Django's default admin templates can be overridden. To override a template, just do the same thing you did with ``base_site.html`` -- copy it from the default directory into your custom directory, and make changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django のデフォルトの admin 用テンプレートは上書き可能です。上書きするには、ただ ``base_site.html`` にしたことと同じことをしてください。デフォルトのディレクトリからカスタム用のディレクトリにコピーして、変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customizing your *application's* templates</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*アプリケーション用の* テンプレートをカスタマイズする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Our poll application is not very complex and doesn't need custom admin templates. But if it grew more sophisticated and required modification of Django's standard admin templates for some of its functionality, it would be more sensible to modify the *application's* templates, rather than those in the *project*. That way, you could include the polls application in any new project and be assured that it would find the custom templates it needed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投票アプリケーションはそれほど複雑ではないので、カスタムのアドミンテンプレートは必要ないでしょう。しかしより凝ったものに成長したり、機能のため標準の admin テンプレートの変更は必要となった場合、 *アプリケーションの* テンプレートを編集するのは、 *プロジェクト* のそれを編集するより賢い選択になるでしょう。それにより、投票アプリケーションを他のどの新しいプロジェクトに追加できます。そのアプリが必要としているカスタムテンプレートを見つけることも見つけることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customize the admin index page</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin index ページをカスタムする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>On a similar note, you might want to customize the look and feel of the Django admin index page.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>近い話題として、 Django の admin index ページのルックアンドフィールをカスタマイズもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>By default, it displays all the apps in :setting:`INSTALLED_APPS` that have been registered with the admin application, in alphabetical order. You may want to make significant changes to the layout. After all, the index is probably the most important page of the admin, and it should be easy to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、 :settings:`INSTALLED_APPS` の全てのアプリを表示します。つまり admin アプリケーションに登録されたアプリケーションを、アルファベット順に表示されるということです。レイアウトに何か重要な変更をしたいかも知れません。なんといっても index ページは admin のなかで最も重要なページで、使いやすくあるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The template to customize is ``admin/index.html``. (Do the same as with ``admin/base_site.html`` in the previous section -- copy it from the default directory to your custom template directory.) Edit the file, and you'll see it uses a template variable called ``app_list``. That variable contains every installed Django app. Instead of using that, you can hard-code links to object-specific admin pages in whatever way you think is best. Again, don't worry if you can't understand the template language -- we'll cover that in more detail in Tutorial 3.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタマイズ対象のテンプレートは "admin/index.html" です。 (前セクションで "admin/base_site.html" にしたことと同じことをしてください。デフォルトのディレクトリからコピーして、カスタムテンプレートのディレクトリに配置してください)。編集してみると "app_list" というテンプレート変数が使われているのが見えるでしょう。この変数はインストールされた全 Django アプリを含んでいます。ベストだと思うなら、これを使う代わりに、オブジェクト固有の管理ページヘのリンクをハードコードをしてもよいです。しつこいようですが、テンプレート言語の理解できなくても心配しないでください。より詳細にはチュートリアル3でカバーされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When you're comfortable with the admin site, read :doc:`part 3 of this tutorial &lt;/intro/tutorial03&gt;` to start working on public poll views.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>admin サイトが満足すれば、 :doc:`チュートリアルその3 &lt;/intro/tutorial03&gt;` に進んで、公開用の投票ビューを作りましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 3</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial begins where :doc:`Tutorial 2 &lt;/intro/tutorial02&gt;` left off. We're continuing the Web-poll application and will focus on creating the public interface -- "views."</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアルその 2 &lt;/intro/tutorial02&gt;` の続きです。ここでは、引続き Web 投票アプリケーションの開発を例にして、公開用のインタフェース、ビュー(view) の作成を焦点に解説します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A view is a "type" of Web page in your Django application that generally serves a specific function and has a specific template. For example, in a blog application, you might have the following views:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビューとは、 Django のアプリケーションにおいて特定の機能を提供するウェブペー ジの「型 (type)」であり、各々のテンプレートを持っています。例えばブログアプリケーションなら、以下のようなビューがあるでしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Blog homepage -- displays the latest few entries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Blog ホームページ - 最新エントリーをいくつか表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Entry "detail" page -- permalink page for a single entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エントリー詳細ページ - 1エントリーへのパーマリンク (permalink) ページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Year-based archive page -- displays all months with entries in the given year.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>年ごとのアーカイブページ - 指定された年のエントリーの月を全て表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Month-based archive page -- displays all days with entries in the given month.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>月ごとのアーカイブページ - 指定された月のエントリーの日をすべて表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Day-based archive page -- displays all entries in the given day.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>日ごとのアーカイブページ - 指定された日の全てのエントリーを表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Comment action -- handles posting comments to a given entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コメント投稿 - エントリーに対するコメントの投稿を受付</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In our poll application, we'll have the following four views:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投票アプリケーションでは、以下4つのビューを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Question "index" page -- displays the latest few questions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>質問 "インデックス" ページ -- 最新の質問をいくつか表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Question "detail" page -- displays a question text, with no results but with a form to vote.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>質問 "詳細" ページ -- 結果を表示せず、質問テキストと投票フォームを表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Question "results" page -- displays results for a particular question.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>質問 "結果" ページ -- 特定の質問の結果を表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Vote action -- handles voting for a particular choice in a particular question.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投票ページ -- 特定の質問の選択を投票として受付</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In Django, web pages and other content are delivered by views. Each view is represented by a simple Python function (or method, in the case of class-based views). Django will choose a view by examining the URL that's requested (to be precise, the part of the URL after the domain name).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django へだ、各ページとコンテンツはビューによって提供されます。各ビューは単純に Python 関数 (クラスベースビューの場合はメソッド) として実装されています。 Django はビューを、リクエストされたURLから決定します (正確には、URLのドメイン移行の部分)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now in your time on the web you may have come across such beauties as "ME2/Sites/dirmod.asp?sid=&amp;type=gen&amp;mod=Core+Pages&amp;gid=A6CD4967199A42D9B65B1B".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インターネットサーフィンをしてるときなどに、 "ME2/Sites/dirmod.asp?sid=&amp;type=gen&amp;mod=Core+Pages&amp;gid=A6CD4967199A42D9B65B1B" のような美しいURLを見かけることがあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>You will be pleased to know that Django allows us much more elegant *URL patterns* than that.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django はこんなものよりもっとエレガントな "URLパターン" を提供していると知っておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A URL pattern is simply the general form of a URL - for example: ``/newsarchive/&lt;year&gt;/&lt;month&gt;/``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLパターンはURLをシンプルに一般化したものです。例えば "/newsarchive/&lt;year&gt;/&lt;month&gt;/" などです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To get from a URL to a view, Django uses what are known as 'URLconfs'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLからビューには、 Django は 'URLconfs' として知られているものを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A URLconf maps URL patterns (described as regular expressions) to views.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLconf は (正規表現で表される) URLパターンとビューを対応付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial provides basic instruction in the use of URLconfs, and you can refer to :mod:`django.core.urlresolvers` for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルでは基本的な URLconf の使い方を紹介します。詳細については :mod:`django.core.urlresolvers` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Write your first view</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめてのビュー作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's write the first view.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初のビューを書いてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Open the file ``polls/views.py`` and put the following Python code in it:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``polls/views.py`` を開いて、以下の Python コードを書いてください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This is the simplest view possible in Django.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django上で最も単純なビューです。ビューを呼ぶために、 URL を対応付けしてやる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To call the view, we need to map it to a URL - and for this we need a URLconf.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLconf が必要ですね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>To create a URLconf in the polls directory, create a file called ``urls.py``. Your app directory should now look like::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>polls ディレクトリに URLconf を作るには ``urls.py`` というファイルを作ります。アプリのディレクトリはこのようになっているはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In the ``polls/urls.py`` file include the following code:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``polls/urls.py`` ファイルには以下のコードを書いてください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The next step is to point the root URLconf at the ``polls.urls`` module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のステップはルート URLconf に ``polls.urls`` モジュールを指定することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>In ``mysite/urls.py`` insert an :func:`~django.conf.urls.include`, leaving you with:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``mysite/urls.py`` に :func:`~django.conf.urls.include` を以下のように追加してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The :func:`~django.conf.urls.url` function is passed four arguments, two required: ``regex`` and ``view``, and two optional: ``kwargs``, and ``name``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.url` 関数は4つの引数を受け取り、そのうち2つが必須です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>At this point, it's worth reviewing what these arguments are for.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``regex`` と ``view`` 、オプションで ``kwargs`` と ``name`` です。ここで引数が何のためにあるものかを見ておきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:func:`~django.conf.urls.url` argument: regex</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.url` 引数: regex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The term "regex" is a commonly used short form meaning "regular expression", which is a syntax for matching patterns in strings, or in this case, url patterns.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>"regex" という単語は省略形で、一般的に "regular expression" という意味があります。これは文字列にマッチするパターンの構文で、この場合はURLパターンにあたります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django starts at the first regular expression and makes its way down the list,  comparing the requested URL against each regular expression until it finds one that matches.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django ははじめの正規表現から開始し、リストを順に下に見ていきます。リクエストされたURLと各正規表現を、マッチするものが見つかるまで比較します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Note that these regular expressions do not search GET and POST parameters, or the domain name. For example, in a request to ``http://www.example.com/myapp/``, the URLconf will look for ``myapp/``. In a request to ``http://www.example.com/myapp/?page=3``, the URLconf will also look for ``myapp/``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの正規表現は GET, POST のパラメータや、ドメイン名からは検索しません。例えば ``http://www.example.com/myapp/`` へのリクエストでは、 URLconf は ``myapp/`` を見ます。 ``http://www.example.com/myapp/?page=3`` の場も同じく、 URLconf は ``myapp/`` を見ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>If you need help with regular expressions, see `Wikipedia's entry`_ and the documentation of the :mod:`re` module. Also, the O'Reilly book "Mastering Regular Expressions" by Jeffrey Friedl is fantastic. In practice, however, you don't need to be an expert on regular expressions, as you really only need to know how to capture simple patterns. In fact, complex regexes can have poor lookup performance, so you probably shouldn't rely on the full power of regexes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正規表現についてわからないことがあれば `Wikipediaのエントリー`_ と :mod:`re` モジュールのドキュメントを参照してください。オライリーから出版されている Jeffery Friendl の "Mastering Reglar Expressions" も参考になります。しかし実際問題としては、正規表現のエキスパートになる必要はありません。単純なパターンをキャプチャする方法を知っていれば十分です。それに複雑な正規表現はルックアップのパフォーマンスが悪いので、正規表現のフルパワーに依存するのはよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Finally, a performance note: these regular expressions are compiled the first time the URLconf module is loaded. They're super fast (as long as the lookups aren't too complex as noted above).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パフォーマンスノート: 正規表現は URLconf モジュールが読み込まれた最初にコンパイルされるので、高速に動作します (先ほど述べたように複雑すぎない場合)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:func:`~django.conf.urls.url` argument: view</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.url` 引数: view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When Django finds a regular expression match, Django calls the specified view function, with an :class:`~django.http.HttpRequest` object as the first argument and any “captured” values from the regular expression as other arguments. If the regex uses simple captures, values are passed as positional arguments; if it uses named captures, values are passed as keyword arguments. We'll give an example of this in a bit.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django がマッチする正規表現を見つけると、 Django は所定のビュー関数を呼び出します。その際は :class:`~django.http.HttpRequest` オブジェクトを第一引数に、その他、正規表現から「キャプチャされた」値を他の引数に関数を呼び出します。正規表現が単純にキャプチャをしている場合は位置引数として、名前付きでキャプチャしている場合はキーワード引数として呼び出します。少し例を提示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:func:`~django.conf.urls.url` argument: kwargs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.url` 引数: kwargs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Arbitrary keyword arguments can be passed in a dictionary to the target view. We aren't going to use this feature of Django in the tutorial.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>任意のキーワード引数を辞書として対象のビューに渡せます。この機能はチュートリアルでは使いません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>:func:`~django.conf.urls.url` argument: name</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.url` 引数: name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Naming your URL lets you refer to it unambiguously from elsewhere in Django especially templates. This powerful feature allows you to make  global changes to the url patterns of your project while only touching a single file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URL に名前付けをしておけば Django のどこからでも明確に参照できます。とくにテンプレートで有効です。この便利な機能のおかげで、プロジェクトのURLにグローバルな変更を加える場合にも1つのファイルを変更するだけで済むようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing more views</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もっとビューを書いてみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now let's add a few more views to ``polls/views.py``. These views are slightly different, because they take an argument:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それではもう少しviewを``polls/vies.py``に追加していきましょう。これから追加するviewでは引数をとります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Wire these new views into the ``polls.urls`` module by adding the following :func:`~django.conf.urls.url` calls:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいviewを``polls.urls``に追加します。:func:`~django.conf.urls.url` 呼び出すview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Take a look in your browser, at "/polls/34/". It'll run the ``detail()`` method and display whatever ID you provide in the URL. Try "/polls/34/results/" and "/polls/34/vote/" too -- these will display the placeholder results and voting pages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>お使いのブラウザで、 "/polls/34/" を見てください。 ``detail()`` メソッドが実行され、URLで提供したIDが表示されます。"/polls/34/results/" と "/polls/34/vote/" も試してください。結果と投票ページのプレースホルダがそれぞれ表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>When somebody requests a page from your Web site -- say, "/polls/34/", Django will load the ``mysite.urls`` Python module because it's pointed to by the :setting:`ROOT_URLCONF` setting. It finds the variable named ``urlpatterns`` and traverses the regular expressions in order. The :func:`~django.conf.urls.include` functions we are using simply reference other URLconfs. Note that the regular expressions for the :func:`~django.conf.urls.include` functions don't have a ``$`` (end-of-string match character) but rather a trailing slash. Whenever Django encounters :func:`~django.conf.urls.include`, it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>誰かがWebサイトの "/polls/34/" をリクエストすると、 Django は :setting:`ROOT_URLCONF` に指定されている、 Python モジュール ``mysite.urls`` をロードします。そのモジュール内の ``urlpatterns`` という変数を探し、その中に入っている正規表現を順に検査してゆきます。:func:`~django.conf.urls.include` 関数は、単に他の URLconf の参照に使用します。 :func:`~django.conf.urls.include` 関数の正規表現は、 ``$``(終端マッチ文字) ではなく、スラッシュがあることに注意してください。 Django は func:`~django.conf.urls.include` を 見つけたとき、マッチした URL 一部を区切って、さらなる処理のために、インクルードした URLconf に残りの部分を送ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The idea behind :func:`~django.conf.urls.include` is to make it easy to plug-and-play URLs. Since polls are in their own URLconf (``polls/urls.py``), they can be placed under "/polls/", or under "/fun_polls/", or under "/content/polls/", or any other path root, and the app will still work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`~django.conf.urls.include` の背景にある考えは、 URL のプラグ &amp; プレイを簡単に作ることです。 polls には独自の URLconf (``polls/urls.py``) を持っているので、 "/polls/" 、 "/fun_polls/" や、 "/content/polls/" といった、どんなパスルート下にも置けて、どこに置いてもきちんと動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Here's what happens if a user goes to "/polls/34/" in this system:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このシステムでユーザが "/polls/34/" にアクセスすると、次のように処 理されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Django will find the match at ``'^polls/'``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django は ``'^polls/'`` へのマッチを検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Then, Django will strip off the matching text (``"polls/"``) and send the remaining text -- ``"34/"`` -- to the 'polls.urls' URLconf for further processing which matches ``r'^(?P&lt;question_id&gt;[0-9]+)/$'`` resulting in a call to the ``detail()`` view like so::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django はマッチ部分のテキスト (``"polls/"``) を取り去り、残りのテキスト ``"34/"`` を 'polls.urls' という URLconf に送り、``r'^(?P&lt;question_id&gt;[0-9]+)/$'`` にマッチする処理をさらに行い、``detail()`` ビューが呼ばれます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The ``question_id='34'`` part comes from ``(?P&lt;question_id&gt;[0-9]+)``. Using parentheses around a pattern "captures" the text matched by that pattern and sends it as an argument to the view function; ``?P&lt;question_id&gt;`` defines the name that will be used to identify the matched pattern; and ``[0-9]+`` is a regular expression to match a sequence of digits (i.e., a number).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``question_id='34'`` の部分は、 ``(?P&lt;question_id&gt;[0-9]+)`` から来ています。パターンの前後に括弧を使用すると、そのパターンにマッチしたテキストを "キャプチャ" し、ビュー関数の引数として、それを送信します。 ``?P&lt;question_id&gt;`` はマッチしたパターンを識別するために使用する名前を定義します。 ``[0-9]+`` は一桁以上の数字(すなわち、数)にマッチする正規表現です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Because the URL patterns are regular expressions, there really is no limit on what you can do with them. And there's no need to add URL cruft such as ``.html`` -- unless you want to, in which case you can do something like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URL パターンは正規表現であるため、正規表現で実現できる限り制限はありません。また、 ``.html`` のような文字列を URL に追加する必要もありません。ただし、次のようにすれば、表現できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>But, don't do that. It's silly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>とはいえ、こんな阿呆なことはやめましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Write views that actually do something</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際に動作するビューを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Each view is responsible for doing one of two things: returning an :class:`~django.http.HttpResponse` object containing the content for the requested page, or raising an exception such as :exc:`~django.http.Http404`. The rest is up to you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ビューには二つの役割があります: 一つはリクエストされたページのコ ンテンツを含む :class:`~django.http.HttpResponse` オブジェクトを返すこと、もう一つは :exc:`~django.http.Http404` のような例外の送出です。それ以外の処理はユーザ次第です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Your view can read records from a database, or not. It can use a template system such as Django's -- or a third-party Python template system -- or not. It can generate a PDF file, output XML, create a ZIP file on the fly, anything you want, using whatever Python libraries you want.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビューはデータベースからレコードを読みだしても、読み出さなくてもかまいません。 Django のテンプレートシステム、あるいはサードパーティの Python テンプ レートシステムを使ってもよいですし、使わなくてもかまいません。 PDF ファイルを生成しても、 XML を出力しても、 ZIP ファイルをその場で生成してもかまいません。 Python ライブラリを使ってやりたいことを何でも実現できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>All Django wants is that :class:`~django.http.HttpResponse`. Or an exception.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Django にとって必要なのは :class:`~django.http.HttpResponse` か、あるいは例外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 4</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その 4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial begins where :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;` left off. We're continuing the Web-poll application and will focus on simple form processing and cutting down our code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアルその 3 &lt;/intro/tutorial03&gt;` の続きです。ここでは、引続き Web 投票アプリケーションの開発を例にして、簡単なフォー ム処理とコードの縮小化を中心に解説します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Write a simple form</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>簡単なフォームを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Let's update our poll detail template ("polls/detail.html") from the last tutorial, so that the template contains an HTML ``&lt;form&gt;`` element:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでは、前回のチュートリアルで作成した投票詳細テンプレート ("polls/detail.html") を更新して、HTML の ``&lt;form&gt;`` 要素を入れましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>A quick rundown:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>簡単に説明:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>The above template displays a radio button for each question choice. The ``value`` of each radio button is the associated question choice's ID. The ``name`` of each radio button is ``"choice"``. That means, when somebody selects one of the radio buttons and submits the form, it'll send the POST data ``choice=#`` where # is the ID of the selected choice. This is the basic concept of HTML forms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上のテンプレートは、各質問の選択肢のラジオボタンが表示されます。各ラジオボタンの ``value`` は、関連する質問の選択肢のIDです。各ラジオボタンの ``name`` は ``"choice"`` です。投票者がラジオボタンの1つを選択し、フォームを送信する場合には、POSTデータ ``choice=#`` を送信します。＃の場所には選択肢のIDが入ります。これは、HTMLフォームの基本的な概念です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We set the form's ``action`` to ``{% url 'polls:vote' question.id %}``, and we set ``method="post"``. Using ``method="post"`` (as opposed to ``method="get"``) is very important, because the act of submitting this form will alter data server-side. Whenever you create a form that alters data server-side, use ``method="post"``. This tip isn't specific to Django; it's just good Web development practice.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フォームの ``action`` を ``{% url 'polls:vote' question.id %}`` に設定し、 さらに、 ``method="post"`` を設定します。``method="post"`` を使用する (``method="get"`` ではなく) ことは非常に重要です。なぜなら、フォームの送信はサーバ側のデータの更新につながるからです。サーバ側のデータを更新するフォームを作成する場合は、 ``method="post"`` を使いましょう。これは、 Django 固有のものではなく、いわば Web 開発の王道です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>``forloop.counter`` indicates how many times the :ttag:`for` tag has gone through its loop</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``forloop.counter`` は、ttag:`for` タグのループが何度実行されたかを表す値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Since we're creating a POST form (which can have the effect of modifying data), we need to worry about Cross Site Request Forgeries. Thankfully, you don't have to worry too hard, because Django comes with a very easy-to-use system for protecting against it. In short, all POST forms that are targeted at internal URLs should use the :ttag:`{% csrf_token %}&lt;csrf_token&gt;` template tag.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>POST フォーム(データを改ざんされる恐れのある) を作成しているので、クロス サイトリクエストフォージェリを心配する必要があります。ありがたいことに、 Django がこれに対応するとても使いやすい仕組みを提供してくれているので、あまり心配する必要はありません。手短に言うと、全ての自サイトへの  POST フォームに、 :ttag:`{% csrf_token %}&lt;csrf_token&gt;` テンプレートタグを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Now, let's create a Django view that handles the submitted data and does something with it. Remember, in :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`, we created a URLconf for the polls application that includes this line:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>送信されたデータを処理するための Django のビューを作成しましょう。:doc:`チュートリアルその 3 &lt;/intro/tutorial03&gt;` で、以下のような投票アプリケーションの URLconf を作成したことを思い出しましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>We also created a dummy implementation of the ``vote()`` function. Let's create a real version. Add the following to ``polls/views.py``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでに、 ``vote()`` 関数のダミー実装を作成しました。今度は、本物を実装しましょう。以下を ``polls/views.py`` に追加してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This code includes a few things we haven't covered yet in this tutorial:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコードには、これまでのチュートリアルで扱っていなかったことがいくつか入っています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 5</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial begins where :doc:`Tutorial 4 &lt;/intro/tutorial04&gt;` left off. We've built a Web-poll application, and we'll now create some automated tests for it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアル 4 &lt;/intro/tutorial04&gt;` の続きです。Web 投票アプリケーションが完成したので、今度は自動テストを作ってみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Introducing automated testing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自動テストの導入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>What are automated tests?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自動テストとは何ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Tests are simple routines that check the operation of your code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストとは単純なプログラムで、あなたのコードの動作を確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>What's different in *automated* tests is that the testing work is done for you by the system. You create a set of tests once, and then as you make changes to your app, you can check that your code still works as you originally intended, without having to perform time consuming manual testing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*自動* テストが他と異なる点は、テスト作業がシステムによって実行されることです。一度テストセットを作成すると、それからはアプリに変更を加えるたびに、あなたの意図した通りにコードが動作するか確認できます。手動でテストする時間がかかることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Why you need to create tests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なぜテストを作成せねばならないのか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>So why create tests, and why now?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どうしてテストを作るのか？また、なぜ今なのか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Tests will save you time</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストはあなたの時間を節約します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Up to a certain point, 'checking that it seems to work' will be a satisfactory test. In a more sophisticated application, you might have dozens of complex interactions between components.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ある一定の基準まで、'動くであろうことを確認すること'が十分なテストでしょう。高機能なアプリケーションでは、コンポーネント間で複雑な連携が数多くあるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Basic testing strategies</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基本的なテスト方針</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Writing your first Django app, part 6</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめての Django アプリ作成、その 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>This tutorial begins where :doc:`Tutorial 5 &lt;/intro/tutorial05&gt;` left off. We've built a tested Web-poll application, and we'll now add a stylesheet and an image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルは :doc:`チュートリアル 5 &lt;/intro/tutorial05&gt;` の続きです。Web 投票アプリケーションのテストが完成したので、今度はスタイルシートや画像を追加しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Aside from the HTML generated by the server, web applications generally need to serve additional files — such as images, JavaScript, or CSS — necessary to render the complete web page. In Django, we refer to these files as "static files".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバで生成するHTML以外に、Webアプリケーションは一般的に完全なWebページをレンダリングするために、画像、JavaScript、CSSなど必要なファイルを提供する必要があります。Djangoでは、これらのファイルを "静的ファイル" と呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>For small projects, this isn't a big deal, because you can just keep the static files somewhere your web server can find it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>小さなプロジェクトではこのことは大きな問題になりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>However, in bigger projects -- especially those comprised of multiple apps -- dealing with the multiple sets of static files provided by each application starts to get tricky.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Web サーバが見つけられる場所で静的ファイルを単に管理することができるからです。しかし、もっと大きな プロジェクトで、特に複数のアプリケーションからなる場合は、各アプリケーションが 持っている静的ファイルの集まりを複数扱うことになり、ややこしくなってきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>That's what ``django.contrib.staticfiles`` is for: it collects static files from each of your applications (and any other places you specify) into a single location that can easily be served in production.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``django.contrib.staticfiles`` はまさにそのためにあります。これは静的なファイ ルを各アプリケーションから (さらに指定した別の場所からも) 一つの場所に集め、運用環境で公開しやすくするものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Customize your *app's* look and feel</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*アプリ* の構造をカスタマイズする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>First, create a directory called ``static`` in your ``polls`` directory. Django will look for static files there, similarly to how Django finds templates inside ``polls/templates/``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、 ``polls`` ディレクトリの中に、 ``static`` ディレクトリを作成します。Django はそこから静的ファイルを探します。Django が ``polls/templates/`` からテンプレートを探す方法と同様です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Static file namespacing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>静的ファイルの名前空間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Put the following code in that stylesheet (``polls/static/polls/style.css``):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタイルシートに次のコードを配置します (``polls/static/polls/style.css``):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-us">
+        <seg>Next, add the following at the top of ``polls/templates/polls/index.html``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、``polls/templates/polls/index.html`` の上部に追加します:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
