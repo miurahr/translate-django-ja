@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A good way to do this is to write your new tests first, before making any changes to the code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233855Z" creationid="miurahr" creationdate="20150811T233855Z">
+        <seg>れをするには､コードに変更を加える前に先にテストを書くのが良いでしょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A public site that lets people view polls and vote in them.</seg>
       </tuv>
       <tuv lang="JA">
@@ -178,6 +186,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>簡単に説明:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A regression test should be written in such a way that it will fail while the bug still exists and pass once the bug has been fixed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233815Z" creationid="miurahr" creationdate="20150811T233815Z">
+        <seg>レグレッションテストは､バグが存在しているときに落ちるように書き､バグが修正された後にパスするように書かれるべきです｡</seg>
       </tuv>
     </tu>
     <tu>
@@ -246,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After all, a regression test that passes regardless of whether a bug is present is not very helpful at preventing that bug from reoccurring down the road.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233924Z" creationid="miurahr" creationdate="20150811T233924Z">
+        <seg>ともかく､バグが存在していようとも通るテストは将来バグが再発するのを防ぐのに､何の役にもたちません｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After all, the index is probably the most important page of the admin, and it should be easy to use.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020555Z" creationid="miurahr" creationdate="20150809T020555Z">
@@ -282,6 +306,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014713Z" creationid="miurahr" creationdate="20150809T014713Z">
         <seg>パッチをアップロードしたりプルリクエストを送信したあとは、チケットのメタデータから "has patch" フラグを設定してください。"doesn't need tests" や、その他のメタデータはレビューのためにあります。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After writing your tests, you then run them to make sure that they do indeed fail (since you haven't fixed that bug or added that feature yet).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233905Z" creationid="miurahr" creationdate="20150811T233905Z">
+        <seg>テストを書いた後には､テストを走らせて確かに落ちることを確認します (バグ修正や昨日の追加はまだしてないので落ちます)｡ </seg>
       </tuv>
     </tu>
     <tu>
@@ -982,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For bug fix patches, this means writing a regression test to ensure that the bug is never reintroduced into Django later on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233808Z" creationid="miurahr" creationdate="20150811T233808Z">
+        <seg>リグレッションテストを書くことで､ Django にバグを再混入していないと後に保証できます｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if a user requested the URL "/articles/2005/05/39323/", Django would call the function ``news.views.article_detail(request, '2005', '05', '39323')``.</seg>
       </tuv>
       <tuv lang="JA">
@@ -1010,6 +1050,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052750Z" creationid="miurahr" creationdate="20150808T052750Z">
         <seg>```versionadded``関係の完全な説明を含め、ドキュメントの書き方についてもっと知りたい場合は :doc:`/internals/contributing/writing-documentation` を参照してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For patches containing new features, you'll need to include tests which ensure that the new features are working correctly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233821Z" creationid="miurahr" creationdate="20150811T233821Z">
+        <seg>新機能を含むパッチでは､その新機能が正しく動作すると保証するためにテストが必要です｡</seg>
       </tuv>
     </tu>
     <tu>
@@ -1050,6 +1098,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233304Z" creationid="miurahr" creationdate="20150811T233304Z">
         <seg>このチュートリアルは、少なくとも Django がどのように動作しているかの基本的な理解があることを想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this tutorial, we'll be using ticket :ticket:`17549` as a case study, so we'll rewind Django's version history in git to before that ticket's patch was applied.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233702Z" creationid="miurahr" creationdate="20150811T233637Z">
+        <seg>このチュートリアルでは、ケーススタディとして :ticket:`17549` を用います。そのために、まず Django のバージョンをパッチが適用される前の git のバージョンに戻します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1494,6 +1550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your new tests don't fail, you'll need to fix them so that they do.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233913Z" creationid="miurahr" creationdate="20150811T233913Z">
+        <seg>新しいテストが落ちない場合は落ちるよう修正しましょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Django, we refer to these files as "static files".</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021613Z" creationid="miurahr" creationdate="20150809T021613Z">
@@ -1530,6 +1594,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021842Z" creationid="miurahr" creationdate="20150809T021842Z">
         <seg>それに複雑な正規表現はルックアップのパフォーマンスが悪いので、正規表現のフルパワーに依存するのはよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In most cases, for a patch to be accepted into Django it has to include tests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233759Z" creationid="miurahr" creationdate="20150811T233759Z">
+        <seg>大抵の場合､ Django にアクセプトされるパッチはテストを含んでいます｡</seg>
       </tuv>
     </tu>
     <tu>
@@ -3006,6 +3078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They too should fail when the new feature is not present, and then pass once it has been implemented.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233825Z" creationid="miurahr" creationdate="20150811T233825Z">
+        <seg>その際も同じように､新機能が無い際には落ち､実装されてから通るテストを書くべきです｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They're super fast (as long as the lookups aren't too complex as noted above).</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021908Z" creationid="miurahr" creationdate="20150809T021908Z">
@@ -3158,6 +3238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This style of development is called `test-driven development`__ and can be applied to both entire projects and single patches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233902Z" creationid="miurahr" creationdate="20150811T233902Z">
+        <seg>この開発手法は `テスト駆動開発`__ と呼ばれ､プロジェクト全体にも単一のパッチにも適応可能です｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This tells Django what type of data each field holds.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015853Z" creationid="miurahr" creationdate="20150809T015853Z">
@@ -3194,6 +3282,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>このチュートリアルでは基本的な URLconf の使い方を紹介します。詳細については :mod:`django.core.urlresolvers` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will allow us to go through all of the steps involved in writing that patch from scratch, including running Django's test suite.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233711Z" creationid="miurahr" creationdate="20150811T233711Z">
+        <seg>これによりスクラッチからパッチの作成、 Django のテストスイートの実行を含む全ての手順を解説します。</seg>
       </tuv>
     </tu>
     <tu>
