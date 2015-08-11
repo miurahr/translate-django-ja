@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, releases of third-party packages are less likely to be compatible with the development version than with the latest stable release.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235647Z" creationid="miurahr" creationdate="20150811T235647Z">
+        <seg>また、サードパーティパッケージの公開版は、最新の安定版の互換性に比べれば、開発版とも互換性が下がってしまうでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also, the O'Reilly book "Mastering Regular Expressions" by Jeffrey Friedl is fantastic.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021817Z" creationid="miurahr" creationdate="20150809T021817Z">
@@ -378,6 +386,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>データベースなしで Django を使うこともできますが、 Django には Python コードでデータベースのレイアウトを記述した `オブジェクトリレーショナルマッパー`_ (object-relational mapper) が付属しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always refer to the documentation that corresponds to the version of Django you're using!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235719Z" creationid="miurahr" creationdate="20150811T235719Z">
+        <seg>常に、使っているDjangoのバージョンに関する文書を参照するようにしてください！</seg>
       </tuv>
     </tu>
     <tu>
