@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add the following code on line 269 right before the ``AdminFileWidgetTest`` class::</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233122Z" creationid="miurahr" creationdate="20150811T233122Z">
+        <seg>次のコードを２６９行の ``AdminFileWidgetTest`` クラスの直前に追加してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add the following on line 925 of ``django/docs/ref/models/fields.txt`` beneath the existing docs for ``URLField``::</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052528Z" creationid="miurahr" creationdate="20150808T052528Z">
@@ -1026,6 +1034,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>このチュートリアルや､各チケットで作業する際は､ SQLite のテストで十分です｡しかし可能 (か必要な場合は) :ref:`他のデータベースでテストを実行する &lt;running-unit-tests-settings&gt;` を参照してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this tutorial, we expect that you have at least a basic understanding of how Django works.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233304Z" creationid="miurahr" creationdate="20150811T233304Z">
+        <seg>このチュートリアルは、少なくとも Django がどのように動作しているかの基本的な理解があることを想定しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1882,6 +1898,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014405Z" creationid="miurahr" creationdate="20150809T014405Z">
         <seg>Django のルートディレクトリ (このディレクトリには ``django``, ``docs``, ``tests``, ``AUTHORS``, 等が含まれています) へ移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Navigate to Django's ``tests/regressiontests/admin_widgets/`` folder and open the ``tests.py`` file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233047Z" creationid="miurahr" creationdate="20150811T233047Z">
+        <seg>Djangoの ``tests/regressiontests/admin_widgets/``フォルダーに移動して、 ``tests.py`` ファイルを開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3058,6 +3082,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045049Z" creationid="miurahr" creationdate="20150808T045049Z">
         <seg>最初は気が重いかもしれませんが、実際はとても簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means you should be comfortable going through the existing tutorials on :doc:`writing your first Django app&lt;/intro/tutorial01&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233314Z" creationid="miurahr" creationdate="20150811T233314Z">
+        <seg>つまりチュートリアル :doc:`初めての Django アプリ&lt;/intro/tutorial01&gt;` を十分に理解していることを想定しています。</seg>
       </tuv>
     </tu>
     <tu>
