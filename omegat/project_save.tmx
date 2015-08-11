@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A good first look at writing tests for Django can be found in the documentation on :doc:`/topics/testing/overview`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234117Z" creationid="miurahr" creationdate="20150811T234117Z">
+        <seg>Djangoのテストを書くために最初に見るべきものは、:doc:`/topics/testing/overview`にある文書です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good way to do this is to write your new tests first, before making any changes to the code.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233855Z" creationid="miurahr" creationdate="20150811T233855Z">
@@ -978,6 +986,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021856Z" creationid="miurahr" creationdate="20150809T021856Z">
         <seg>パフォーマンスノート: 正規表現は URLconf モジュールが読み込まれた最初にコンパイルされるので、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Find the ``AdminURLFieldWidget`` class on line 302 and add the following ``render`` method after the existing ``__init__`` method::</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234230Z" creationid="miurahr" creationdate="20150811T234230Z">
+        <seg>302行目にある ``AdminURLFieldWidget`` クラスを見つけて､以下の ``render`` メソッドをすでにある ``__init__`` メソッドの下に追加してください::</seg>
       </tuv>
     </tu>
     <tu>
@@ -2014,10 +2030,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Navigate to the ``django/django/contrib/admin/`` folder and open the ``widgets.py`` file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234215Z" creationid="miurahr" creationdate="20150811T234215Z">
+        <seg>``django/django/contrib/admin`` フォルダーに行って､ ``widgets.py`` ファイルを開いてください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New to Django?</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014739Z" creationid="miurahr" creationdate="20150809T014739Z">
         <seg>Django は初めてですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next we'll be adding the functionality described in ticket :ticket:`17549` to Django.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234148Z" creationid="miurahr" creationdate="20150811T234148Z">
+        <seg>次は :ticket:`17549` で説明されている機能を Django に追加します｡</seg>
       </tuv>
     </tu>
     <tu>
@@ -3314,6 +3346,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>このチュートリアルでは、簡単な投票 (poll) アプリケーションの作成に取り組ん でもらいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ticket :ticket:`17549` describes the following, small feature addition:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T233954Z" creationid="miurahr" creationdate="20150811T233954Z">
+        <seg>チケット :ticket:`17549` は以下の軽微な機能追加をするものです:</seg>
       </tuv>
     </tu>
     <tu>
