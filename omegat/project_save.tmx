@@ -1086,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generally, a view retrieves data according to the parameters, loads a template and renders the template with the retrieved data.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T232844Z" creationid="miurahr" creationdate="20150811T232844Z">
+        <seg>naGenerally, a view retrieves data according to the parameters, loads a template and renders the template with the retrieved data.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generating a patch file for your changes.</seg>
       </tuv>
       <tuv lang="JA">
