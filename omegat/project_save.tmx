@@ -1222,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Get the latest version of Python at https://www.python.org/download/ or with your operating system's package manager.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235046Z" creationid="miurahr" creationdate="20150811T235046Z">
+        <seg>Pythonの最新版は https://www.python.org/download/ から入手できますし、利用中のOSのパッケージ管理ソフトから入れることもできるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Getting a copy of Django's development version</seg>
       </tuv>
       <tuv lang="JA">
@@ -2418,6 +2426,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>コードはドキュメントルートの外､例えば ``/home/mycode`` の ような場所に置きましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python includes a lightweight database called SQLite_ so you won't need to set up a database just yet.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234927Z" creationid="miurahr" creationdate="20150811T234927Z">
+        <seg>Pythonは軽量なデータベースであるSQLite_  を備えていますので、データベースをいますぐに設定する必要がありません。</seg>
       </tuv>
     </tu>
     <tu>
