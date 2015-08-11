@@ -470,6 +470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Being a Python Web framework, Django requires Python.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234757Z" creationid="miurahr" creationdate="20150811T234757Z">
+        <seg>PythonのWebフレームワークであるため、DjangoにはPythonが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Blog homepage -- displays the latest few entries.</seg>
       </tuv>
       <tuv lang="JA">
@@ -1338,6 +1346,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052336Z" creationid="miurahr" creationdate="20150808T052336Z">
         <seg>もしそうでない場合､ ``AdminURLFieldWidgt`` クラスと新しいテストが正しくコピーされているされていると確認してください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that's not quite your style, there are many other `books about Python`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234704Z" creationid="miurahr" creationdate="20150811T234704Z">
+        <seg>その方法が肌に合わない場合は、他にも `books about Python`_があります。</seg>
       </tuv>
     </tu>
     <tu>
