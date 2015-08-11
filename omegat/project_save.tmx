@@ -1374,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you already know a few other languages and want to get up to speed with Python quickly, we recommend `Dive Into Python`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T234323Z" creationid="miurahr" creationdate="20150811T234323Z">
+        <seg>すでに他の言語を既に知っていて、Pythonを素早く理解したい場合は、 `Dive Into Python`_を推薦します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are upgrading your installation of Django from a previous version, you will need to :ref:`uninstall the old Django version before installing the new version &lt;removing-old-versions-of-django&gt;`.</seg>
       </tuv>
       <tuv lang="JA">
