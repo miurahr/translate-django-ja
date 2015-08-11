@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>:ref:`Install an official release &lt;installing-official-release&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235252Z" creationid="miurahr" creationdate="20150811T235146Z">
+        <seg>:ref:`正式リリースのインストール&lt;installing-official-release&gt;`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:ref:`Install the latest development version &lt;installing-development-version&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235248Z" creationid="miurahr" creationdate="20150811T235248Z">
+        <seg>:ref:`最新の開発版のインストール&lt;installing-development-version&gt;`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A :class:`~django.db.models.Field` can also have various optional arguments; in this case, we've set the :attr:`~django.db.models.Field.default` value of ``votes`` to 0.</seg>
       </tuv>
       <tuv lang="JA">
@@ -3246,6 +3262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the best approach for most users.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235224Z" creationid="miurahr" creationdate="20150811T235224Z">
+        <seg>これが、ほとんどのユーザにとって最適な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is the quickest option for those who have operating systems that distribute Django.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014938Z" creationid="miurahr" creationdate="20150809T014938Z">
@@ -3274,6 +3298,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233314Z" creationid="miurahr" creationdate="20150811T233314Z">
         <seg>つまりチュートリアル :doc:`初めての Django アプリ&lt;/intro/tutorial01&gt;` を十分に理解していることを想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option is for enthusiasts who want the latest-and-greatest features and aren't afraid of running brand new code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235356Z" creationid="miurahr" creationdate="20150811T235356Z">
+        <seg>最新最高の機能が使いたくて、最新コードの実行に不安のない愛好家なら、こちらの方法です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4050,6 +4082,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020550Z" creationid="miurahr" creationdate="20150809T020550Z">
         <seg>レイアウトに何か重要な変更をしたいかも知れません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You might encounter new bugs in the development version, but reporting them helps the development of Django.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150811T235442Z" creationid="miurahr" creationdate="20150811T235442Z">
+        <seg>そのかわり、開発版では新規バグに当たることもあるでしょうが、報告することで、Djangoの開発を応援することにつながります。</seg>
       </tuv>
     </tu>
     <tu>
