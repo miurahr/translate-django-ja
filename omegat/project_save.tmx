@@ -2926,6 +2926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The :doc:`data-model syntax &lt;/topics/db/models&gt;` offers many rich ways of representing your models -- so far, it's been solving many years' worth of database-schema problems.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T000053Z" creationid="miurahr" creationdate="20150812T000053Z">
+        <seg>:doc:`データモデルの文法 &lt;/topics/db/models&gt;` は、豊富なモデルの表現方法を提供し、これまでのところ、長年にわたるデータベース・スキーマの問題を解決してくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Django admin site is activated by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T025012Z" creationid="miurahr" creationdate="20150809T025012Z">
