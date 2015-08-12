@@ -1294,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here's a quick example:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T000119Z" creationid="miurahr" creationdate="20150812T000119Z">
+        <seg>これは簡単な例です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's an informal overview of how to write a database-driven Web app with Django.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015108Z" creationid="miurahr" creationdate="20150809T015108Z">
@@ -2922,6 +2930,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020142Z" creationid="miurahr" creationdate="20150809T020142Z">
         <seg>「Choice の追加」フォーム は以下のようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The :djadmin:`migrate` command looks at all your available models and creates tables in your database for whichever tables don't already exist, as well as optionally providing :doc:`much richer schema control &lt;/topics/migrations&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T000401Z" creationid="miurahr" creationdate="20150812T000401Z">
+        <seg>:djadmin:`migrate`コマンドは、定義されている全てのモデルを調べて、必要とあらばデータベースにテーブルを作成し、さらには :doc:`much richer schema control &lt;/topics/migrations&gt;`を提供もしてくれます。</seg>
       </tuv>
     </tu>
     <tu>
