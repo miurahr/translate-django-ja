@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The API is created on the fly, no code generation necessary:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T000418Z" creationid="miurahr" creationdate="20150812T000418Z">
+        <seg>API はオンザフライで生成され、コードを作 成する必要はありません:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Django admin site is activated by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T025012Z" creationid="miurahr" creationdate="20150809T025012Z">
@@ -3898,6 +3906,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>``StackedInline`` に変わって ``TabularInline`` を使うと、 リレーション相手のオブジェクトはよりコンパクトなテーブル形式で表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With that, you've got a free, and rich, :doc:`Python API &lt;/topics/db/queries&gt;` to access your data.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T000413Z" creationid="miurahr" creationdate="20150812T000413Z">
+        <seg>これだけで、制約のない充実した :doc:`Python API &lt;/topics/db/queries&gt;` を使っ て自分のデータにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
