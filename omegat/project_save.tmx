@@ -1382,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a template doesn't exist in the first directory, it checks the second, and so on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T001642Z" creationid="miurahr" creationdate="20150812T001642Z">
+        <seg>最初のディレクトリにテンプレートが見つからなければ、２番目、３番目と見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If all of the tests passed, then you'll want to make sure that you added the new test shown above to the appropriate folder and class.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052103Z" creationid="miurahr" creationdate="20150808T052103Z">
@@ -3238,6 +3246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They also can do dictionary-key lookup, index lookup and function calls.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T001856Z" creationid="miurahr" creationdate="20150812T001856Z">
+        <seg>辞書のキー参照や、インデックス参照、関数呼び出しにも使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They too should fail when the new feature is not present, and then pass once it has been implemented.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233825Z" creationid="miurahr" creationdate="20150811T233825Z">
@@ -3618,6 +3634,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>自分のパッケージを使ってみる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variables are surrounded by double-curly braces.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T001737Z" creationid="miurahr" creationdate="20150812T001737Z">
+        <seg>変数は、二重鉤括弧で囲みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4322,6 +4346,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045859Z" creationid="miurahr" creationdate="20150808T045859Z">
         <seg>``virtualenv`` が自動的に Django を ``PYTHONPATH`` 上に追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``{{ article.headline }}`` means "Output the value of the article's headline attribute." But dots aren't used only for attribute lookup.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T001831Z" creationid="miurahr" creationdate="20150812T001831Z">
+        <seg>``{{ article.headline }}`` は、「articleのheadline属性を出力せよ」という意味になります。しかし、ドットは属性参照に限らず使われます。</seg>
       </tuv>
     </tu>
     <tu>
