@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, the date filter formats a Python datetime object in the given format (as found in PHP's date function).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T002010Z" creationid="miurahr" creationdate="20150812T002010Z">
+        <seg>この例では、フィルタによって Python の datetime オブジェクトを指定の形式にフォーマットしています (PHP の date 関数に似ていますね) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In your Django settings, you specify a list of directories to check for templates with :setting:`DIRS &lt;TEMPLATES-DIRS&gt;`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150812T001612Z" creationid="miurahr" creationdate="20150812T001612Z">
@@ -2170,6 +2178,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>次に、データベーステーブルを自動でつくる Django のコマンドラインユーティリティを実行します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note ``{{ article.pub_date|date:"F j, Y" }}`` uses a Unix-style "pipe" (the "|" character).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T001957Z" creationid="miurahr" creationdate="20150812T001943Z">
+        <seg>``{{ article.pub_date|date:"F j, Y" }}`` で、 Unix スタイルの「パイプ」 (文字 “|”) を使っていることに注意して下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3334,6 +3350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is called a template filter, and it's a way to filter the value of a variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T002003Z" creationid="miurahr" creationdate="20150812T002003Z">
+        <seg>これはテンプレートフィルターと呼ばれ、変数の値にフィルターをかけるためのものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is just the surface</seg>
       </tuv>
       <tuv lang="JA">
@@ -4134,6 +4158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can chain together as many filters as you'd like.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T002025Z" creationid="miurahr" creationdate="20150812T002025Z">
+        <seg>フィルターはいくつでも好きなだけ繋げることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can click on the column headers to sort by those values -- except in the case of the ``was_published_recently`` header, because sorting by the output of an arbitrary method is not supported.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020324Z" creationid="miurahr" creationdate="20150809T020324Z">
@@ -4162,6 +4194,22 @@
       </tuv>
       <tuv lang="JA">
         <seg>Python がインストールされてるかを確かめるには ``python`` とシェルでタイプします。このように表示されるはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can write :doc:`custom template tags &lt;/howto/custom-template-tags&gt;`, which run custom Python code behind the scenes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T002054Z" creationid="miurahr" creationdate="20150812T002054Z">
+        <seg>:doc:`カスタムテンプレートタグ&lt;/howto/custom-template-tags&gt;` を書くことも出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can write :ref:`custom template filters &lt;howto-writing-custom-template-filters&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150812T002042Z" creationid="miurahr" creationdate="20150812T002042Z">
+        <seg>また、独自の Python コードを実行する :ref:`カスタムテンプレートフィルタ &lt;howto-writing-custom-template-filters&gt;` や </seg>
       </tuv>
     </tu>
     <tu>
