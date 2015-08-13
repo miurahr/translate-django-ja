@@ -18,3 +18,5 @@ view	ビュー
 template	テンプレート
 double-curly brace	二重鉤括弧
 stability	安定性
+backwards-compatibility	後方互換姓
+Security	セキュリティ

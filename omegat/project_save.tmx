@@ -1038,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exceptions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054433Z" creationid="miurahr" creationdate="20150813T054433Z">
+        <seg>例外</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Explore the free admin functionality</seg>
       </tuv>
       <tuv lang="JA">
@@ -1702,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a nutshell, this means that code you develop against a 1.X version of Django will continue to work with future 1.X releases.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054225Z" creationid="miurahr" creationdate="20150813T054225Z">
+        <seg>簡単にいうと、これは、Django １．Xバージョンに対して開発したコードは、 将来の1.Xバージョンに対して、継続的に動作するということを意味しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a request to ``http://www.example.com/myapp/?page=3``, the URLconf will also look for ``myapp/``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021751Z" creationid="miurahr" creationdate="20150809T021751Z">
@@ -1722,6 +1738,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021842Z" creationid="miurahr" creationdate="20150809T021842Z">
         <seg>それに複雑な正規表現はルックアップのパフォーマンスが悪いので、正規表現のフルパワーに依存するのはよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, everything covered in the documentation -- with the exception of anything in the :doc:`internals area &lt;/internals/index&gt;` is considered stable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054429Z" creationid="miurahr" creationdate="20150813T054429Z">
+        <seg>一般的に言って、:doc:`internals area &lt;/internals/index&gt;` を除いて、ドキュメントに記載されているものは全て、安定であると考えられます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2718,6 +2742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Security fixes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054532Z" creationid="miurahr" creationdate="20150813T054532Z">
+        <seg>セキュリティ修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See :doc:`/howto/jython` for details.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014910Z" creationid="miurahr" creationdate="20150809T014910Z">
@@ -2842,6 +2874,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T050341Z" creationid="miurahr" creationdate="20150808T050341Z">
         <seg>具体的な範囲は以下の通りです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stable APIs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054249Z" creationid="miurahr" creationdate="20150813T054249Z">
+        <seg>安定なAPI</seg>
       </tuv>
     </tu>
     <tu>
@@ -4445,5 +4485,15 @@
       </tuv>
     </tu>
 <!-- Alternative translations -->
+    <tu>
+      <prop type="file">for_translation_django-docs_misc_ja.po</prop>
+      <prop type="path"></prop>
+      <tuv lang="EN-US">
+        <seg>There are a few exceptions to this stability and backwards-compatibility promise.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T054516Z" creationid="miurahr" creationdate="20150813T054516Z">
+        <seg>この安定性と広報互換性には、例外があります。</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
