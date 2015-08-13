@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>:doc:`The release of Django 1.0 &lt;/releases/1.0&gt;` comes with a promise of API stability and forwards-compatibility.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T053337Z" creationid="miurahr" creationdate="20150813T053337Z">
+        <seg>:doc:`Django１．０リリース &lt;/releases/1.0&gt;` は、API安定性と前方互換性の保証とともになされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>:func:`~django.conf.urls.url` argument: kwargs</seg>
       </tuv>
       <tuv lang="JA">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015213Z" creationid="miurahr" creationdate="20150809T015213Z">
         <seg>URLconf はいわばアプリケーションの目次にあたり、 URL のパターンを Python のコールバック関数に対応づけています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API stability</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150813T053250Z" creationid="miurahr" creationdate="20150813T053250Z">
+        <seg>API安定性</seg>
       </tuv>
     </tu>
     <tu>
@@ -2070,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Models</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>モデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Modifying the user libraries can affect other Python software on your system.</seg>
       </tuv>
       <tuv lang="JA">
@@ -3682,6 +3706,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>テストが通ることを確認する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Views</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ビュー</seg>
       </tuv>
     </tu>
     <tu>

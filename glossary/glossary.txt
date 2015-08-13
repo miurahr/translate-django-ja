@@ -17,3 +17,4 @@ metadata	メタデータ
 view	ビュー
 template	テンプレート
 double-curly brace	二重鉤括弧
+stability	安定性
