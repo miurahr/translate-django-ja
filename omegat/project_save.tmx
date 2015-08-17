@@ -1574,6 +1574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you haven't recently completed Tutorials 1â6, we encourage you to review these so that your example project matches the one described below.</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>ç´è¿ã®ãã¥ã¼ããªã¢ã« 1 - 6 ãçµãã£ã¦ããªããªããä¸ç®éããã¨ããããããã¾ããä¾ã§ä½ã£ããã­ã¸ã§ã¯ããä»¥ä¸ã®èª¬æã§ãä½¿ãããããã§ãã</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you haven't recently completed Tutorials 1–6, we encourage you to review these so that your example project matches the one described below.</seg>
       </tuv>
       <tuv lang="JA">
