@@ -950,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Django's creators have used this technique to create strikingly different mobile versions of sites -- simply by creating a new base template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T140328Z" creationid="miurahr" creationdate="20150817T140328Z">
+        <seg>Djangoの作者は、このテクニックをつかって、ほとんど見た目の違うようなモバイル版サイトを基テンプレートを新たに作るだけで、実現しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Django's entire test suite has over 4800 different tests, so it can take anywhere from 5 to 15 minutes to run, depending on the speed of your computer.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T051058Z" creationid="miurahr" creationdate="20150808T051058Z">
@@ -1974,6 +1982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It also lets you create multiple versions of a site, with different base templates, while reusing child templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T140207Z" creationid="miurahr" creationdate="20150817T140207Z">
+        <seg>複数の版のサイトをつくることも可能にしています。異なる基テンプレートを使い、子となるテンプレートを再利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can generate a PDF file, output XML, create a ZIP file on the fly, anything you want, using whatever Python libraries you want.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012122Z" creationid="miurahr" creationdate="20150809T012049Z">
@@ -2018,6 +2034,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014312Z" creationid="miurahr" creationdate="20150809T014312Z">
         <seg>Django に初めて協力する人たちへの良いアドバイスがあります｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It means "First load the template called 'base', which has defined a bunch of blocks, and fill the blocks with the following blocks." In short, that lets you dramatically cut down on redundancy in templates: each template has to define only what's unique to that template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135836Z" creationid="miurahr" creationdate="20150817T135836Z">
+        <seg>つまり、「最初に、多くのブロック定義がされている'base'というテンプレートをロードする。そして、残りのブロック定義が続くということ」。つまりは、動的にテンプレートの冗長性を省略できるということを意味しています：各々のテンプレートは、そのテンプレート特有の定義のみ行えばいいということです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2362,6 +2386,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020250Z" creationid="miurahr" creationdate="20150809T020250Z">
         <seg>最初からある 3 つのスロットを削除できないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that you don't have to use Django's template system if you prefer another system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T140341Z" creationid="miurahr" creationdate="20150817T140341Z">
+        <seg>Note that you don't have to use Django's template system if you prefer another system.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2912,6 +2944,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>データベースを設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simplistically, it defines the look-and-feel of the site (with the site's logo), and provides "holes" for child templates to fill.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T140019Z" creationid="miurahr" creationdate="20150817T140019Z">
+        <seg>ごくかいつまんで言うと、サイトの見た目を（サイトのロゴと共に）定義し、子になるテンプレートが提供する部分に「穴」開けておく、ということになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3600,6 +3640,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>二つしかフィールドがないので、あまりぱっとした変化ではありませんね。しかし admin フォームで何ダースものフィールドを操作するような場合には、直感的なフィー ルドの並び順というものはユーザビリティ上重要な要素です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This makes a site redesign as easy as changing a single file -- the base template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T140117Z" creationid="miurahr" creationdate="20150817T140117Z">
+        <seg>これにより、基となるテンプレートを一つ変更することで、サイト全体のデザイン変更ができるようにもなっています。</seg>
       </tuv>
     </tu>
     <tu>
