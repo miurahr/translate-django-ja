@@ -2118,6 +2118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many other things might go wrong with our application in the future, but we can be sure that we won't inadvertently reintroduce this bug, because simply running the test will warn us immediately.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T060432Z" creationid="miurahr" creationdate="20150817T060432Z">
+        <seg>Many other things might go wrong with our application in the future, but we can be sure that we won't inadvertently reintroduce this bug, because simply running the test will warn us immediately.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Maybe you've found a bug in Django that you'd like to see fixed, or maybe there's a small feature you want added.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150729T004512Z" creationid="miurahr" creationdate="20150729T004512Z">
@@ -2988,6 +2996,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tests don't just identify problems, they prevent them</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T060351Z" creationid="miurahr" creationdate="20150817T060351Z">
+        <seg>Tests don't just identify problems, they prevent them</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tests will save you time</seg>
       </tuv>
       <tuv lang="JA">
@@ -3840,6 +3856,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021946Z" creationid="miurahr" creationdate="20150809T021946Z">
         <seg>この機能はチュートリアルでは使いません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can consider this little portion of the application pinned down safely forever.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T060441Z" creationid="miurahr" creationdate="20150817T060441Z">
+        <seg>We can consider this little portion of the application pinned down safely forever.</seg>
       </tuv>
     </tu>
     <tu>
