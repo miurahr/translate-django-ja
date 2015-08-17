@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After all, our polls application is working quite happily now; going through the trouble of creating automated tests is not going to make it work any better.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T055234Z" creationid="miurahr" creationdate="20150817T055234Z">
+        <seg>After all, our polls application is working quite happily now; going through the trouble of creating automated tests is not going to make it work any better.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After all, the index is probably the most important page of the admin, and it should be easy to use.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020555Z" creationid="miurahr" creationdate="20150809T020555Z">
@@ -1402,6 +1410,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021621Z" creationid="miurahr" creationdate="20150809T021621Z">
         <seg>Web サーバが見つけられる場所で静的ファイルを単に管理することができるからです。しかし、もっと大きな プロジェクトで、特に複数のアプリケーションからなる場合は、各アプリケーションが 持っている静的ファイルの集まりを複数扱うことになり、ややこしくなってきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the task of writing tests is a lot more fulfilling than spending hours testing your application manually or trying to identify the cause of a newly-introduced problem.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T055324Z" creationid="miurahr" creationdate="20150817T055324Z">
+        <seg>However, the task of writing tests is a lot more fulfilling than spending hours testing your application manually or trying to identify the cause of a newly-introduced problem.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2542,6 +2558,36 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-07-26 02:09-0500
+PO-Revision-Date: 2015-07-27 09:59+0900
+Last-Translator: Hiroshi Miura &lt;miurahr@linux.com&gt;
+Language-Team: Japanese (http://www.transifex.com/projects/p/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;
+X-Generator: Poedit 1.5.4</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T055220Z" creationid="miurahr" creationdate="20150817T055220Z">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-07-26 02:09-0500
+PO-Revision-Date: 2015-07-27 09:59+0900
+Last-Translator: Hiroshi Miura &lt;miurahr@linux.com&gt;
+Language-Team: Japanese (http://www.transifex.com/projects/p/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;
+X-Generator: Poedit 1.5.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Projects vs. apps</seg>
       </tuv>
       <tuv lang="JA">
@@ -2874,6 +2920,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015801Z" creationid="miurahr" creationdate="20150809T015801Z">
         <seg>:class:`~django.db.models.Field` クラスの中には必須の引数を持つものがありま す。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes it may seem a chore to tear yourself away from your productive, creative programming work to face the unglamorous and unexciting business of writing tests, particularly when you know your code is working properly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T055244Z" creationid="miurahr" creationdate="20150817T055244Z">
+        <seg>Sometimes it may seem a chore to tear yourself away from your productive, creative programming work to face the unglamorous and unexciting business of writing tests, particularly when you know your code is working properly.</seg>
       </tuv>
     </tu>
     <tu>
