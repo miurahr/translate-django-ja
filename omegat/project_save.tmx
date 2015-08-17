@@ -886,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Django on Jython</seg>
+      </tuv>
+      <tuv lang="JA">
+        <seg>Django on Jython</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Django solves the problem of creating a unified interface for site administrators to edit content.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T023648Z" creationid="miurahr" creationdate="20150809T023648Z">
