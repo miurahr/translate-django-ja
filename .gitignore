@@ -4,6 +4,7 @@ credentials.properties
 /target/*
 /target/**/*
 /omegat/*.bak
+/omegat/ignored_words.txt
 /omegat/last_entry.properties
 /omegat/project_stat*txt
 /dictionary
