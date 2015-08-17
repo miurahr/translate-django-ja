@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And now we have three tests that confirm that ``Question.was_published_recently()`` returns sensible values for past, recent, and future questions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T134749Z" creationid="miurahr" creationdate="20150817T134749Z">
+        <seg>And now we have three tests that confirm that ``Question.was_published_recently()`` returns sensible values for past, recent, and future questions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And there's no need to add URL cruft such as ``.html`` -- unless you want to, in which case you can do something like this::</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022934Z" creationid="miurahr" creationdate="20150809T022934Z">
@@ -1078,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, Django uses the concept of "template inheritance".</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135438Z" creationid="miurahr" creationdate="20150817T135438Z">
+        <seg>さらには、Djangoは、"template inheritance"のコンセプトを利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finally, a performance note: these regular expressions are compiled the first time the URLconf module is loaded.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021856Z" creationid="miurahr" creationdate="20150809T021856Z">
@@ -1370,6 +1386,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015108Z" creationid="miurahr" creationdate="20150809T015108Z">
         <seg>ここでは Django による データベース中心の Web アプリケーション開発をざっと見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's what a URLconf might look like for the ``Reporter``/``Article`` example above:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135334Z" creationid="miurahr" creationdate="20150817T135334Z">
+        <seg>ここで、URLconfが上記の ``Reporter``/``Article``の例でどのようになるか見てみましょう：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2030,6 +2054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's as easy as registering your model in the admin site:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135257Z" creationid="miurahr" creationdate="20150817T135257Z">
+        <seg>管理サイトで、モデルの登録を行うのと同じくらいの簡単さです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's for site managers.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T023710Z" creationid="miurahr" creationdate="20150809T023710Z">
@@ -2498,6 +2530,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052354Z" creationid="miurahr" creationdate="20150808T052354Z">
         <seg>パッチとテストが正しく動作していることを確認できたら､ Django のテストをすべて走らせて､変更が Django の別の場所にバグを仕込んでいないか確認しましょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once your models are defined, Django can automatically create a professional, production ready :doc:`administrative interface &lt;/ref/contrib/admin/index&gt;` -- a Web site that lets authenticated users add, change and delete objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135131Z" creationid="miurahr" creationdate="20150817T135131Z">
+        <seg>モデルの定義ができたら、Djangoは、自動的にプロレベルの、商用利用可能な、許可されたユーザがオブジェクトの追加、変更、削除を行えるWebサイトである :doc:`管理インターフェース &lt;/ref/contrib/admin/index&gt;` を自動的に作成します。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -3128,6 +3168,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>``django.contrib.staticfiles`` はまさにそのためにあります。これは静的なファイ ルを各アプリケーションから (さらに指定した別の場所からも) 一つの場所に集め、運用環境で公開しやすくするものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That's what the ``{% extends "base.html" %}`` does.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150817T135529Z" creationid="miurahr" creationdate="20150817T135529Z">
+        <seg>``{% extends "base.html" %}``の部分が行っていることです。</seg>
       </tuv>
     </tu>
     <tu>
