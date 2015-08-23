@@ -2182,6 +2182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's start the development server and explore it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150823T140143Z" creationid="miurahr" creationdate="20150823T140143Z">
+        <seg>Let's start the development server and explore it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's update our poll detail template ("polls/detail.html") from the last tutorial, so that the template contains an HTML ``&lt;form&gt;`` element:</seg>
       </tuv>
       <tuv lang="JA">
@@ -2984,6 +2992,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022129Z" creationid="miurahr" creationdate="20150809T022129Z">
         <seg>polls には独自の URLconf (``polls/urls.py``) を持っているので、 "/polls/" 、 "/fun_polls/" や、 "/content/polls/" といった、どんなパスルート下にも置けて、どこに置いてもきちんと動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since we moved the ``polls`` directory out of the project, it's no longer working.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150823T140139Z" creationid="miurahr" creationdate="20150823T140139Z">
+        <seg>Since we moved the ``polls`` directory out of the project, it's no longer working.</seg>
       </tuv>
     </tu>
     <tu>
