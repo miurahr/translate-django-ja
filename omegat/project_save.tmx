@@ -1182,6 +1182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information on packaging, see Python's `Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150823T015054Z" creationid="miurahr" creationdate="20150823T015054Z">
+        <seg>For more information on packaging, see Python's `Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on writing documentation, including an explanation of what the ``versionadded`` bit is all about, see :doc:`/internals/contributing/writing-documentation`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052750Z" creationid="miurahr" creationdate="20150808T052750Z">
@@ -2350,6 +2358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the ``docs`` directory won't be included in your package unless you add some files to it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150823T014922Z" creationid="miurahr" creationdate="20150823T014922Z">
+        <seg>Note that the ``docs`` directory won't be included in your package unless you add some files to it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the latest Django trunk may not always be stable.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T051350Z" creationid="miurahr" creationdate="20150808T051350Z">
@@ -2634,6 +2650,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012721Z" creationid="miurahr" creationdate="20150809T012721Z">
         <seg> "easy picking" タグが付いたチケットを見つけてください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150823T015818Z" creationid="miurahr" creationdate="20150823T015818Z">
+        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
       </tuv>
     </tu>
     <tu>
