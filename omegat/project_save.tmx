@@ -2598,6 +2598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One small problem, though.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150824T001950Z" creationid="miurahr" creationdate="20150824T001950Z">
+        <seg>One small problem, though.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One typical workflow in creating Django apps is to create models and get the admin sites up and running as fast as possible, so your staff (or clients) can start populating data.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015157Z" creationid="miurahr" creationdate="20150809T015141Z">
