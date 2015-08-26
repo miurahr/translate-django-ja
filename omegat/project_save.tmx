@@ -4738,6 +4738,14 @@ X-Generator: Poedit 1.5.4</seg>
         <seg>おそらくこのチュートリアルのバージョンとは違う Django のバージョンを 使用していることでしょう。</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>é¨ã§ããããã¾ããã</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150826T225742Z" creationid="miurahr" creationdate="20150826T225742Z">
+        <seg>é¨ã§ããããã¾ããã</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
     <tu>
       <prop type="file">for_translation_django-docs_misc_ja.po</prop>
