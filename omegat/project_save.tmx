@@ -1182,14 +1182,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>For more information on packaging, see Python's `Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150823T015054Z" creationid="miurahr" creationdate="20150823T015054Z">
-        <seg>For more information on packaging, see Python's `Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>For more information on writing documentation, including an explanation of what the ``versionadded`` bit is all about, see :doc:`/internals/contributing/writing-documentation`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052750Z" creationid="miurahr" creationdate="20150808T052750Z">
@@ -2086,6 +2078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's a lot of work to design, build, test and maintain a web application.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150826T230621Z" creationid="miurahr" creationdate="20150826T230621Z">
+        <seg>It's a lot of work to design, build, test and maintain a web application.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's as easy as registering your model in the admin site:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T135257Z" creationid="miurahr" creationdate="20150817T135257Z">
@@ -2178,14 +2178,6 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015443Z" creationid="miurahr" creationdate="20150809T015443Z">
         <seg>さて、 ``news/year_archive.html`` が見つかったとしましょう。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Let's start the development server and explore it.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150823T140143Z" creationid="miurahr" creationdate="20150823T140143Z">
-        <seg>Let's start the development server and explore it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2362,14 +2354,6 @@
       </tuv>
       <tuv lang="JA">
         <seg>ユーザー単位でのインストールは依然、そのユーザーのシステムツールの振る舞いに影響をあたえます。なので ``virtualenv`` はより確実な解決になります (下記を参照してください) 。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Note that the ``docs`` directory won't be included in your package unless you add some files to it.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150823T014922Z" creationid="miurahr" creationdate="20150823T014922Z">
-        <seg>Note that the ``docs`` directory won't be included in your package unless you add some files to it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2598,14 +2582,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>One small problem, though.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150824T001950Z" creationid="miurahr" creationdate="20150824T001950Z">
-        <seg>One small problem, though.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>One typical workflow in creating Django apps is to create models and get the admin sites up and running as fast as possible, so your staff (or clients) can start populating data.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015157Z" creationid="miurahr" creationdate="20150809T015141Z">
@@ -2666,14 +2642,6 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012721Z" creationid="miurahr" creationdate="20150809T012721Z">
         <seg> "easy picking" タグが付いたチケットを見つけてください｡</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150823T015818Z" creationid="miurahr" creationdate="20150823T015818Z">
-        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3000,14 +2968,6 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022129Z" creationid="miurahr" creationdate="20150809T022129Z">
         <seg>polls には独自の URLconf (``polls/urls.py``) を持っているので、 "/polls/" 、 "/fun_polls/" や、 "/content/polls/" といった、どんなパスルート下にも置けて、どこに置いてもきちんと動作します。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Since we moved the ``polls`` directory out of the project, it's no longer working.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150823T140139Z" creationid="miurahr" creationdate="20150823T140139Z">
-        <seg>Since we moved the ``polls`` directory out of the project, it's no longer working.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4736,14 +4696,6 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015955Z" creationid="miurahr" creationdate="20150809T015955Z">
         <seg>おそらくこのチュートリアルのバージョンとは違う Django のバージョンを 使用していることでしょう。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>é¨ã§ããããã¾ããã</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150826T225742Z" creationid="miurahr" creationdate="20150826T225742Z">
-        <seg>é¨ã§ããããã¾ããã</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
