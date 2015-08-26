@@ -2078,14 +2078,6 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>It's a lot of work to design, build, test and maintain a web application.</seg>
-      </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150826T230621Z" creationid="miurahr" creationdate="20150826T230621Z">
-        <seg>It's a lot of work to design, build, test and maintain a web application.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>It's as easy as registering your model in the admin site:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T135257Z" creationid="miurahr" creationdate="20150817T135257Z">
