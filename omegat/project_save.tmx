@@ -182,6 +182,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Django *application* is just a Python package that is specifically intended for use in a Django project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073043Z" creationid="miurahr" creationdate="20150905T073043Z">
+        <seg>A Django *application* is just a Python package that is specifically intended for use in a Django project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Python `package &lt;https://docs.python.org/tutorial/modules.html#packages&gt;`_ provides a way of grouping related Python code for easy reuse.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072959Z" creationid="miurahr" creationdate="20150905T072959Z">
+        <seg>A Python `package &lt;https://docs.python.org/tutorial/modules.html#packages&gt;`_ provides a way of grouping related Python code for easy reuse.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A URL pattern is simply the general form of a URL - for example: ``/newsarchive/&lt;year&gt;/&lt;month&gt;/``.</seg>
       </tuv>
       <tuv lang="JA">
@@ -206,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A full explanation of this file is beyond the scope of this tutorial, but the `setuptools docs &lt;http://pythonhosted.org/setuptools/setuptools.html&gt;`_ have a good explanation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073517Z" creationid="miurahr" creationdate="20150905T073517Z">
+        <seg>A full explanation of this file is beyond the scope of this tutorial, but the `setuptools docs &lt;http://pythonhosted.org/setuptools/setuptools.html&gt;`_ have a good explanation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good first look at writing tests for Django can be found in the documentation on :doc:`/topics/testing/overview`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T234117Z" creationid="miurahr" creationdate="20150811T234117Z">
@@ -218,6 +242,22 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233855Z" creationid="miurahr" creationdate="20150811T233855Z">
         <seg>れをするには､コードに変更を加える前に先にテストを書くのが良いでしょう｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A package can be imported with ``import foo.bar`` or ``from foo import bar``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073016Z" creationid="miurahr" creationdate="20150905T073016Z">
+        <seg>パッケージは ``import foo.bar`` または ``from foo import bar`` でインポートできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A package contains one or more files of Python code (also known as "modules").</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073005Z" creationid="miurahr" creationdate="20150905T073005Z">
+        <seg>A package contains one or more files of Python code (also known as "modules").</seg>
       </tuv>
     </tu>
     <tu>
@@ -470,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An application may use common Django conventions, such as having ``models``, ``tests``, ``urls``, and ``views`` submodules.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073045Z" creationid="miurahr" creationdate="20150905T073045Z">
+        <seg>An application may use common Django conventions, such as having ``models``, ``tests``, ``urls``, and ``views`` submodules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And now we have three tests that confirm that ``Question.was_published_recently()`` returns sensible values for past, recent, and future questions.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T134749Z" creationid="miurahr" creationdate="20150817T134749Z">
@@ -482,6 +530,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022934Z" creationid="miurahr" creationdate="20150809T022934Z">
         <seg>また、 ``.html`` のような文字列を URL に追加する必要もありません。ただし、次のようにすれば、表現できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Application labels (that is, the final part of the dotted path to application packages) *must* be unique in :setting:`INSTALLED_APPS`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073446Z" creationid="miurahr" creationdate="20150905T073446Z">
+        <seg>Application labels (that is, the final part of the dotted path to application packages) *must* be unique in :setting:`INSTALLED_APPS`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -506,6 +562,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021604Z" creationid="miurahr" creationdate="20150809T021604Z">
         <seg>サーバで生成するHTML以外に、Webアプリケーションは一般的に完全なWebページをレンダリングするために、画像、JavaScript、CSSなど必要なファイルを提供する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Avoid using the same label as any of the Django :doc:`contrib packages &lt;/ref/contrib/index&gt;`, for example ``auth``, ``admin``, or ``messages``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073455Z" creationid="miurahr" creationdate="20150905T073455Z">
+        <seg>Avoid using the same label as any of the Django :doc:`contrib packages &lt;/ref/contrib/index&gt;`, for example ``auth``, ``admin``, or ``messages``.</seg>
       </tuv>
     </tu>
     <tu>
@@ -670,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Call this directory ``django-polls``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073406Z" creationid="miurahr" creationdate="20150905T073406Z">
+        <seg>``django-polls`` というディレクトリにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Change the "Date published" by clicking the "Today" and "Now" shortcuts.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012557Z" creationid="miurahr" creationdate="20150809T012557Z">
@@ -682,6 +754,30 @@
       </tuv>
       <tuv lang="JA">
         <seg>ポート番号の変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Check out `Django Packages &lt;https://www.djangopackages.com&gt;`_ for existing reusable apps you could incorporate in your project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072415Z" creationid="miurahr" creationdate="20150905T072102Z">
+        <seg>`Django Packages &lt;https://www.djangopackages.com&gt;`_ には、プロジェクトに組み込み可能な既存の再利用可能なアプリが揃っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choosing a license is beyond the scope of this tutorial, but suffice it to say that code released publicly without a license is *useless*.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073511Z" creationid="miurahr" creationdate="20150905T073511Z">
+        <seg>Choosing a license is beyond the scope of this tutorial, but suffice it to say that code released publicly without a license is *useless*.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choosing a name for your app</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073414Z" creationid="miurahr" creationdate="20150905T073414Z">
+        <seg>Choosing a name for your app</seg>
       </tuv>
     </tu>
     <tu>
@@ -734,10 +830,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a ``django-polls/LICENSE`` file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073556Z" creationid="miurahr" creationdate="20150905T073556Z">
+        <seg>``django-polls/LICENSE`` ファイルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a database schema (``CREATE TABLE`` statements) for this app.</seg>
       </tuv>
       <tuv lang="JA">
         <seg>アプリケーションのデータベーススキーマを作成 (``CREATE TABLE`` 文を実行) できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a file ``django-polls/README.rst`` with the following contents:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073509Z" creationid="miurahr" creationdate="20150905T073509Z">
+        <seg>Create a file ``django-polls/README.rst`` with the following contents:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a file ``django-polls/setup.py`` with the following contents:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073534Z" creationid="miurahr" creationdate="20150905T073534Z">
+        <seg>Create a file ``django-polls/setup.py`` with the following contents:</seg>
       </tuv>
     </tu>
     <tu>
@@ -886,6 +1006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Django and many Django-compatible apps are distributed under the BSD license; however, you're free to pick your own license.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073513Z" creationid="miurahr" creationdate="20150905T073513Z">
+        <seg>Django and many Django-compatible apps are distributed under the BSD license; however, you're free to pick your own license.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Django apps are "pluggable": You can use an app in multiple projects, and you can distribute apps, because they don't have to be tied to a given Django installation.</seg>
       </tuv>
       <tuv lang="JA">
@@ -922,6 +1050,22 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014808Z" creationid="miurahr" creationdate="20150809T014808Z">
         <seg>Django は 100% Python です。 ほんの最小限 Python を理解するだけで Django をより深く理解できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Django itself is also just a Python package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072442Z" creationid="miurahr" creationdate="20150905T072442Z">
+        <seg>Django 自身が、単なるPythonのパッケージでもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Django itself is packaged very much like this.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073354Z" creationid="miurahr" creationdate="20150905T073354Z">
+        <seg>Django 自体もこのようにパッケージ化されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1174,10 +1318,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First, create a parent directory for ``polls``, outside of your Django project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073403Z" creationid="miurahr" creationdate="20150905T073403Z">
+        <seg>はじめに、 ``polls`` の親ディレクトリを、 Django プロジェクトの外に作りましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First, open the ``polls/urls.py`` URLconf and change it like so:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021341Z" creationid="miurahr" creationdate="20150809T021341Z">
         <seg>まず、``polls/urls.py`` ファイルを開いてURLconf を次のように変更します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a directory (like ``polls``) to form a package, it must contain a special file ``__init__.py``, even if this file is empty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073023Z" creationid="miurahr" creationdate="20150905T073023Z">
+        <seg>パッケージ内のディレクトリ (例えば ``polls``) は ``__init__.py`` という特殊なファイルを、空のファイルでもいいので含む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a small app like polls, this process isn't too difficult.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073357Z" creationid="miurahr" creationdate="20150905T073357Z">
+        <seg>投票アプリのような小さなものでは、このプロセスはそれほど難しいものではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1254,6 +1422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For that, we need to package the app to make it easy for others to install.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073252Z" creationid="miurahr" creationdate="20150905T073252Z">
+        <seg>そのために、アプリをパッケージにして別の場所でインストールしやすいようにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the minimalists</seg>
       </tuv>
       <tuv lang="JA">
@@ -1290,6 +1466,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T233702Z" creationid="miurahr" creationdate="20150811T233637Z">
         <seg>このチュートリアルでは、ケーススタディとして :ticket:`17549` を用います。そのために、まず Django のバージョンをパッチが適用される前の git のバージョンに戻します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this tutorial, we're going to use setuptools_ to build our package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073259Z" creationid="miurahr" creationdate="20150905T073259Z">
+        <seg>For this tutorial, we're going to use setuptools_ to build our package.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1482,6 +1666,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>ここでよくある“base.html” テンプレートで、 :doc:`静的ファイルの配信 &lt;/howto/static-files/index&gt;` を含む例をあげます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How do you make this app reusable?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072901Z" creationid="miurahr" creationdate="20150905T072749Z">
+        <seg>どうやってそのアプリケーションを再利用可能にしますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1694,6 +1886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need help, you can refer to :ref:`how to install Django with pip&lt;installing-official-release&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073317Z" creationid="miurahr" creationdate="20150905T073317Z">
+        <seg>If you need help, you can refer to :ref:`how to install Django with pip&lt;installing-official-release&gt;`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you use Jython_ (a Python implementation for the Java platform), you'll need to follow a few additional steps.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014907Z" creationid="miurahr" creationdate="20150809T014907Z">
@@ -1846,6 +2046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`, we saw how we could decouple polls from the project-level URLconf using an ``include``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072930Z" creationid="miurahr" creationdate="20150905T072842Z">
+        <seg>:doc:`チュートリアル3 &lt;/intro/tutorial03&gt;` では、プロジェクトレベルの URLconf から ``include`` を使って、投票アプリを分離する方法をみました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Django, we refer to these files as "static files".</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021613Z" creationid="miurahr" creationdate="20150809T021613Z">
@@ -1954,6 +2162,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150812T002010Z" creationid="miurahr" creationdate="20150812T002010Z">
         <seg>この例では、フィルタによって Python の datetime オブジェクトを指定の形式にフォーマットしています (PHP の date 関数に似ていますね) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this tutorial, we'll take further steps to make the app easy to use in new projects and ready to publish for others to install and use.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072946Z" creationid="miurahr" creationdate="20150905T072946Z">
+        <seg>このチュートリアルではアプリケーションを新規のプロジェクトで使いやすいようにし、いつでも別の場所でインストール/利用できるようにしました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It can be a little confusing, we know.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073109Z" creationid="miurahr" creationdate="20150905T073101Z">
+        <seg>少し混乱するかもしれませんね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can generate a PDF file, output XML, create a ZIP file on the fly, anything you want, using whatever Python libraries you want.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012122Z" creationid="miurahr" creationdate="20150809T012049Z">
@@ -2122,6 +2346,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014312Z" creationid="miurahr" creationdate="20150809T014312Z">
         <seg>Django に初めて協力する人たちへの良いアドバイスがあります｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It makes the application self-contained and easier to drop into a new project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073224Z" creationid="miurahr" creationdate="20150905T073216Z">
+        <seg>アプリケーションが自己完結していて、新規のプロジェクトにも導入しやすくなっています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2206,10 +2438,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's not quite ready to be published though.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073246Z" creationid="miurahr" creationdate="20150905T073246Z">
+        <seg>しかし公開するための準備が完璧というわけではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's often useful to prepend ``django-`` to your module name when creating a package to distribute.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073437Z" creationid="miurahr" creationdate="20150905T073437Z">
+        <seg>Django アプリケーションのパッケージを作って配布する際には、モジュール名の先頭に ``django-`` を付けるのがよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's silly.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T023039Z" creationid="miurahr" creationdate="20150809T023000Z">
         <seg>ばかげています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's the recommended packaging tool (merged with the ``distribute`` fork).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073300Z" creationid="miurahr" creationdate="20150905T073300Z">
+        <seg>It's the recommended packaging tool (merged with the ``distribute`` fork).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2222,10 +2478,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just be aware that your licensing choice will affect who is able to use your code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073514Z" creationid="miurahr" creationdate="20150905T073514Z">
+        <seg>Just be aware that your licensing choice will affect who is able to use your code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just remember to follow the guidelines about claiming tickets that were mentioned in the link to Django's documentation on :doc:`claiming tickets and submitting patches &lt;/internals/contributing/writing-code/submitting-patches&gt;`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014217Z" creationid="miurahr" creationdate="20150809T014217Z">
         <seg>ただ、チケットのクレームに関するガイドラインに従ってください。 Django ドキュメントの :doc:`チケットをクレームしてパッチを送る &lt;/internals/contributing/writing-code/submitting-patches&gt;` で記述されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Later on we use the term *packaging* to describe the process of making a Python package easy for others to install.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073058Z" creationid="miurahr" creationdate="20150905T073058Z">
+        <seg>以降 *パッケージング* という言葉を、別の場所でインストールしやすいように Python パッケージを作るプロセスを表すのに用います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2270,10 +2542,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's say you were starting a new project that needed a polls app like the one we've been working on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072845Z" creationid="miurahr" creationdate="20150905T072733Z">
+        <seg>投票アプリケーションが必要なプロジェクトを開始したとしましょう。ちょうど今まで作ってきたものと似たようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's update our poll detail template ("polls/detail.html") from the last tutorial, so that the template contains an HTML ``&lt;form&gt;`` element:</seg>
       </tuv>
       <tuv lang="JA">
         <seg>それでは、前回のチュートリアルで作成した投票詳細テンプレート ("polls/detail.html") を更新して、HTML の ``&lt;form&gt;`` 要素を入れましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Luckily, you're well on the way already.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072914Z" creationid="miurahr" creationdate="20150905T072821Z">
+        <seg>運のいいことに、その方法はすでに会得済みです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2430,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next we'll create a ``setup.py`` file which provides details about how to build and install the app.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073515Z" creationid="miurahr" creationdate="20150905T073515Z">
+        <seg>Next we'll create a ``setup.py`` file which provides details about how to build and install the app.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next, add the following at the top of ``polls/templates/polls/index.html``:</seg>
       </tuv>
       <tuv lang="JA">
@@ -2546,6 +2842,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022012Z" creationid="miurahr" creationdate="20150809T022012Z">
         <seg>それではもう少しviewを``polls/vies.py``に追加していきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now perhaps it is clearer why we chose to have separate template directories for the project and application: everything that is part of the polls application is in ``polls``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073214Z" creationid="miurahr" creationdate="20150905T073214Z">
+        <seg>今になるとなぜテンプレートディレクトリをプロジェクトとアプリケーションに分けたかが明確にわかりますね。投票アプリケーションに関する全ては ``polls`` にあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2742,6 +3046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072955Z" creationid="miurahr" creationdate="20150905T072955Z">
+        <seg>Package?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Packaging your app</seg>
       </tuv>
       <tuv lang="JA">
@@ -2844,6 +3156,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Python *packaging* refers to preparing your app in a specific format that can be easily installed and used.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073349Z" creationid="miurahr" creationdate="20150905T073349Z">
+        <seg>Python の *パッケージング* は特定のフォーマットでアプリを作っておくことを指します。このフォーマットは簡単にインストールして使えます。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Python includes a lightweight database called SQLite_ so you won't need to set up a database just yet.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T234927Z" creationid="miurahr" creationdate="20150811T234927Z">
@@ -2926,8 +3246,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>Reusability is the way of life in Python.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T072057Z" creationid="miurahr" creationdate="20150905T072057Z">
-        <seg>Reusability is the way of life in Python.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072153Z" creationid="miurahr" creationdate="20150905T072057Z">
+        <seg>再利用性はPythonのやり方です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3420,6 +3740,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ``polls`` directory could now be copied into a new Django project and immediately reused.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073240Z" creationid="miurahr" creationdate="20150905T073240Z">
+        <seg>今、 ``polls`` ディレクトリは新規の Django プロジェクトにコピーでき、すぐに再利用できる状態です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ``question_id='34'`` part comes from ``(?P&lt;question_id&gt;[0-9]+)``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022201Z" creationid="miurahr" creationdate="20150809T022201Z">
@@ -3472,6 +3800,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015243Z" creationid="miurahr" creationdate="20150809T015243Z">
         <seg>上のコードはシンプルな `正規表現`_ と Python のコールバック関数("ビュー")をマッピングしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The current state of Python packaging is a bit muddled with various tools.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073257Z" creationid="miurahr" creationdate="20150905T073257Z">
+        <seg>The current state of Python packaging is a bit muddled with various tools.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3756,6 +4092,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This helps others looking for Django apps identify your app as Django specific.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073443Z" creationid="miurahr" creationdate="20150905T073443Z">
+        <seg>これによって Django アプリを探してる人が、作ったアプリが Django 特化のものであると分かりやすいからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This image shows an added slot:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020254Z" creationid="miurahr" creationdate="20150809T020254Z">
@@ -3848,6 +4192,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045049Z" creationid="miurahr" creationdate="20150808T045049Z">
         <seg>最初は気が重いかもしれませんが、実際はとても簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that you can take existing Python packages or Django apps and compose them into your own web project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072602Z" creationid="miurahr" creationdate="20150905T072602Z">
+        <seg>このことは、既存のPythonパッケージやDjangoアプリを取得して、自分のWebプロジェクトを構成することができるということを意味しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4204,6 +4556,22 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We'll also be using `pip`_ to install and uninstall it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073302Z" creationid="miurahr" creationdate="20150905T073302Z">
+        <seg>We'll also be using `pip`_ to install and uninstall it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We'll be turning our Web-poll into a standalone Python package you can reuse in new projects and share with other people.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073127Z" creationid="miurahr" creationdate="20150905T073127Z">
+        <seg>Web 投票アプリケーションを独立した Python パッケージにすることで、新規のプロジェクトで再利用したり、他の人に共有したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We'll be walking you through contributing a patch to Django for the first time.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T050306Z" creationid="miurahr" creationdate="20150808T050306Z">
@@ -4320,6 +4688,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015320Z" creationid="miurahr" creationdate="20150809T015320Z">
         <seg>ユーザがページを要求すると、 Django はそれぞれのパターンを順番にチェックし、要求された URL に最初に一致したパターンで停止します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When choosing a name for your package, check resources like PyPI to avoid naming conflicts with existing packages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073428Z" creationid="miurahr" creationdate="20150905T073428Z">
+        <seg>パッケージの名前を決めるときま、 PyPI のようなリソースをチェックして、すでにあるパッケージとの名前の衝突を避ける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4676,6 +5052,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can install ``setuptools`` the same way.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073320Z" creationid="miurahr" creationdate="20150905T073320Z">
+        <seg>You can install ``setuptools`` the same way.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can make the change if you'd like, but we'll skip it for now in the interest of brevity.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052500Z" creationid="miurahr" creationdate="20150808T052500Z">
@@ -4732,6 +5116,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You created ``mysite/templates`` in :doc:`Tutorial 2 &lt;/intro/tutorial02&gt;`, and ``polls/templates`` in :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073142Z" creationid="miurahr" creationdate="20150905T073142Z">
+        <seg>すでに ``mysite/templates`` を :doc:`チュートリアル 2 &lt;/intro/tutorial02&gt;` で、 ``polls/templates`` を :doc:`チュートリアル 3 &lt;/intro/tutorial03&gt;` で作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may have another version of Django installed.</seg>
       </tuv>
       <tuv lang="JA">
@@ -4752,6 +5144,22 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T235442Z" creationid="miurahr" creationdate="20150811T235442Z">
         <seg>そのかわり、開発版では新規バグに当たることもあるでしょうが、報告することで、Djangoの開発を応援することにつながります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You only need to write the parts that make your project unique.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072633Z" creationid="miurahr" creationdate="20150905T072633Z">
+        <seg>プロジェクトに特有の部分だけを書くだけで良いということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should install these two packages now.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073305Z" creationid="miurahr" creationdate="20150905T073305Z">
+        <seg>You should install these two packages now.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4886,8 +5294,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>`The Python Package Index (PyPI) &lt;https://pypi.python.org/pypi&gt;`_ has a vast range of packages you can use in your own Python programs.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T072059Z" creationid="miurahr" creationdate="20150905T072059Z">
-        <seg>`The Python Package Index (PyPI) &lt;https://pypi.python.org/pypi&gt;`_ has a vast range of packages you can use in your own Python programs.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072323Z" creationid="miurahr" creationdate="20150905T072059Z">
+        <seg>`The Python Package Index (PyPI) &lt;https://pypi.python.org/pypi&gt;`_ は、非常に幌い範囲のパッケージを有し、貴方のPythonプログラムの問題の解決に活用できます。</seg>
       </tuv>
     </tu>
     <tu>
