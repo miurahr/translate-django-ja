@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the configuration uses SQLite.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T132415Z" creationid="miurahr" creationdate="20150905T132415Z">
+        <seg>既定では、SQLiteを使うように設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By the end of this tutorial, you should have a basic understanding of both the tools and the processes involved.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T050313Z" creationid="miurahr" creationdate="20150808T050313Z">
@@ -2094,6 +2102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you're new to databases, or you're just interested in trying Django, this is the easiest choice.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T132457Z" creationid="miurahr" creationdate="20150905T132457Z">
+        <seg>もしデータベースについて詳しくない場合や、Djangoをまずは使ってみたいだけの場合は、これが最も簡単な方法になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're new to programming entirely, you might want to start with this `list of Python resources for non-programmers`_</seg>
       </tuv>
       <tuv lang="JA">
@@ -2560,8 +2576,8 @@
       <tuv lang="EN-US">
         <seg>It's a normal Python module with module-level variables representing Django settings.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T132249Z" creationid="miurahr" creationdate="20150905T132249Z">
-        <seg>It's a normal Python module with module-level variables representing Django settings.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T132356Z" creationid="miurahr" creationdate="20150905T132249Z">
+        <seg>これは、Django設定をするモジュールレベルの変数がある通常のPythonモジュールです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3536,6 +3552,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>新しいテストを走らせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SQLite is included in Python, so you won't need to install anything else to support your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T132542Z" creationid="miurahr" creationdate="20150905T132542Z">
+        <seg>SQLiteは、Pythonに含まれていますので、データベースを利用するために何かをインストールする必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
