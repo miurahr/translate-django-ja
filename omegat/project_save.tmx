@@ -224,8 +224,8 @@
       <tuv lang="EN-US">
         <seg>A full explanation of this file is beyond the scope of this tutorial, but the `setuptools docs &lt;http://pythonhosted.org/setuptools/setuptools.html&gt;`_ have a good explanation.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073517Z" creationid="miurahr" creationdate="20150905T073517Z">
-        <seg>A full explanation of this file is beyond the scope of this tutorial, but the `setuptools docs &lt;http://pythonhosted.org/setuptools/setuptools.html&gt;`_ have a good explanation.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074347Z" creationid="miurahr" creationdate="20150905T073517Z">
+        <seg>このチュートリアルでは、このファイルの完全な解説はしません。そのかわり、`setuptools docs &lt;http://pythonhosted.org/setuptools/setuptools.html&gt;`_ に詳しい解説があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -306,6 +306,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>モデルを有効にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add an additional line to ``django-polls/MANIFEST.in``::</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074836Z" creationid="miurahr" creationdate="20150905T074836Z">
+        <seg>``django-polls/MANAFEST.in`` に行を追加しておいてください::</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,8 +776,8 @@
       <tuv lang="EN-US">
         <seg>Choosing a license is beyond the scope of this tutorial, but suffice it to say that code released publicly without a license is *useless*.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073511Z" creationid="miurahr" creationdate="20150905T073511Z">
-        <seg>Choosing a license is beyond the scope of this tutorial, but suffice it to say that code released publicly without a license is *useless*.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T073808Z" creationid="miurahr" creationdate="20150905T073511Z">
+        <seg>ライセンスの選択は、このチュートリアルの範囲を超えています。しかし、ライセンスなしに一般に公開されたコードが「役立たず」であることは言わなければならないでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -856,8 +864,16 @@
       <tuv lang="EN-US">
         <seg>Create a file ``django-polls/setup.py`` with the following contents:</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073534Z" creationid="miurahr" creationdate="20150905T073534Z">
-        <seg>Create a file ``django-polls/setup.py`` with the following contents:</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074408Z" creationid="miurahr" creationdate="20150905T073534Z">
+        <seg>次の中身の ``django-polls/setup.py``ファイルを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an empty directory ``django-polls/docs`` for future documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074833Z" creationid="miurahr" creationdate="20150905T074833Z">
+        <seg>空のディレクトリ ``django-polls/docs`` を将来のドキュメンテーションのために作っておきましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1008,8 +1024,8 @@
       <tuv lang="EN-US">
         <seg>Django and many Django-compatible apps are distributed under the BSD license; however, you're free to pick your own license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073513Z" creationid="miurahr" creationdate="20150905T073513Z">
-        <seg>Django and many Django-compatible apps are distributed under the BSD license; however, you're free to pick your own license.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074025Z" creationid="miurahr" creationdate="20150905T073513Z">
+        <seg>DjangoやDjango互換のアプリは、BSDライセンスのもと配布されています；とはいえ、ライセンスの選択はあなたに任されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1386,6 +1402,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T071421Z" creationid="miurahr" creationdate="20150905T071421Z">
         <seg>For more details, see the reference documentation for :setting:`DATABASES`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information on packaging, see Python's `Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T075013Z" creationid="miurahr" creationdate="20150905T075013Z">
+        <seg>パッケージングに関するより詳細については、Pythonの`Tutorial on Packaging and Distributing Projects &lt;https://packaging.python.org/en/latest/distributing.html&gt;`_を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2454,6 +2478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's optional, but recommended, to include detailed documentation with your app.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074650Z" creationid="miurahr" creationdate="20150905T074650Z">
+        <seg>アプリケーションの詳細なドキュメントを含めるのは、任意ですが推奨されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's silly.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T023039Z" creationid="miurahr" creationdate="20150809T023000Z">
@@ -2480,8 +2512,8 @@
       <tuv lang="EN-US">
         <seg>Just be aware that your licensing choice will affect who is able to use your code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073514Z" creationid="miurahr" creationdate="20150905T073514Z">
-        <seg>Just be aware that your licensing choice will affect who is able to use your code.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074106Z" creationid="miurahr" creationdate="20150905T073514Z">
+        <seg>ライセンスの選択が、そのコードを誰が使えるのかということに影響することを理解してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2720,8 +2752,8 @@
       <tuv lang="EN-US">
         <seg>Next we'll create a ``setup.py`` file which provides details about how to build and install the app.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T073515Z" creationid="miurahr" creationdate="20150905T073515Z">
-        <seg>Next we'll create a ``setup.py`` file which provides details about how to build and install the app.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074142Z" creationid="miurahr" creationdate="20150905T073515Z">
+        <seg>つぎに、``setup.py``ファイルを作成しましょう。これは、どのようにアプリをビルドし、インストールするかの詳細を提供するものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3010,6 +3042,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014531Z" creationid="miurahr" creationdate="20150809T014531Z">
         <seg>変更後に Django の正常動作を確認するには Django のテストスイートを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only Python modules and packages are included in the package by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074439Z" creationid="miurahr" creationdate="20150905T074439Z">
+        <seg>既定でPythonモジュールとパッケージだけがパッケージに含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3940,6 +3980,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The setuptools docs referred to in the previous step discuss this file in more details.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074618Z" creationid="miurahr" creationdate="20150905T074618Z">
+        <seg>前述のステップで参照したsetuptools docsで、詳細に触れています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The template to customize is ``admin/index.html``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020618Z" creationid="miurahr" creationdate="20150809T020618Z">
@@ -4064,6 +4112,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>このコードには、これまでのチュートリアルで扱っていなかったことがいくつか入っています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This creates a directory called ``dist`` and builds your new package, ``django-polls-0.1.tar.gz``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074858Z" creationid="miurahr" creationdate="20150905T074858Z">
+        <seg>これによって ``dist`` というディレクトリと、新しいパッケージである ``django-polls-0.1.tar.gz`` が作られます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4372,6 +4428,22 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To include additional files, we'll need to create a ``MANIFEST.in`` file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074458Z" creationid="miurahr" creationdate="20150905T074458Z">
+        <seg>追加ファイルを含めるには、 ``MANIFEST.in``ファイルを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To include the templates, the ``README.rst`` and our ``LICENSE`` file, create a file ``django-polls/MANIFEST.in`` with the following contents:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074814Z" creationid="miurahr" creationdate="20150905T074814Z">
+        <seg>テンプレート、``README.rst``、``LICENSE``ファイルを含めるには、 ``django-polls/MANIFEST.in`` を作成して、次のように記述します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To install such a database, consult the :ref:`database installation information &lt;database-installation&gt;`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014928Z" creationid="miurahr" creationdate="20150809T014928Z">
@@ -4408,6 +4480,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T022058Z" creationid="miurahr" creationdate="20150809T022058Z">
         <seg>"/polls/34/results/" と "/polls/34/vote/" も試してください。結果と投票ページのプレースホルダがそれぞれ表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try building your package with ``python setup.py sdist`` (run from inside ``django-polls``).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T074853Z" creationid="miurahr" creationdate="20150905T074853Z">
+        <seg>``python setup.py sdist`` でパッケージをビルドしてみましょう (``django-polls`` 内で実行してください) 。</seg>
       </tuv>
     </tu>
     <tu>
