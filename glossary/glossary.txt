@@ -21,3 +21,4 @@ stability	安定性
 backwards-compatibility	後方互換姓
 Security	セキュリティ
 attribute	属性
+database	データベース
