@@ -142,6 +142,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>:setting:`ENGINE &lt;DATABASE-ENGINE&gt;` -- Either ``'django.db.backends.sqlite3'``, ``'django.db.backends.postgresql_psycopg2'``, ``'django.db.backends.mysql'``, or ``'django.db.backends.oracle'``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071517Z" creationid="miurahr" creationdate="20150905T071517Z">
+        <seg>:setting:`ENGINE &lt;DATABASE-ENGINE&gt;` -- Either ``'django.db.backends.sqlite3'``, ``'django.db.backends.postgresql_psycopg2'``, ``'django.db.backends.mysql'``, or ``'django.db.backends.oracle'``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:setting:`NAME` -- The name of your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071427Z" creationid="miurahr" creationdate="20150905T071427Z">
+        <seg>:setting:`NAME` -- The name of your database.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A :class:`~django.db.models.Field` can also have various optional arguments; in this case, we've set the :attr:`~django.db.models.Field.default` value of ``votes`` to 0.</seg>
       </tuv>
       <tuv lang="JA">
@@ -966,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do that with "``CREATE DATABASE database_name;``" within your database's interactive prompt.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071402Z" creationid="miurahr" creationdate="20150905T044030Z">
+        <seg>"``CREATE DATABASE database_name;``" とデータベースのインタラクティブプロンプトで実行してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Doesn't match what you see?</seg>
       </tuv>
       <tuv lang="JA">
@@ -1002,6 +1026,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015847Z" creationid="miurahr" creationdate="20150809T015847Z">
         <seg>各フィールドは :class:`~django.db.models.Field` クラスのインスタンスとして表現されています。例えば、 :class:`~django.db.models.CharField` は文字のフィールドで、 :class:`~django.db.models.DateTimeField` は日時フィー ルドです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each piece of Django -- models, views, templates -- is decoupled from the next.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071808Z" creationid="miurahr" creationdate="20150905T071707Z">
+        <seg>Django の構成要素 – モデル、ビュー、テンプレー ト – は、互いに切り離して利用できるのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more details, see the reference documentation for :setting:`DATABASES`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071421Z" creationid="miurahr" creationdate="20150905T071421Z">
+        <seg>For more details, see the reference documentation for :setting:`DATABASES`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on writing documentation, including an explanation of what the ``versionadded`` bit is all about, see :doc:`/internals/contributing/writing-documentation`.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T052750Z" creationid="miurahr" creationdate="20150808T052750Z">
@@ -1202,6 +1242,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T021616Z" creationid="miurahr" creationdate="20150809T021616Z">
         <seg>小さなプロジェクトではこのことは大きな問題になりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For that matter, you don't have to use Django's database API, either.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071938Z" creationid="miurahr" creationdate="20150905T071812Z">
+        <seg>さらに言えば、 Django のデータベース API を使う必然性もありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1558,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are not using SQLite as your database, additional settings such as :setting:`USER`, :setting:`PASSWORD`, :setting:`HOST` must be added.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071422Z" creationid="miurahr" creationdate="20150905T071422Z">
+        <seg>If you are not using SQLite as your database, additional settings such as :setting:`USER`, :setting:`PASSWORD`, :setting:`HOST` must be added.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are upgrading your installation of Django from a previous version, you will need to :ref:`uninstall the old Django version before installing the new version &lt;removing-old-versions-of-django&gt;`.</seg>
       </tuv>
       <tuv lang="JA">
@@ -1662,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you wish to use another database, install the appropriate :ref:`database bindings &lt;database-installation&gt;`, and change the following keys in the :setting:`DATABASES` ``'default'`` item to match your database connection settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071518Z" creationid="miurahr" creationdate="20150905T071518Z">
+        <seg>If you wish to use another database, install the appropriate :ref:`database bindings &lt;database-installation&gt;`, and change the following keys in the :setting:`DATABASES` ``'default'`` item to match your database connection settings:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're familiar with writing tests, you can also look at the list of `easy tickets that need tests`__.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014202Z" creationid="miurahr" creationdate="20150809T014202Z">
@@ -1706,6 +1770,22 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045723Z" creationid="miurahr" creationdate="20150808T045723Z">
         <seg>Windows の場合は、Git のデフォルトインストールで提供される "Git Bash" を使用することにより上記コマンドが実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're using PostgreSQL or MySQL, make sure you've created a database by this point.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071419Z" creationid="miurahr" creationdate="20150905T044010Z">
+        <seg>もし PostgreSQL や MySQL を使っている場合、 database を今のうちに作っておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're using SQLite, the database will be a file on your computer; in that case, :setting:`NAME` should be the full absolute path, including filename, of that file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071426Z" creationid="miurahr" creationdate="20150905T071426Z">
+        <seg>If you're using SQLite, the database will be a file on your computer; in that case, :setting:`NAME` should be the full absolute path, including filename, of that file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1942,6 +2022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Installing as a user library</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071641Z" creationid="miurahr" creationdate="20150905T071641Z">
+        <seg>ユーザライブラリとして導入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installing some prerequisites</seg>
       </tuv>
       <tuv lang="JA">
@@ -2078,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's a lot of work to design, build, test and maintain a web application.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072042Z" creationid="miurahr" creationdate="20150905T072042Z">
+        <seg>Web アプリケーションの設計、開発、テスト、そしてメンテナンスには多大な労力が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's as easy as registering your model in the admin site:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T135257Z" creationid="miurahr" creationdate="20150817T135257Z">
@@ -2186,6 +2282,22 @@
       </tuv>
       <tuv lang="JA">
         <seg>Poll アプリを admin 上で編集できるようにする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many Django apps also provide their documentation online through sites like `readthedocs.org &lt;https://readthedocs.org&gt;`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T043917Z" creationid="miurahr" creationdate="20150905T043917Z">
+        <seg>Many Django apps also provide their documentation online through sites like `readthedocs.org &lt;https://readthedocs.org&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many Python and Django projects share common problems.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072046Z" creationid="miurahr" creationdate="20150905T072046Z">
+        <seg>そして多くの Python 、 Django プロジェクト は共通の問題を抱えています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2392,8 +2504,8 @@
       <tuv lang="EN-US">
         <seg>Note that you don't have to use Django's template system if you prefer another system.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150817T140341Z" creationid="miurahr" creationdate="20150817T140341Z">
-        <seg>Note that you don't have to use Django's template system if you prefer another system.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071847Z" creationid="miurahr" creationdate="20150817T140341Z">
+        <seg>他のシステムを使いたければ、必ずしも Django のテンプレートシステムを使う必要はないということに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2482,6 +2594,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015937Z" creationid="miurahr" creationdate="20150809T015937Z">
         <seg>次はブラウザを起動して、ローカルドメインの “/admin/” 、つまり http://127.0.0.1:8000/admin/ にアクセスします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now, open up :file:`mysite/settings.py`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071526Z" creationid="miurahr" creationdate="20150905T071526Z">
+        <seg>Now, open up :file:`mysite/settings.py`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2634,6 +2754,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012721Z" creationid="miurahr" creationdate="20150809T012721Z">
         <seg> "easy picking" タグが付いたチケットを見つけてください｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071535Z" creationid="miurahr" creationdate="20150905T071535Z">
+        <seg>Per-user installs have a lot of advantages over installing the package system-wide, such as being usable on systems where you don't have administrator access as well as preventing the package from affecting system services and other users of the machine.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2792,6 +2920,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>古いバージョンの Django を削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reusability is the way of life in Python.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072057Z" creationid="miurahr" creationdate="20150905T072057Z">
+        <seg>Reusability is the way of life in Python.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3028,6 +3164,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some more useful features:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071704Z" creationid="miurahr" creationdate="20150905T071704Z">
+        <seg>Django は他にもまだま だ便利な機能を備えています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes it may seem a chore to tear yourself away from your productive, creative programming work to face the unglamorous and unexciting business of writing tests, particularly when you know your code is working properly.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T055244Z" creationid="miurahr" creationdate="20150817T055244Z">
@@ -3112,6 +3256,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020946Z" creationid="miurahr" creationdate="20150809T020946Z">
         <seg>ありがたいことに、 Django がこれに対応するとても使いやすい仕組みを提供してくれているので、あまり心配する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thanks for your interest!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072009Z" creationid="miurahr" creationdate="20150905T072009Z">
+        <seg>ご精読ありがとうございました!</seg>
       </tuv>
     </tu>
     <tu>
@@ -3332,6 +3484,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default value, ``os.path.join(BASE_DIR, 'db.sqlite3')``, will store the file in your project directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071424Z" creationid="miurahr" creationdate="20150905T071424Z">
+        <seg>The default value, ``os.path.join(BASE_DIR, 'db.sqlite3')``, will store the file in your project directory.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The development server</seg>
       </tuv>
       <tuv lang="JA">
@@ -3372,6 +3532,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following steps install ``django-polls`` as a user library.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071620Z" creationid="miurahr" creationdate="20150905T071620Z">
+        <seg>次のステップでは、``djngo-polls`` をユーザライブラリとしてインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The goal of this document is to give you enough technical specifics to understand how Django works, but this isn't intended to be a tutorial or reference -- but we've got both!</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015111Z" creationid="miurahr" creationdate="20150809T015111Z">
@@ -3392,6 +3560,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>新しいテストでは ``render`` メソッドをチェックするもので､いくつかのシチュエーションで正しく動作することを確認します｡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next obvious steps are for you to `download Django`_, read :doc:`the tutorial &lt;/intro/tutorial01&gt;` and join `the community`_.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072006Z" creationid="miurahr" creationdate="20150905T072006Z">
+        <seg>次は、あなたが `Django をダウンロード`_ して、 :doc:`チュートリアル &lt;/intro/tutorial01&gt;` を読み、 `コミュニティ`_ に参加する番です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3540,6 +3716,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This advanced tutorial begins where :doc:`Tutorial 6 &lt;/intro/tutorial06&gt;` left off.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072026Z" creationid="miurahr" creationdate="20150905T072026Z">
+        <seg>This advanced tutorial begins where :doc:`Tutorial 6 &lt;/intro/tutorial06&gt;` left off.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This code includes a few things we haven't covered yet in this tutorial:</seg>
       </tuv>
       <tuv lang="JA">
@@ -3560,6 +3744,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>この例では Django の :doc:`テンプレートシステム &lt;/topics/templates&gt;` を使っ ています。テンプレートシステムは、強力な機能をいくつも備えながらも、非プロ グラマが使いこなせる程度に簡単な仕組みです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has been only a quick overview of Django's functionality.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071701Z" creationid="miurahr" creationdate="20150905T071701Z">
+        <seg>以上、 Django の機能についてざっと紹介してきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4028,6 +4220,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We'll now fix this by installing our new ``django-polls`` package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071656Z" creationid="miurahr" creationdate="20150905T071656Z">
+        <seg>We'll now fix this by installing our new ``django-polls`` package.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We'll walk you through the entire process, so you can learn by example.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045059Z" creationid="miurahr" creationdate="20150808T045059Z">
@@ -4140,6 +4340,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When starting your first real project, however, you may want to use a more robust database like PostgreSQL, to avoid database-switching headaches down the road.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071522Z" creationid="miurahr" creationdate="20150905T071522Z">
+        <seg>When starting your first real project, however, you may want to use a more robust database like PostgreSQL, to avoid database-switching headaches down the road.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you're comfortable with the API, read :doc:`part 2 of this tutorial &lt;/intro/tutorial02&gt;` to get Django's automatic admin working.</seg>
       </tuv>
       <tuv lang="JA">
@@ -4192,6 +4400,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>より多くの情報を得る方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While Django's template system is particularly well-integrated with Django's model layer, nothing forces you to use it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071914Z" creationid="miurahr" creationdate="20150905T071849Z">
+        <seg>Django のテンプレートシステムは Django のモデルレイヤと部分的にしっかり組み合わさっていますが、絶対に使わねばならないということではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4264,6 +4480,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150812T000413Z" creationid="miurahr" creationdate="20150812T000413Z">
         <seg>これだけで、制約のない充実した :doc:`Python API &lt;/topics/db/queries&gt;` を使っ て自分のデータにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wouldn't it be great if we could save some of this repeated work?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072053Z" creationid="miurahr" creationdate="20150905T072053Z">
+        <seg>この繰り返し作業を一部保存して保存しておければ良いと思いませんか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -4468,6 +4692,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use another database abstraction layer, you can read XML files, you can read files off disk, or anything you want.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T071935Z" creationid="miurahr" creationdate="20150905T071801Z">
+        <seg>別のデータベース抽象化レイヤを使っても構いま せんし、 XML ファイルやディスク上のファイルを読み込んでも構いません。何でもやりたいことをできるのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can verify that Python is installed by typing ``python`` from your shell; you should see something like::</seg>
       </tuv>
       <tuv lang="JA">
@@ -4648,6 +4880,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012027Z" creationid="miurahr" creationdate="20150809T012027Z">
         <seg>ビューはデータベースからレコードを読みだしても、読み出さなくてもかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`The Python Package Index (PyPI) &lt;https://pypi.python.org/pypi&gt;`_ has a vast range of packages you can use in your own Python programs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150905T072059Z" creationid="miurahr" creationdate="20150905T072059Z">
+        <seg>`The Python Package Index (PyPI) &lt;https://pypi.python.org/pypi&gt;`_ has a vast range of packages you can use in your own Python programs.</seg>
       </tuv>
     </tu>
     <tu>
