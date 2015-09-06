@@ -24,3 +24,6 @@ attribute	属性
 database	データベース
 reusability	再利用性
 packaging	パッケージング
+authentication system	認証システム
+content types	コンテンツタイプ
+framework	フレームワーク
