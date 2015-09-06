@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(We're in the business of making Web frameworks, not Web servers.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033928Z" creationid="miurahr" creationdate="20150906T033928Z">
+        <seg>(私達は、Webフレームワークを作っているわけで、Webサーバ作成が業務ではないのです。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(where ``django`` is the directory of your clone that contains ``setup.py``) to link your cloned checkout into a virtual environment.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T050953Z" creationid="miurahr" creationdate="20150808T050705Z">
@@ -654,6 +662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Automatic reloading of :djadmin:`runserver`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034139Z" creationid="miurahr" creationdate="20150906T034139Z">
+        <seg>:djadmin:`runserver`の自動再ロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Avoid using the same label as any of the Django :doc:`contrib packages &lt;/ref/contrib/index&gt;`, for example ``auth``, ``admin``, or ``messages``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T073455Z" creationid="miurahr" creationdate="20150905T073455Z">
@@ -834,6 +850,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T073406Z" creationid="miurahr" creationdate="20150905T073406Z">
         <seg>``django-polls`` というディレクトリにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change into the outer :file:`mysite` directory, if you haven't already, and run the following commands:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033433Z" creationid="miurahr" creationdate="20150906T033433Z">
+        <seg>外側の:file:`mysite`ディレクトリに移動して、すでにやっていなければ、次のコマンドを実行します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1814,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, some actions like adding files don't trigger a restart, so you'll have to restart the server in these cases.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034337Z" creationid="miurahr" creationdate="20150906T034337Z">
+        <seg>しかし、ファイルの追加のような場合には、再実行のきっかけにならないケースがあり、その場合には、明示的にサーバを再実行させる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, the task of writing tests is a lot more fulfilling than spending hours testing your application manually or trying to identify the cause of a newly-introduced problem.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T055324Z" creationid="miurahr" creationdate="20150817T055324Z">
@@ -2074,6 +2106,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014907Z" creationid="miurahr" creationdate="20150809T014907Z">
         <seg>もし Jython_ (Python のJava プラットフォーム実装) を使っている場合は、いくつか追加のステップを実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to change the server's IP, pass it along with the port.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034033Z" creationid="miurahr" creationdate="20150906T034033Z">
+        <seg>サーバのIPアドレスを変えたい場合は、ポートと一緒にコマンドライン引数で渡してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2638,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's intended only for use while developing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033751Z" creationid="miurahr" creationdate="20150906T033751Z">
+        <seg>これは開発のみに使われるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's not a good idea to put any of this Python code within your Web server's document root, because it risks the possibility that people may be able to view your code over the Web.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T053544Z" creationid="miurahr" creationdate="20150808T053532Z">
@@ -2794,6 +2842,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>それでは、前回のチュートリアルで作成した投票詳細テンプレート ("polls/detail.html") を更新して、HTML の ``&lt;form&gt;`` 要素を入れましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's verify your Django project works.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033355Z" creationid="miurahr" creationdate="20150906T033355Z">
+        <seg>Djangoプロジェクトが正しく動くか試しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3146,6 +3202,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>さあ、これで自分用の環境、すなわちプロジェクトが立ち上がり、作業にとりかかる準備ができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now's a good time to note: **don't** use this server in anything resembling a production environment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033737Z" creationid="miurahr" creationdate="20150906T033737Z">
+        <seg>ここで、プロダクション環境と同じサーバを「使わない」ことを警告しておくのがいいでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3780,6 +3844,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So to listen on all public IPs (useful if you want to show off your work on other computers on your network), use:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034122Z" creationid="miurahr" creationdate="20150906T034122Z">
+        <seg>すべての公開IPでリスンしたい場合（ネットワーク上の他のコンピュータにこの仕事を見せたい場合に有用です）は、次のようにしてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So what do I do next?</seg>
       </tuv>
       <tuv lang="JA">
@@ -4184,6 +4256,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>開発用サーバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The development server automatically reloads Python code for each request as needed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034216Z" creationid="miurahr" creationdate="20150906T034216Z">
+        <seg>開発サーバは、必要に応じてPythonコードを自動的にリドードします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5652,6 +5732,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You don't need to restart the server for code changes to take effect.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T034247Z" creationid="miurahr" creationdate="20150906T034247Z">
+        <seg>コードを変更を反映するために、サーバを再実行する必要がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may have another version of Django installed.</seg>
       </tuv>
       <tuv lang="JA">
@@ -5792,6 +5880,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012622Z" creationid="miurahr" creationdate="20150809T012622Z">
         <seg>ユーザが管理サイト上でオブジェクトに対して行った変更履歴の全てを、変更時刻と変更を行ったユーザ名付きでリストにしたページが表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You'll see the following output on the command line:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T033500Z" creationid="miurahr" creationdate="20150906T033500Z">
+        <seg>コマンドラインで次の出力を確認します：</seg>
       </tuv>
     </tu>
     <tu>
