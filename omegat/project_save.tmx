@@ -200,16 +200,16 @@
       <tuv lang="EN-US">
         <seg>:setting:`ENGINE &lt;DATABASE-ENGINE&gt;` -- Either ``'django.db.backends.sqlite3'``, ``'django.db.backends.postgresql_psycopg2'``, ``'django.db.backends.mysql'``, or ``'django.db.backends.oracle'``.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071517Z" creationid="miurahr" creationdate="20150905T071517Z">
-        <seg>:setting:`ENGINE &lt;DATABASE-ENGINE&gt;` -- Either ``'django.db.backends.sqlite3'``, ``'django.db.backends.postgresql_psycopg2'``, ``'django.db.backends.mysql'``, or ``'django.db.backends.oracle'``.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020359Z" creationid="miurahr" creationdate="20150905T071517Z">
+        <seg>:setting:`ENGINE &lt;DATABASE-ENGINE&gt;` --  ``'django.db.backends.sqlite3'``、 ``'django.db.backends.postgresql_psycopg2'``、 ``'django.db.backends.mysql'``あるいは、 ``'django.db.backends.oracle'``です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>:setting:`NAME` -- The name of your database.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071427Z" creationid="miurahr" creationdate="20150905T071427Z">
-        <seg>:setting:`NAME` -- The name of your database.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020433Z" creationid="miurahr" creationdate="20150905T071427Z">
+        <seg>:setting:`NAME` -- 使用するデータベース名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1880,8 +1880,8 @@
       <tuv lang="EN-US">
         <seg>If the Django version doesn't match, you can refer to the tutorial for your version of Django by using the version switcher at the bottom right corner of this page, or update Django to the newest version.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T131855Z" creationid="miurahr" creationdate="20150905T131855Z">
-        <seg>If the Django version doesn't match, you can refer to the tutorial for your version of Django by using the version switcher at the bottom right corner of this page, or update Django to the newest version.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015758Z" creationid="miurahr" creationdate="20150905T131855Z">
+        <seg>Djangoバージョンが違う場合、このページの右下にあるバージョン変更スイッチを使って、対象のDjangoバージョン向けのチュートリアルを参照することができますし、Djangoを最新版にアップデートすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1944,8 +1944,8 @@
       <tuv lang="EN-US">
         <seg>If you are still using Python 2.7, you will need to adjust the code samples slightly, as described in comments.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T131857Z" creationid="miurahr" creationdate="20150905T131857Z">
-        <seg>If you are still using Python 2.7, you will need to adjust the code samples slightly, as described in comments.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015913Z" creationid="miurahr" creationdate="20150905T131857Z">
+        <seg>もし、まだPython 2.7を使っている場合は、コメントにあるようにコードサンプルを少し修正する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2064,8 +2064,8 @@
       <tuv lang="EN-US">
         <seg>If you wish to use another database, install the appropriate :ref:`database bindings &lt;database-installation&gt;`, and change the following keys in the :setting:`DATABASES` ``'default'`` item to match your database connection settings:</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071518Z" creationid="miurahr" creationdate="20150905T071518Z">
-        <seg>If you wish to use another database, install the appropriate :ref:`database bindings &lt;database-installation&gt;`, and change the following keys in the :setting:`DATABASES` ``'default'`` item to match your database connection settings:</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020332Z" creationid="miurahr" creationdate="20150905T071518Z">
+        <seg>他のデータベースを使いたいと思った時は、対応する :ref:`database bindings &lt;database-installation&gt;`をインストールし、 :setting:`DATABASES` ``'default'`` アイテムの次のキー項目を、そのデータベース接続設定にあった設定に合わせる必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2144,8 +2144,8 @@
       <tuv lang="EN-US">
         <seg>If you're using SQLite, the database will be a file on your computer; in that case, :setting:`NAME` should be the full absolute path, including filename, of that file.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071426Z" creationid="miurahr" creationdate="20150905T071426Z">
-        <seg>If you're using SQLite, the database will be a file on your computer; in that case, :setting:`NAME` should be the full absolute path, including filename, of that file.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020550Z" creationid="miurahr" creationdate="20150905T071426Z">
+        <seg>もしSQLiteを使うときは、データベースは使用するコンピュータ上のファイルになります。この場合 :setting:`NAME` は、ファイル名までを含む絶対パスのフルパス名でなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3262,6 +3262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other backends are :ref:`also available &lt;third-party-notes&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020420Z" creationid="miurahr" creationdate="20150906T015350Z">
+        <seg>他のバックエンドも :ref:`あります &lt;third-party-notes&gt;`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Our poll application is not very complex and doesn't need custom admin templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T020426Z" creationid="miurahr" creationdate="20150809T020426Z">
@@ -3320,8 +3328,8 @@
       <tuv lang="EN-US">
         <seg>Post the package on a public repository, such as `the Python Package Index (PyPI)`_.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T131725Z" creationid="miurahr" creationdate="20150905T131725Z">
-        <seg>Post the package on a public repository, such as `the Python Package Index (PyPI)`_.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020021Z" creationid="miurahr" creationdate="20150905T131725Z">
+        <seg>`the Python Package Index (PyPI)`_などの公開リポジトリにパッケージを投稿する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4086,8 +4094,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>The default value, ``os.path.join(BASE_DIR, 'db.sqlite3')``, will store the file in your project directory.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071424Z" creationid="miurahr" creationdate="20150905T071424Z">
-        <seg>The default value, ``os.path.join(BASE_DIR, 'db.sqlite3')``, will store the file in your project directory.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020621Z" creationid="miurahr" creationdate="20150905T071424Z">
+        <seg>既定値では、 ``os.path.join(BASE_DIR, 'db.sqlite3')``になり、フィアルはプロジェクトディレクトリに保存されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4606,8 +4614,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>This tutorial is written for Django |version| and Python 3.2 or later.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T131851Z" creationid="miurahr" creationdate="20150905T131851Z">
-        <seg>This tutorial is written for Django |version| and Python 3.2 or later.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015559Z" creationid="miurahr" creationdate="20150905T131851Z">
+        <seg>このチュートリアルでは、 Django |version| と Python 3.2 以降を対象とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5102,8 +5110,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>When starting your first real project, however, you may want to use a more robust database like PostgreSQL, to avoid database-switching headaches down the road.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071522Z" creationid="miurahr" creationdate="20150905T071522Z">
-        <seg>When starting your first real project, however, you may want to use a more robust database like PostgreSQL, to avoid database-switching headaches down the road.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015515Z" creationid="miurahr" creationdate="20150905T071522Z">
+        <seg>とはいえ、最初の本当のプロジェクトを開始するときは、将来的なデータベース変更の頭痛の種を避けるため、PostgreSQLのような堅牢性の高いデータベースを使いたいと考えることでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5200,6 +5208,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T061043Z" creationid="miurahr" creationdate="20150817T061043Z">
         <seg>While we're here, we can further pin down the ``was_published_recently()`` method; in fact, it would be positively embarrassing if in fixing one bug we had introduced another.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While you're editing :file:`mysite/settings.py`, set :setting:`TIME_ZONE` to your time zone.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015523Z" creationid="miurahr" creationdate="20150906T015523Z">
+        <seg>While you're editing :file:`mysite/settings.py`, set :setting:`TIME_ZONE` to your time zone.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5766,8 +5782,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>`packaging.python.org &lt;https://packaging.python.org&gt;`_ has `a good tutorial &lt;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&gt;`_ for doing this.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T131728Z" creationid="miurahr" creationdate="20150905T131728Z">
-        <seg>`packaging.python.org &lt;https://packaging.python.org&gt;`_ has `a good tutorial &lt;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&gt;`_ for doing this.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T015952Z" creationid="miurahr" creationdate="20150905T131728Z">
+        <seg>`packaging.python.org &lt;https://packaging.python.org&gt;`_ は、 そのための`よいチュートリアル &lt;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&gt;`_ です。</seg>
       </tuv>
     </tu>
     <tu>
