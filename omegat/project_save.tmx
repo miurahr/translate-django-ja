@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>:mod:`django.contrib.admin` -- The admin site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021046Z" creationid="miurahr" creationdate="20150906T021046Z">
+        <seg>:mod:`django.contrib.admin` -- 管理サイト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>:mod:`django.contrib.auth` -- An authentication system.</seg>
       </tuv>
       <tuv lang="JA">
@@ -518,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, note the :setting:`INSTALLED_APPS` setting at the top of the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020838Z" creationid="miurahr" creationdate="20150906T020806Z">
+        <seg>また、 :setting:`INSTALLED_APPS` 設定がファイルの最初に有ることに注意しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also, releases of third-party packages are less likely to be compatible with the development version than with the latest stable release.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150811T235647Z" creationid="miurahr" creationdate="20150811T235647Z">
@@ -602,6 +618,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T073446Z" creationid="miurahr" creationdate="20150905T073446Z">
         <seg>Application labels (that is, the final part of the dotted path to application packages) *must* be unique in :setting:`INSTALLED_APPS`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apps can be used in multiple projects, and you can package and distribute them for use by others in their projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021015Z" creationid="miurahr" creationdate="20150906T021015Z">
+        <seg>アプリは複数のプロジェクトで使えますし、他の人たちが使えるように、自分でパッケージングし配布することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -760,8 +784,8 @@
       <tuv lang="EN-US">
         <seg>By default, :setting:`INSTALLED_APPS` contains the following apps, all of which come with Django:</seg>
       </tuv>
-      <tuv lang="JA">
-        <seg>デフォルトでは、 :settings:`INSTALLED_APPS` には以下のアプリケーションがはいっています。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021021Z">
+        <seg>既定では、 :settings:`INSTALLED_APPS` には以下のアプリケーションがはいっています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1472,8 +1496,8 @@
       <tuv lang="EN-US">
         <seg>For more details, see the reference documentation for :setting:`DATABASES`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071421Z" creationid="miurahr" creationdate="20150905T071421Z">
-        <seg>For more details, see the reference documentation for :setting:`DATABASES`.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020724Z" creationid="miurahr" creationdate="20150905T071421Z">
+        <seg>さらに詳細は、:setting:`DATABASES`リファレンス文書を参照して下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1936,8 +1960,8 @@
       <tuv lang="EN-US">
         <seg>If you are not using SQLite as your database, additional settings such as :setting:`USER`, :setting:`PASSWORD`, :setting:`HOST` must be added.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150905T071422Z" creationid="miurahr" creationdate="20150905T071422Z">
-        <seg>If you are not using SQLite as your database, additional settings such as :setting:`USER`, :setting:`PASSWORD`, :setting:`HOST` must be added.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020658Z" creationid="miurahr" creationdate="20150905T071422Z">
+        <seg>もしSQLを使わない場合は、 :setting:`USER`、 :setting:`PASSWORD`、 :setting:`HOST` のような追加設定を必要とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1970,6 +1994,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015011Z" creationid="miurahr" creationdate="20150809T015011Z">
         <seg>初め 2 ステップのどちらかをした場合は、ドキュメントの **new in development version** とマークされた部分に気をつけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don't need any or all of them, feel free to comment-out or delete the appropriate line(s) from :setting:`INSTALLED_APPS` before running :djadmin:`migrate`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021904Z" creationid="miurahr" creationdate="20150906T021904Z">
+        <seg>もし一部や全部が不要ならば、 :djadmin:`migrate`を実行する前に:setting:`INSTALLED_APPS` の対応する行をコメントアウトしたり削除したりできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2090,6 +2122,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T132005Z" creationid="miurahr" creationdate="20150905T132005Z">
         <seg>もしこのチュートリアルを通じて理解できないことについては、 |django-users| にメッセージを送るか `#django on irc.freenode.net &lt;irc://irc.freenode.net/django&gt;`_ で他の Django ユーザーとのチャットが助けになるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're interested, run the command-line client for your database and type ``\dt`` (PostgreSQL), ``SHOW TABLES;`` (MySQL), or ``.schema`` (SQLite) to display the tables Django created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021650Z" creationid="miurahr" creationdate="20150906T021650Z">
+        <seg>興味があれば、データベースのコマンドラインのクライアントで、 ``\dt`` (PostgreSQL)、 ``SHOW TABLES;`` (MySQL)、``.schema`` (SQLite) コマンドを実行してDjangoが作成したテーブルを表示させるといいでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2754,6 +2794,14 @@
       </tuv>
       <tuv lang="JA">
         <seg>それでは、前回のチュートリアルで作成した投票詳細テンプレート ("polls/detail.html") を更新して、HTML の ``&lt;form&gt;`` 要素を入れましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like we said above, the default applications are included for the common case, but not everybody needs them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021806Z" creationid="miurahr" creationdate="20150906T021806Z">
+        <seg>上記でふれたように、既定のアプリケーションはよくある場合のために含まれていますが、全員が必要ではないのも事実です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3764,6 +3812,14 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some of these applications make use of at least one database table, though, so we need to create the tables in the database before we can use them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021319Z" creationid="miurahr" creationdate="20150906T021220Z">
+        <seg>これらのアプリの一部は、少なくともひとつのデータベースのテーブルを使うため、使う前にデータベースにテーブルを作る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes it may seem a chore to tear yourself away from your productive, creative programming work to face the unglamorous and unexciting business of writing tests, particularly when you know your code is working properly.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150817T055244Z" creationid="miurahr" creationdate="20150817T055244Z">
@@ -3864,6 +3920,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA">
         <seg>これで、「フィルタ (Filter)」サイドバーができ、チェンジリストを ``pub_date`` フィールドの値に従ってフィルタできるようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That holds the names of all Django applications that are activated in this Django instance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020921Z" creationid="miurahr" creationdate="20150906T020921Z">
+        <seg>ここには、このDjangoのインスタンスで有効化されるすべてのDjangoアプリの名前が入ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3976,6 +4040,22 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150812T000401Z" creationid="miurahr" creationdate="20150812T000401Z">
         <seg>:djadmin:`migrate`コマンドは、定義されている全てのモデルを調べて、必要とあらばデータベースにテーブルを作成し、さらには :doc:`much richer schema control &lt;/topics/migrations&gt;`を提供もしてくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The :djadmin:`migrate` command looks at the :setting:`INSTALLED_APPS` setting and creates any necessary database tables according to the database settings in your :file:`mysite/settings.py` file and the database migrations shipped with the app (we'll cover those later).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021525Z" creationid="miurahr" creationdate="20150906T021222Z">
+        <seg>:djadmin:`migrate`コマンドは、:setting:`INSTALLED_APPS`設定を見て、必要となる全てのデータベーステーブルを :file:`mysite/settings.py` ファイルのデータベース設定と、アプリに含まれているデータベースマイグレーション（後ほど触れます）をもとに作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The :djadmin:`migrate` command will only run migrations for apps in :setting:`INSTALLED_APPS`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021950Z" creationid="miurahr" creationdate="20150906T021950Z">
+        <seg>:djadmin:`migrate`コマンドは、:setting:`INSTALLED_APPS`にかかれているアプリに対してのみ実行されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4286,8 +4366,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>These applications are included by default as a convenience for the common case.</seg>
       </tuv>
-      <tuv lang="JA">
-        <seg>これらの機能はよく使われるのでデフォルトで付属しています。</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021216Z">
+        <seg>これらの機能はよく使われるので既定で付属しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4696,6 +4776,14 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015211Z" creationid="miurahr" creationdate="20150809T015211Z">
         <seg>特定のアプリケーション用の URL を設計するには、 `URLconf &lt;/topics/http/urls&gt;` と呼ばれる Python モジュールを一つ作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do that, run the following command:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021329Z" creationid="miurahr" creationdate="20150906T021329Z">
+        <seg>そのために、次のコマンドを実行します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5214,8 +5302,8 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>While you're editing :file:`mysite/settings.py`, set :setting:`TIME_ZONE` to your time zone.</seg>
       </tuv>
-      <tuv lang="JA" changeid="miurahr" changedate="20150906T015523Z" creationid="miurahr" creationdate="20150906T015523Z">
-        <seg>While you're editing :file:`mysite/settings.py`, set :setting:`TIME_ZONE` to your time zone.</seg>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T020818Z" creationid="miurahr" creationdate="20150906T015523Z">
+        <seg>:file:`mysite/settings.py`を編集中に、他にも :setting:`TIME_ZONE`を所在地に合わせましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5692,10 +5780,26 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You'll see a message for each migration it applies.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021547Z" creationid="miurahr" creationdate="20150906T021547Z">
+        <seg>各マイグレーションが実行されていくメッセージを見ることができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You'll see a page listing all changes made to this object via the Django admin, with the timestamp and username of the person who made the change:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T012622Z" creationid="miurahr" creationdate="20150809T012622Z">
         <seg>ユーザが管理サイト上でオブジェクトに対して行った変更履歴の全てを、変更時刻と変更を行ったユーザ名付きでリストにしたページが表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You'll use it in :doc:`part 2 of this tutorial &lt;/intro/tutorial02&gt;`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150906T021112Z" creationid="miurahr" creationdate="20150906T021112Z">
+        <seg>:doc:`このチュートリアルのパート２ &lt;/intro/tutorial02&gt;`で見ていく予定です。</seg>
       </tuv>
     </tu>
     <tu>
