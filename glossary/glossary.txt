@@ -27,3 +27,5 @@ packaging	パッケージング
 authentication system	認証システム
 content types	コンテンツタイプ
 framework	フレームワーク
+concrete model	完全なモデル
+field	フィールド
