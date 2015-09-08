@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A non-abstract (:attr:`abstract=False &lt;django.db.models.Options.abstract&gt;`) model.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150908T104646Z" creationid="miurahr" creationdate="20150908T104646Z">
+        <seg>非アブストラクト・モデル (:attr:`abstract=False &lt;django.db.models.Options.abstract&gt;`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A package can be imported with ``import foo.bar`` or ``from foo import bar``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T073016Z" creationid="miurahr" creationdate="20150905T073016Z">
@@ -3476,6 +3484,34 @@ X-Generator: Poedit 1.5.4</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-09-08 03:09-0500
+PO-Revision-Date: 2015-04-02 08:20+0000
+Last-Translator: Jannis Leidel &lt;jannis@leidel.info&gt;
+Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150908T104417Z" creationid="miurahr" creationdate="20150908T104417Z">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-09-08 03:09-0500
+PO-Revision-Date: 2015-04-02 08:20+0000
+Last-Translator: Jannis Leidel &lt;jannis@leidel.info&gt;
+Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Projects vs. apps</seg>
       </tuv>
       <tuv lang="JA">
@@ -5984,6 +6020,22 @@ X-Generator: Poedit 1.5.4</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150906T015952Z" creationid="miurahr" creationdate="20150905T131728Z">
         <seg>`packaging.python.org &lt;https://packaging.python.org&gt;`_ は、 そのための`よいチュートリアル &lt;https://packaging.python.org/en/latest/distributing.html#uploading-your-project-to-pypi&gt;`_ です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>concrete model</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150908T104603Z" creationid="miurahr" creationdate="20150908T104603Z">
+        <seg>完全なモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>field</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150908T135503Z" creationid="miurahr" creationdate="20150908T135503Z">
+        <seg>フィールド</seg>
       </tuv>
     </tu>
     <tu>
