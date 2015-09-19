@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>APIs marked as internal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T062523Z" creationid="miurahr" creationdate="20150919T062523Z">
+        <seg>APIs marked as internal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Activating models</seg>
       </tuv>
       <tuv lang="JA">
@@ -2294,6 +2302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If, for some reason, an API declared stable must be removed or replaced, it will be declared deprecated but will remain in the API for at least two minor version releases.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T062517Z" creationid="miurahr" creationdate="20150919T062517Z">
+        <seg>If, for some reason, an API declared stable must be removed or replaced, it will be declared deprecated but will remain in the API for at least two minor version releases.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In :doc:`Tutorial 3 &lt;/intro/tutorial03&gt;`, we saw how we could decouple polls from the project-level URLconf using an ``include``.</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T072930Z" creationid="miurahr" creationdate="20150905T072842Z">
@@ -3486,6 +3502,34 @@ X-Generator: Poedit 1.5.4</seg>
       <tuv lang="EN-US">
         <seg>Project-Id-Version: django-docs
 Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-08-12 03:09-0500
+PO-Revision-Date: 2015-04-23 18:02+0000
+Last-Translator: Jannis Leidel &lt;jannis@leidel.info&gt;
+Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T061919Z" creationid="miurahr" creationdate="20150919T061919Z">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2015-08-12 03:09-0500
+PO-Revision-Date: 2015-04-23 18:02+0000
+Last-Translator: Jannis Leidel &lt;jannis@leidel.info&gt;
+Language-Team: Japanese (http://www.transifex.com/django/django-docs/language/ja/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: ja
+Plural-Forms: nplurals=1; plural=0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project-Id-Version: django-docs
+Report-Msgid-Bugs-To: 
 POT-Creation-Date: 2015-09-08 03:09-0500
 PO-Revision-Date: 2015-04-02 08:20+0000
 Last-Translator: Jannis Leidel &lt;jannis@leidel.info&gt;
@@ -3796,6 +3840,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T014838Z" creationid="miurahr" creationdate="20150809T014838Z">
         <seg>詳細は :doc:`/internals/contributing/triaging-tickets` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See :ref:`official-releases` for more details on how Django's version numbering scheme works, and how features will be deprecated.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T062456Z" creationid="miurahr" creationdate="20150919T062456Z">
+        <seg>See :ref:`official-releases` for more details on how Django's version numbering scheme works, and how features will be deprecated.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4576,6 +4628,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document explains some of the fundamental philosophies Django's developers have used in creating the framework.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T062754Z" creationid="miurahr" creationdate="20150919T062754Z">
+        <seg>This document explains some of the fundamental philosophies Django's developers have used in creating the framework.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This example uses Django's :doc:`template system &lt;/topics/templates&gt;`, which has several powerful features but strives to stay simple enough for non-programmers to use.</seg>
       </tuv>
       <tuv lang="JA">
@@ -5188,6 +5248,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T131230Z" creationid="miurahr" creationdate="20150905T071656Z">
         <seg>代わりにできたての ``django-polls`` パッケージを使ってみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We'll only break backwards compatibility of these APIs if a bug or security hole makes it completely unavoidable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150919T062002Z" creationid="miurahr" creationdate="20150919T062002Z">
+        <seg>We'll only break backwards compatibility of these APIs if a bug or security hole makes it completely unavoidable.</seg>
       </tuv>
     </tu>
     <tu>
