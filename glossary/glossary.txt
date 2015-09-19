@@ -29,3 +29,5 @@ content types	コンテンツタイプ
 framework	フレームワーク
 concrete model	完全なモデル
 field	フィールド
+API	API
+developers	開発者
