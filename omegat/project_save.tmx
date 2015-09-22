@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, one site may put stories at ``/stories/``, while another may use ``/news/``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150922T021824Z" creationid="miurahr" creationdate="20150922T021824Z">
+        <seg>For example, one site may put stories at ``/stories/``, while another may use ``/news/``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance, this command starts the server on port 8080:</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150809T015711Z" creationid="miurahr" creationdate="20150809T015711Z">
@@ -2450,6 +2458,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150812T001612Z" creationid="miurahr" creationdate="20150812T001612Z">
         <seg>Django設定の :setting:`DIRS &lt;TEMPLATES-DIRS&gt;`で、ディレクトリーのリストを定義することで、テンプレートを探す場所を指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Infinite flexibility</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150922T021448Z" creationid="miurahr" creationdate="20150922T021448Z">
+        <seg>Infinite flexibility</seg>
       </tuv>
     </tu>
     <tu>
@@ -5048,6 +5064,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150905T074853Z" creationid="miurahr" creationdate="20150905T074853Z">
         <seg>``python setup.py sdist`` でパッケージをビルドしてみましょう (``django-polls`` 内で実行してください) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tying URLs to Python function names is a Bad And Ugly Thing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150922T021436Z" creationid="miurahr" creationdate="20150922T021436Z">
+        <seg>Tying URLs to Python function names is a Bad And Ugly Thing.</seg>
       </tuv>
     </tu>
     <tu>
