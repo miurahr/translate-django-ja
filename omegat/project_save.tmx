@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.2_1" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1762,6 +1762,14 @@
       </tuv>
       <tuv lang="JA" changeid="miurahr" changedate="20150808T045730Z" creationid="miurahr" creationdate="20150808T045730Z">
         <seg>GitHub には `素敵なチュートリアル`__ があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Glossary</seg>
+      </tuv>
+      <tuv lang="JA" changeid="miurahr" changedate="20150926T031354Z" creationid="miurahr" creationdate="20150926T031354Z">
+        <seg>Ｇｌｏｓｓａｒｙ</seg>
       </tuv>
     </tu>
     <tu>
